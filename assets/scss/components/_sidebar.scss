@@ -1,0 +1,100 @@
+// scss-docs-start sidebar
+.sidebar {
+    top: $navbar-offset;
+}
+
+.sidebar-item {
+    color: black;
+}
+
+.btn-toggle {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        color: black;
+        background-color: tint-color($primary, 90%);
+    }
+
+    &::before {
+        width: 1.25em;
+        line-height: 0;
+        content: $btn-toggle;
+        transition: transform 0.35s ease;
+        transform-origin: 0.5em 50%;
+    }
+}
+
+.btn-toggle[aria-expanded="true"] {
+    color: black;
+
+    &::before {
+        transform: rotate(90deg);
+    }
+}
+
+.btn-toggle-nav a {
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.25rem;
+
+    &:hover,
+    &:focus {
+        background-color: tint-color($primary, 90%);
+    }
+
+    &.active {
+        font-weight: bold;
+    }
+}
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+        .sidebar-item {
+            color: var(--bs-tertiary-color);
+        }
+
+        .btn-toggle {
+            color: var(--bs-tertiary-color);
+        
+            &:hover,
+            &:focus {
+                color: $secondary;
+                background-color: tint-color($primary, 90%);
+            }
+        
+            &::before {
+                content: $btn-toggle-dark;
+            }
+        }
+
+        .btn-toggle[aria-expanded="true"] {
+            color: var(--bs-secondary-color);
+        }
+
+        .btn-toggle-nav a {
+            padding: 0.1875rem 0.5rem;
+            margin-top: 0.125rem;
+            margin-left: 1.25rem;
+
+            &:hover,
+            &:focus {
+                color: $secondary;
+                background-color: tint-color($primary, 90%);
+            }
+
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// scss-docs-end sidebar
+
+.dropdown-toggle {
+    outline: 0;
+}

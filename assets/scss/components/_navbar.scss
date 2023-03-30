@@ -1,0 +1,92 @@
+// stylelint-disable annotation-no-unknown
+
+// Source: https://jsfiddle.net/njhgr40m/
+
+.navbar {
+    transition: 0.5s ease-in-out;
+    background-color: none;
+}
+
+.nav-active, .navbar-expanded {
+    background-color: var(--bs-body-bg);
+}
+
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 if($enable-important-utilities, !important, null);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none if($enable-important-utilities, !important, null);
+    box-shadow: none if($enable-important-utilities, !important, null);
+    border: 0 if($enable-important-utilities, !important, null);
+}
+
+/* Lines of the Toggler */
+.toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: $primary;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #777;
+}
+
+.emphasis {
+    background-color: $black if($enable-important-utilities, !important, null);
+}
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+        .emphasis {
+            background-color: $white if($enable-important-utilities, !important, null);
+        }
+    }
+}
+
+// stylelint-enable annotation-no-unknown

@@ -1,0 +1,86 @@
+<!-- TODO: replace scratch with dict -->
+
+<!-- Adapted from doks -->
+{{ with .Title -}}
+    {{ $.Scratch.Set "title" . -}}
+{{ else -}}
+    {{ $.Scratch.Set "title" .Site.Title -}}
+{{ end -}}
+
+{{ with .Description -}}
+    {{ $.Scratch.Set "description" . -}}
+{{ else -}}
+    {{ with .Summary | plainify -}}
+        {{ $.Scratch.Set "description" . -}}
+    {{ else -}}
+        {{ $.Scratch.Set "description" .Site.Params.main.description -}}
+    {{ end -}}
+{{ end -}}
+
+{{ with .Params.thumbnail -}}
+    {{ $source := partial "utilities/GetImage.html" (dict "url" .) -}}
+    {{ with $source -}}
+        {{ $dim := "1280x640" -}}
+        {{ $img := (.Fill (printf "%s jpg" $dim)) -}}
+        {{ $.Scratch.Set "thumbnail" ($img.Permalink | absURL) -}}
+    {{ end -}}
+{{ else -}}
+    {{ with .Site.Params.schema.image.url -}}    
+        {{ $.Scratch.Set "thumbnail" (. | absURL) -}}
+    {{ else -}}
+        {{ $images := $.Resources.ByType "image" -}}
+        {{ $featured := $images.GetMatch "*feature*" -}}
+        {{ if not $featured -}}
+            {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" -}}
+        {{ end -}}
+        {{ with $featured -}}
+            {{ $.Scratch.Set "thumbnail" $featured.Permalink -}}
+        {{ else -}}
+            {{ with $.Site.Params.opengraph.images -}}
+                {{ $.Scratch.Set "thumbnail" (index . 0 | absURL) -}}
+            {{ end -}}
+        {{ end -}}
+    {{ end -}}
+{{ end -}}
+
+
+{{ if eq .Kind "404" -}}
+    <meta name="robots" content="noindex, follow">
+{{ else }}
+  {{ with .Params.robots -}}
+    <meta name="robots" content="{{ . }}">
+  {{ else -}}
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  {{ end -}}
+{{ end -}}
+
+    {{ if .IsHome -}}
+        <title>{{ .Site.Title }} {{ .Site.Params.main.separator }} {{ .Site.Params.head.tagline }}</title>
+    {{ else -}}
+        <title>{{ .Site.Title }} {{ .Site.Params.main.separator }} {{ .Title }}</title>
+    {{ end -}}
+
+    <meta name="description" content="{{ $.Scratch.Get "description" }}">
+
+{{ if $.Scratch.Get "paginator" }}
+    <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
+    {{ if .Paginator.HasPrev -}}
+        <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
+    {{ end -}}
+    {{ if .Paginator.HasNext -}}
+        <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
+    {{ end -}}
+{{ else -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+{{ end -}}
+
+{{ partial "head/opengraph.html" . }}
+{{ partial "head/twitter_cards.html" . }}
+
+{{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+
+{{ partial "head/structured-data.html" . }}

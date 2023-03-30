@@ -1,0 +1,9 @@
+{{- define "main" -}}
+    {{- partial "assets/section-list.html" (dict 
+        "page" .
+        "section" .Section
+        "home" false
+        "title" .Title
+        "paginate" true)
+    -}}
+{{- end -}}

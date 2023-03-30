@@ -1,0 +1,30 @@
+// Bootstrap variables overrides for theme
+$enable-negative-margins:       true;
+$enable-important-utilities:    true !default;
+
+// Font awesome variables overrides for theme
+$fa-font-path:                  "../fonts";
+
+// Remove the border from the focused navigation toggler
+$navbar-toggler-focus-width:    0 !default;
+
+// scss-docs-start font
+$font-family-sans-serif:        $theme-font, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$headings-font-weight:          600 !default;
+$font-weight-lighter:           lighter !default;
+$font-weight-light:             200 !default;
+$font-weight-normal:            300 !default;
+$font-weight-bold:              600 !default;
+$font-weight-bolder:            bolder !default;
+
+strong {
+    font-weight:                600 if($enable-important-utilities, !important, null);
+}
+// scss-docs-end font
+
+$black:                       #000 !default;
+$btn-toggle-color:              $black !default;
+
+$carousel-dark-indicator-active-bg:  #ffffff !default;
+$carousel-dark-caption-color:        #ffffff !default;
+$carousel-dark-control-icon-filter:  invert(0) grayscale(100) !default;

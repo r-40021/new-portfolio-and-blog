@@ -1,0 +1,15 @@
+{{ $filename := "js/main.bundle.js" -}}
+{{ if hugo.IsProduction }}{{ $filename = "js/main.bundle.min.js" }}{{ end -}}
+{{ $files := slice -}}
+{{ range $index, $file := resources.Match "js/**.js" -}}
+    {{ $files = $files | append $file -}}
+{{ end -}}
+{{ $bundle := $files | resources.Concat $filename -}}
+{{ $js := $bundle | resources.ExecuteAsTemplate $filename . -}}
+
+{{- if not hugo.IsProduction -}}
+    <script src="{{ $js.RelPermalink }}"></script>
+{{ else -}}
+    {{ $js = $js | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ end -}}

@@ -1,0 +1,41 @@
+// Adapted from https://simplernerd.com/hugo-add-copy-to-clipboard-button/
+
+.clipboard-button {
+    position: absolute;
+    right: 0;
+    padding: 2px 7px 5px;
+    margin: 5px;
+    color: $secondary;
+    background-color: transparent;
+    border-style: none;
+    font-size: 0.8em;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.clipboard-button > svg {
+    fill: $secondary;
+}
+
+.clipboard-button:hover {
+    cursor: pointer;
+    color: $primary;
+}
+
+.clipboard-button:hover > svg {
+    fill: $primary;
+}
+
+.clipboard-button:focus {
+    outline: 0;
+}
+
+.highlight {
+    position: relative;
+}
+
+.highlight:hover > .clipboard-button {
+    opacity: 1;
+    transition: 0.2s;
+}
