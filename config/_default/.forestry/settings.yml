@@ -5,21 +5,21 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/en/blog
+  path: content/blog
   label: Blog
   create: all
   match: "**/*"
   templates:
   - blog-post
 - type: directory
-  path: content/en/projects
+  path: content/project
   label: Projects
   create: all
   match: "**/*"
   templates:
   - project
 - type: document
-  path: content/en/about.md
+  path: content/about.md
   label: About
 upload_dir: assets/img
 public_path: "/img"

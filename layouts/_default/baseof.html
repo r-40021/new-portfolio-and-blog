@@ -25,20 +25,18 @@
                     <div class="{{ if .Site.Params.navigation.fixed }}mt-5{{ end }}">
                         {{ block "featured" . }}{{ end -}}
                     </div>
-                    <div class="d-flex flex-column flex-fill">
+                    <main class="d-flex flex-column flex-fill">
                         {{ block "main" . }}{{ end -}}
-                    </div>
+                    </main>
                     <div class="">
-                        {{- partial "footer/social.html" . -}}
                         {{- partial "footer/footer.html" . -}}
                     </div>
                 {{ end -}}
             {{ else -}}
-                <div class="d-flex flex-column flex-fill {{ if .Site.Params.navigation.fixed }}mt-5{{ end }}">
+                <main class="d-flex flex-column flex-fill {{ if .Site.Params.navigation.fixed }}mt-5{{ end }}">
                     {{ block "main" . }}{{ end -}}
-                </div>
+                </main>
                 <div class="">
-                    {{- partial "footer/social.html" . -}}
                     {{- partial "footer/footer.html" . -}}
                 </div>
             {{ end -}}
@@ -48,7 +46,6 @@
             <div class="">
                 {{ block "main" . }}{{ end -}}
             </div>
-            {{- partial "footer/social.html" . -}}
             {{- partial "footer/footer.html" . -}}
         {{ end -}}
 

@@ -95,7 +95,7 @@
     github = "https://github.com/gethinode/hinode"
     section = "blog"
     [author]
-        name = "Mark Dumay"
+        name = "FrogApp"
         # twitter = "https://twitter.com/markdumay"
         linkedin = "https://www.linkedin.com/in/markdumay/"
         github = "https://github.com/markdumay"

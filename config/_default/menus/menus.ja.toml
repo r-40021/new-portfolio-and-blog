@@ -1,0 +1,29 @@
+[[main]]
+  name = "自己紹介"
+  url = "/about/"
+  weight = 10
+
+[[main]]
+  name = "作品"
+  url = "/works/"
+  weight = 20
+
+[[main]]
+  name = "ブログ"
+  url = "/blog/"
+  weight = 30
+
+[[main]]
+  name = "タグ一覧"
+  url = "/tags/"
+  weight = 40
+
+[[main]]
+  name = "プライバシー"
+  url = "/privacy/"
+  weight = 50
+
+[[main]]
+  name = "お問い合わせ"
+  url = "/contact/"
+  weight = 60

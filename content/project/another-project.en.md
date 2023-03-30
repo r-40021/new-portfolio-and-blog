@@ -1,5 +1,5 @@
 ---
-author: Mark Dumay
+author: FrogApp
 title: Another project
 date: 2021-07-15
 description: Another project.

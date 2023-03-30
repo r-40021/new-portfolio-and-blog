@@ -1,4 +1,4 @@
 ---
-author: Mark Dumay
+author: FrogApp
 title: Blog
 ---

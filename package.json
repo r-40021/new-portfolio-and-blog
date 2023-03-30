@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prestart": "npm run clean",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender",
+    "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -w",
     "start:prod": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -e production",
     "prebuild": "npm run clean",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
@@ -45,7 +45,7 @@
     "type": "git",
     "url": "git+https://github.com/gethinode/hinode.git"
   },
-  "author": "Mark Dumay",
+  "author": "FrogApp",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gethinode/hinode/issues"

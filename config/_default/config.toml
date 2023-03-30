@@ -1,12 +1,11 @@
 # toml-docs-start main
-title = "Hinode"
-copyright = "Copyright © 2023 Mark Dumay."
+copyright = "Copyright © 2023 FrogApp."
 paginate = 9
 enableGitInfo = true
 # toml-docs-end main
 
 # additional settings
-baseURL = "https://demo.gethinode.com/"
+baseURL = "https://frogapp.net/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -21,9 +20,9 @@ timeout = "60s"
 # toml-docs-end timeout
 
 # toml-docs-start language
-languageCode = "en-us"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+languageCode = "ja-jp"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
 # toml-docs-end language
 
 # toml-docs-start build
@@ -88,3 +87,6 @@ defaultContentLanguageInSubdir = true
     target = "assets/js/vendor/flexsearch"
     includeFiles = "*.bundle.js"
 # toml-docs-end javascript
+
+[permalinks]
+  blog = "/blog/:year-:month/:slugorfilename/"

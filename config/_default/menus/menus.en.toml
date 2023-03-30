@@ -1,73 +1,29 @@
 [[main]]
   name = "About"
-  url = "/about/"
+  url = "/en/about/"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Works"
+  url = "/en/works/"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "/projects/"
+  name = "Blog"
+  url = "/en/blog/"
   weight = 30
-
-[[main]]
-  name = "Sample project"
-  url = "/en/projects/sample-project/"
-  parent = "Projects"
-  weight = 1
-
-[[main]]
-  name = "Another project"
-  url = "/en/projects/another-project/"
-  parent = "Projects"
-  weight = 2
 
 [[main]]
   name = "Tags"
-  url = "/tags/"
+  url = "/en/tags/"
   weight = 40
 
-[[social]]
-  name = "LinkedIn"
-  pre = "<i class=\"fab fa-linkedin fa-2x\"></i>"
-  url = "https://linkedin.com/"
-  weight = 10
+[[main]]
+  name = "Privacy"
+  url = "/en/privacy/"
+  weight = 50
 
-[[social]]
-  name = "GitHub"
-  pre = "<i class=\"fab fa-github fa-2x\"></i>"
-  url = "https://github.com/"
-  weight = 20
-
-[[social]]
-  name = "Medium"
-  pre = "<i class=\"fab fa-medium fa-2x\"></i>"
-  url = "https://medium.com/"
-  weight = 30
-
-# toml-docs-start sample-navigation
-[[sample]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 10
-
-[[sample]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 20
-
-[[sample]]
-  name = "Sample project"
-  url = "/en/projects/sample-project/"
-  parent = "Projects"
-  weight = 1
-
-[[sample]]
-  name = "Another project"
-  url = "/en/projects/another-project/"
-  parent = "Projects"
-  weight = 2
-# toml-docs-end sample-navigation
+[[main]]
+  name = "Contact"
+  url = "/en/contact/"
+  weight = 60
