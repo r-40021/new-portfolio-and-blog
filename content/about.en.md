@@ -4,17 +4,17 @@ title: About
 date: 2023-02-17
 showComments: false
 ---
-This is an overview of the site and an introduction of the administrator.
+This is an overview of the site and an introduction of the owner.
 
 Since the content is occasionally updated, it would be great if you could access it whenever you remember.
 
 ## About This Site
 
-This is a personal blog where the administrator writes about their favorite things, from digital content to spot-the-difference games.
+This is a personal blog where the owner writes about their favorite things, from digital content to spot-the-difference games.
 
 ### Posting Frequency
 
-Since late May 2022, the blog is updated roughly once a week. However, there may be weeks when the administrator is too busy to update, or when the article is thin and unsatisfactory.
+Since late May 2022, the blog is updated roughly once a week. However, there may be weeks when the owner is too busy to update, or when the article is thin and unsatisfactory.
 
 Before the blog started updating once a week, it was updated completely irregularly. It was common to go more than a month without an update.
 
@@ -25,7 +25,7 @@ Before the blog started updating once a week, it was updated completely irregula
 
 That's the gist of it.
 
-Please note that this is a personal blog where the administrator writes freely, so there is no accurate, objective information that could be used for academic research, for example.
+Please note that this is a personal blog where the owner writes freely, so there is no accurate, objective information that could be used for academic research, for example.
 
 (Well, I don't expect people who are looking for that kind of information to come to this site...)
 

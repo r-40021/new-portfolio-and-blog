@@ -13,7 +13,7 @@
 
 # toml-docs-start home
 [home]
-    sections = ["blog", "works", "privacy", "contact"]
+    sections = ["blog", "works", "info"]
     featurePhoto = "/img/icon.webp"
     fullCover = false
     style = ""
@@ -21,7 +21,7 @@
 
 # toml-docs-start navigation
 [navigation]
-    logo = "/img/logo_icon.svg"
+    logo = "/img/icon.svg"
     color = "body"
     fixed = true
     offset = "4em"
@@ -44,7 +44,7 @@
         footer = "none"
         orientation = "stacked"
         style = "border-0 card-zoom"
-        homepage = 3
+        homepage = 6
         separator = true
     [works]
         title = "Works"
@@ -59,22 +59,9 @@
         style = "border-1 card-emphasize"
         homepage = 3
         separator = false
-    [privacy]
-        title = "Privacy"
-        sort = "title"
-        reverse = false
-        cols = 1
-        color = ""
-        padding = "3"
-        header = "none"
-        footer = "tags"
-        orientation = "none"
-        style = "border-1 card-emphasize"
-        homepage = 3
-        separator = false
-    [contact]
-        title = "Contact"
-        sort = "title"
+    [info]
+        title = "Privacy & Contact"
+        sort = "linktitle"
         reverse = false
         cols = 1
         color = ""
@@ -114,17 +101,15 @@
 
 [schema]
     type = "Organization"
-    name = "Hinode"
-    locale = "en-US"
+    name = "FrogApp"
+    locale = "ja-JP"
     # twitter = "https://twitter.com/gethinode"
     # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
+    github = "https://github.com/r-40021"
     section = "blog"
     [author]
         name = "FrogApp"
-        # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
+        github = "https://github.com/r-40021"
     [logo]
         url = "img/logo512x512.png"
         width = 512
@@ -136,7 +121,7 @@
 
 [opengraph]
     images = ["logo.png"]
-    locale = "en_US"
+    locale = "ja_JP"
 
 [comments]
     enabled = false

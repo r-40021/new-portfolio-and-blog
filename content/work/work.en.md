@@ -4,7 +4,7 @@ title: My Apps
 date: 2023-03-31
 description: List of my apps.
 tags: ["javascript", "html", "css", "web", "apps", "works"]
-thumbnail: img/website.webp # https://picsum.photos/id/1060/5598/3732
+thumbnail: img/website.webp
 photoCredits: <a href="https://unsplash.com/@pankajpatel">Pankaj Patel</a>
 photoSource: <a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>
 url: "works"

@@ -38,9 +38,9 @@
 - id: photoOn
   translation: "via"
 - id: article
-  translation: "つの記事"
+  translation: "記事"
 - id: articles
-  translation: "つの記事"
+  translation: "記事"
 - id: paginationPrevious
   translation: "前"
 - id: paginationNext

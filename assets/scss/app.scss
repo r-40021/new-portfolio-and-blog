@@ -1,6 +1,12 @@
 // Define template variables
 @import "hugo:vars";
 
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700; 
+$headings-font-weight: 800;
+$line-height-base: 1.9;
+
 // Include default variable overrides
 @import "common/variables.scss";
 @import "common/icons.scss";
@@ -98,3 +104,16 @@
 
 // Import theme placeholder
 @import "theme/theme.scss";
+
+a[target="_blank"]:after {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    content: "";
+    margin: 0 .2em;
+    background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    mask: url("/icons/open-in-new.svg");
+    -webkit-mask: url("/icons/open-in-new.svg");
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
