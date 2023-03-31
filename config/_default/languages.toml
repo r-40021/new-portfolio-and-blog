@@ -1,10 +1,10 @@
 # toml-docs-start lang-main
 [ja]
     languageName = "日本語"
-    title = "カエルアプリ工房"
+    title = "カエルの人"
     weight = 1
     [ja.params.head]
-        tagline = "カエルアプリ工房"
+        tagline = "カエルの人"
     [ja.params.feature]
         link = "/about"
         caption = "自己紹介"
@@ -13,10 +13,10 @@
 
 [en]
     languageName = "English"
-    title = "Frog's App Factory"
+    title = "FrogApp"
     weight = 2
     [en.params.head]
-        tagline = "A Hugo Theme"
+        tagline = "FrogApp"
     [en.params.feature]
         link = "/en/about"
         caption = "About"

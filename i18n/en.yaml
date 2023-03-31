@@ -25,12 +25,8 @@
   translation: "Previous Post"
 - id: nextBlog
   translation: "Next Post"
-- id: recentProjects
-  translation: "Projects"
-- id: moreProjects
-  translation: "More Projects"
 - id: read
-  translation: "read"
+  translation: "about "
 - id: minutesShort
   translation: "min"
 - id: words

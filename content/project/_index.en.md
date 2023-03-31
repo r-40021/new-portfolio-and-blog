@@ -1,4 +1,0 @@
----
-author: FrogApp
-title: Projects
----

@@ -1,43 +1,79 @@
 ---
+slug: about
 title: About
-description: Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.
-date: 2022-04-11
-updated: 2023-02-11
+date: 2023-02-17
 showComments: false
 ---
+This is an overview of the site and an introduction of the administrator.
 
-<p class="text-center"><svg class="img-fluid w-50"><use href="/img/logo_var.svg#logo"></use></svg></p>
+Since the content is occasionally updated, it would be great if you could access it whenever you remember.
 
-<section class="section section-sm mt-5 mb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-4">
-                <i class="fa-brands fa-bootstrap fa-2xl"></i>
-                <h2 class="h4">Bootstrap framework</h2>
-                <p>Build fast, responsive sites with Bootstrap 5. Easily customize your site with the source Sass files.</p>
-            </div>
-            <div class="col-lg-4">
-                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                <h2 class="h4">Full text search</h2>
-                <p>Search your site with FlexSearch, a full-text search library with zero dependencies.</p>
-            </div>
-            <div class="col-lg-4">
-                <i class="fa-solid fa-code fa-2xl"></i>
-                <h2 class="h4">Development tools</h2>
-                <p>Use Node Package Manager to automate the build process and to keep track of dependencies.</p>
-            </div>
-        </div>
-    </div>
-</section>
+## About This Site
 
-Additional features include:
+This is a personal blog where the administrator writes about their favorite things, from digital content to spot-the-difference games.
 
-* Switching between light mode and dark mode
-* Support for multiple languages
-* Reusable Bootstrap components through configurable shortcodes and partials
-* Embedded comments through light-weight integration with GitHub via [utteranc.es]({{< param "links.utterances" >}})
-* Integrated sidebar navigation for content-heavy sections, such as documentation pages
-* Reponsive image handling for multiple screen sizes and resolutions
-* Optimized search results, scoring 100 points for SEO on [PageSpeed Insights]({{< param "links.pagespeed" >}})
-* Secure by default, scoring A+ on [Mozilla Observatory test]({{< param "links.observatory" >}})
-{.tickmark}
+### Posting Frequency
+
+Since late May 2022, the blog is updated roughly once a week. However, there may be weeks when the administrator is too busy to update, or when the article is thin and unsatisfactory.
+
+Before the blog started updating once a week, it was updated completely irregularly. It was common to go more than a month without an update.
+
+### Policy
+
+- All sponsored posts will be declined
+- Write honestly about what I think
+
+That's the gist of it.
+
+Please note that this is a personal blog where the administrator writes freely, so there is no accurate, objective information that could be used for academic research, for example.
+
+(Well, I don't expect people who are looking for that kind of information to come to this site...)
+
+### Technical Details
+
+This site is made using the Hugo framework.
+
+Previously, Jekyll was used, but it was migrated due to integration with the portfolio site.
+
+Cloudflare Pages is used for hosting, and it is operated completely free of charge except for the domain fee.
+
+That's why there are no ads and it doesn't run at a loss.
+
+### Access Analysis
+
+We use "Cloudflare Web Analytics", a privacy-friendly tool, to analyze the number of accesses.
+
+This is to help with future article writing by knowing which articles are popular.
+
+For details, please see the [Privacy Policy](/en/privacy).
+
+## Self-Introduction
+
+### FrogApp
+
+A student who develops web applications.
+
+Mainly focused on front-end development, but has recently started working on back-end development as well.
+
+### Languages I'm Good At
+
+- HTML
+- Pug
+- CSS
+- Sass
+- JavaScript
+- Python
+
+### Languages I Want to Study in the Future
+
+- PHP
+- Java
+- Ruby
+- Go
+- ~~AWS~~
+
+[Portfolio Site](/en)
+
+[Contact](/en/contact)
+
+[GitHub](https://github.com/r-40021/)

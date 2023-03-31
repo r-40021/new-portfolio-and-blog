@@ -13,8 +13,8 @@
 
 # toml-docs-start home
 [home]
-    sections = ["blog", "projects"]
-    featurePhoto = "/img/sunrise.jpg" # source: https://unsplash.com/photos/ZX6BPboJrYk
+    sections = ["blog", "works", "privacy", "contact"]
+    featurePhoto = "/img/icon.webp"
     fullCover = false
     style = ""
 # toml-docs-end home
@@ -46,8 +46,34 @@
         style = "border-0 card-zoom"
         homepage = 3
         separator = true
-    [projects]
-        title = "Projects"
+    [works]
+        title = "Works"
+        sort = "title"
+        reverse = false
+        cols = 1
+        color = ""
+        padding = "3"
+        header = "none"
+        footer = "tags"
+        orientation = "none"
+        style = "border-1 card-emphasize"
+        homepage = 3
+        separator = false
+    [privacy]
+        title = "Privacy"
+        sort = "title"
+        reverse = false
+        cols = 1
+        color = ""
+        padding = "3"
+        header = "none"
+        footer = "tags"
+        orientation = "none"
+        style = "border-1 card-emphasize"
+        homepage = 3
+        separator = false
+    [contact]
+        title = "Contact"
         sort = "title"
         reverse = false
         cols = 1
@@ -67,7 +93,7 @@
 
 # toml-docs-start theme-colors
 [style]
-    primary = "#d43900"
+    primary = "#2b8243"
     secondary = "#6c757d"
     success = "#198754"
     info = "#0dcaf0"

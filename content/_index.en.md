@@ -1,6 +1,6 @@
 ---
 author: FrogApp
-title: Frog's App Factory
+title: FrogApp
 ---
 
 I develop web apps and browser extentions.

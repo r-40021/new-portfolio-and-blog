@@ -11,13 +11,9 @@ sections:
   match: "**/*"
   templates:
   - blog-post
-- type: directory
-  path: content/project
-  label: Projects
-  create: all
-  match: "**/*"
-  templates:
-  - project
+- type: document
+  path: content/works/_index.md
+  label: Works
 - type: document
   path: content/about.md
   label: About

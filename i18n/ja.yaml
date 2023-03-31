@@ -25,10 +25,6 @@
   translation: "前の記事"
 - id: nextBlog
   translation: "次の記事"
-- id: recentProjects
-  translation: "プロジェクト"
-- id: moreProjects
-  translation: "すべてのプロジェクト"
 - id: read
   translation: "読了目安: "
 - id: minutesShort
@@ -121,7 +117,7 @@
 
 # Search
 - id: ui_search
-  translation: "サイト内検索..."
+  translation: "サイト内を検索…"
 - id: ui_no_results
   translation: "検索結果がありません"
 
