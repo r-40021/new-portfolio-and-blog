@@ -25,7 +25,7 @@ layout: "docs"
 
 収集している主なデータは以下の通りです。
 
-**Google Search Console**
+### Google Search Console
 
 - Google および同社のシステムを使用した検索エンジン (以下、「検索エンジン」) での当サイトの表示数
 - 検索エンジンからの訪問者数
@@ -34,7 +34,7 @@ layout: "docs"
 - 検索エンジンで当サイトを検索した際のアクセス元の国
 - 当サイトにたどり着くために検索した語句
 
-**Cloudflare Web Analytics**
+### Cloudflare Web Analytics
 
 - アクセス日時
 - アクセス元の国

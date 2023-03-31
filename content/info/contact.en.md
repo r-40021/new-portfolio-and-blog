@@ -7,8 +7,7 @@ showComments: false
 url: "contact"
 layout: "docs"
 ---
-
-To prevent spam, we cannot respond to inquiries that are not submitted through this contact form. 
+To prevent spam, we cannot respond to inquiries that are not submitted through this contact form.
 
 Additionally, we will not respond to any submissions that we consider spam or pranks, even if they are sent through this form.
 

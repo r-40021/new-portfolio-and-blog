@@ -25,7 +25,7 @@ my site uses two services, "[Google Search Console](https://search.google.com/se
 
 The main data collected is as follows:
 
-**Google Search Console**
+### Google Search Console
 
 - Number of views of my site on search engines using Google and its systems (hereinafter referred to as "search engines")
 - Number of visitors from search engines
@@ -34,7 +34,7 @@ The main data collected is as follows:
 - Country of origin when searching for my site on search engines
 - Search terms used to find my site
 
-**Cloudflare Web Analytics**
+### Cloudflare Web Analytics
 
 - Access date and time
 - Country of origin of access
