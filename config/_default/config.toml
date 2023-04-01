@@ -5,7 +5,7 @@ enableGitInfo = false
 # toml-docs-end main
 
 # additional settings
-baseURL = "https://frogapp.net/"
+baseURL = "https://838c1dec.new-portfolio-and-blog.pages.dev/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
