@@ -1,4 +1,4 @@
-<!-- 
+<!--
     Displays a button. The shortcode supports the following arguments:
     "href"          Optional address for the button or hyperlink. Automatically assigned when using collapse.
     "relref"        Optional name of the page to link to. Replaces "href" with a relative link if set.
@@ -13,7 +13,7 @@
     "tooltip"       Optional text to display in a tooltip. Cannot be used together with collapse. Ignored for active/
                     inactive buttons.
     "collapse"      Optional panel to collapse. Cannot be used together with tooltip. Ignored for active/inactive buttons.
-    "placement"     Optional position of the tooltip: "top" (default), "bottom", "left", or "right". 
+    "placement"     Optional position of the tooltip: "top" (default), "bottom", "left", or "right".
 -->
 
 {{ $error := false }}
@@ -78,5 +78,5 @@
 {{ end -}}
 
 {{ if not $error }}
-    {{- partial "button.html" (dict "type" $type "title" $title "size" $size "color" $color "outline" $outline "badge" $badge "label" $label "tooltip" $tooltip "collapse" $collapse "href" $href "id" $id "state" $state "placement" $placement) -}} 
+    {{- partial "button.html" (dict "type" $type "title" $title "size" $size "color" $color "outline" $outline "badge" $badge "label" $label "tooltip" $tooltip "collapse" $collapse "href" $href "id" $id "state" $state "placement" $placement) -}}
 {{ end }}

@@ -59,13 +59,13 @@
 
         .btn-toggle {
             color: var(--bs-tertiary-color);
-        
+  
             &:hover,
             &:focus {
                 color: $secondary;
                 background-color: tint-color($primary, 90%);
             }
-        
+  
             &::before {
                 content: $btn-toggle-dark;
             }

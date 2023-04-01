@@ -14,7 +14,7 @@
   weight = 30
 
 [[main]]
-  name = "タグ一覧"
+  name = "タグ"
   url = "/tags/"
   weight = 40
 

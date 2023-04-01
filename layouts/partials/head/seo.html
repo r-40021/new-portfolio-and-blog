@@ -25,7 +25,7 @@
         {{ $.Scratch.Set "thumbnail" ($img.Permalink | absURL) -}}
     {{ end -}}
 {{ else -}}
-    {{ with .Site.Params.schema.image.url -}}    
+    {{ with .Site.Params.schema.image.url -}} 
         {{ $.Scratch.Set "thumbnail" (. | absURL) -}}
     {{ else -}}
         {{ $images := $.Resources.ByType "image" -}}

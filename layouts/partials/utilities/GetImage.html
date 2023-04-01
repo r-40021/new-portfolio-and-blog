@@ -1,4 +1,4 @@
-<!-- 
+<!--
     Retrieve a local or remote resource compatible with Hugo's image processing. The path of a remote image is
     rewritten to ensure processed files are stored in the final '/img' folder. The partial returns nil if the
     resource cannot be found or is incompatibile. The partial supports the following arguments:
@@ -32,7 +32,7 @@
         {{ warnf "Image type '%s' is not supported: %s" $img.MediaType $url -}}
         {{ $img = "" -}}
     {{ end -}}
-{{ else -}}    
+{{ else -}} 
     {{ warnf "Cannot find image resource: %q" $url -}}
 {{ end -}}
 

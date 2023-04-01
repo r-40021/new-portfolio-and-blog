@@ -1,6 +1,6 @@
 # toml-docs-start main
 copyright = "Copyright © 2023 FrogApp."
-paginate = 9
+paginate = 30
 enableGitInfo = false
 # toml-docs-end main
 
@@ -30,7 +30,7 @@ defaultContentLanguageInSubdir = false
 [build]
   writeStats = true
 # toml-docs-end build
-  
+ 
 [taxonomies]
   tag = 'tags'
 

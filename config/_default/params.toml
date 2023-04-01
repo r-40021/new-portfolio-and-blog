@@ -130,7 +130,7 @@
     #label = "comment"
     # By default, light and dark mode correspond to github-light and github-dark, respectively.
     # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
-    #theme = "" 
+    #theme = ""
 
 [links]
     bs_badge_heading = "https://getbootstrap.com/docs/5.2/components/badge/#headings"
@@ -140,4 +140,3 @@
     observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
     pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
     utterances = "https://utteranc.es"
- 

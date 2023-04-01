@@ -63,12 +63,12 @@
 {{- else if eq $sort "linktitle" -}}
     {{- $list = $list.ByLinkTitle -}}
 {{- else if ne $sort "date" -}}
-    {{- $list = $list.ByParam $sort -}}        
+    {{- $list = $list.ByParam $sort -}}  
 {{- end -}}
 {{- if $reverse -}}{{- $list = $list.Reverse -}}{{ end -}}
 
 <div class="container-fluid flex-fill p-0{{ with $background }} bg-{{ . }}{{ end }}">
-    {{- partial "assets/card-group.html" (dict 
+    {{- partial "assets/card-group.html" (dict
         "page" $page
         "list" $list
         "max" $max
@@ -84,6 +84,6 @@
         "padding" $padding
         "header" $header
         "footer" $footer
-        ) 
+        )
     -}}
 </div>

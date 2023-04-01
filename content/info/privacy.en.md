@@ -39,7 +39,7 @@ The main data collected is as follows:
 - Access date and time
 - Country of origin of access
 - Browser/OS used for access
-- Source of access  
+- Source of access 
 (e.g., from Google search or Twitter)
 - Time taken to load the page
 

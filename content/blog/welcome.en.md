@@ -1,9 +1,9 @@
 ---
 author: FrogApp
 title: Welcome to my blog
-date: 2023-03-30
+date: 2023-04-01
 tags: ["info"]
-thumbnail: img/welcome.webp
+thumbnail: img/2023-04-01-welcome.webp
 photoCredits: <a href="https://unsplash.com/@sixteenmilesout">Sixteen Miles Out</a>
 photoSource: <a href="https://unsplash.com/photos/OGND72jS-HE">Unsplash</a>
 ---

@@ -6,7 +6,7 @@
 
 // scss-docs-start display-color
 .d-none-light {
-    display: none if($enable-important-utilities, !important, null); 
+    display: none if($enable-important-utilities, !important, null);
 }
 
 .d-none-dark {

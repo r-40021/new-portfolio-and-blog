@@ -75,7 +75,7 @@
 - id: toggleNavigation
   translation: "ナビゲーションバーの表示を切り替える"
 - id: languageSwitcherLabel
-  translation: "言語"
+  translation: "Language"
 - id: gcseLabelShort
   translation: "検索"
 - id: gcseLabelLong
@@ -105,7 +105,7 @@
 - id: show
   translation: "表示"
 - id: comments
-  translation: "コメント" 
+  translation: "コメント"
 
 # Related posts
 - id: seeAlso

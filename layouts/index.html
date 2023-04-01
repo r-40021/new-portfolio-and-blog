@@ -13,10 +13,10 @@
 
         {{- $moreTitle := (T (printf "more%s" (strings.FirstUpper $section))) -}}
 
-        {{- partial "assets/section-list.html" (dict 
-            "page" $page 
-            "section" $section 
-            "home" true 
+        {{- partial "assets/section-list.html" (dict
+            "page" $page
+            "section" $section
+            "home" true
             "moreTitle" $moreTitle
             "sectionURL" $sectionURL)
         -}}

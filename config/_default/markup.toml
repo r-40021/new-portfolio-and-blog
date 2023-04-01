@@ -13,7 +13,7 @@ defaultMarkdownHandler = "goldmark"
     tabWidth = 2
     ## Update the 'create:syntax' command in package.json to modify the style
     ## The first two lines have been modified to remove the background color
-    # style = "monokailight" 
+    # style = "monokailight"
 
 [goldmark]
     [goldmark.extensions]

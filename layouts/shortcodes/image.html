@@ -1,4 +1,4 @@
-<!-- 
+<!--
     Render a local or remote image with responsive image sizing. Images are resized using default media breakpoints
     and are converted to webp format. The image is processed using the quality setting specified in the [imaging]
     section of the main config file (defaults to 75). A fallback image is provided for older browsers. The partial
@@ -20,12 +20,12 @@
             {{ errorf "Invalid value for param 'ratio': %s" .Position -}}
         {{ end -}}
     {{ end -}}
-    
+ 
     {{- $class := .Get "class" -}}
     {{ $title := .Get "title" -}}
     {{ $caption := .Get "caption" -}}
 
-    {{- partial "image.html" (dict "url" $url "ratio" $ratio "innerClass" $class "title" $title "caption" $caption) -}} 
+    {{- partial "image.html" (dict "url" $url "ratio" $ratio "innerClass" $class "title" $title "caption" $caption) -}}
 {{ else -}}
     {{ errorf "Missing value for param 'src': %s" .Position -}}
 {{ end -}}

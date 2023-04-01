@@ -1,4 +1,4 @@
-<!-- 
+<!--
     Render a local or remote image with responsive image sizing. Images are resized using default media breakpoints
     and are converted to webp format. The image is processed using the quality setting specified in the [imaging]
     section of the main config file (defaults to 75). A fallback image is provided for older browsers. The image is
@@ -69,12 +69,12 @@
     {{ $xxl := "" -}}
     {{ $fallback := "" -}}
     {{ if $ratio }}
-        {{- $sm = ($img.Fill (printf "%s webp" $smDim)) -}}
-        {{ $md = ($img.Fill (printf "%s webp" $mdDim)) -}}
-        {{ $lg = ($img.Fill (printf "%s webp" $lgDim)) -}}
-        {{ $xl = ($img.Fill (printf "%s webp" $xlDim)) -}}
-        {{ $xxl = ($img.Fill (printf "%s webp" $xxlDim)) -}}
-        {{ $fallback = ($img.Fill (printf "%s jpg" $xxlDim)) -}}
+        {{- $sm = ($img.Fill (printf "%s webp Center" $smDim)) -}}
+        {{ $md = ($img.Fill (printf "%s webp Center" $mdDim)) -}}
+        {{ $lg = ($img.Fill (printf "%s webp Center" $lgDim)) -}}
+        {{ $xl = ($img.Fill (printf "%s webp Center" $xlDim)) -}}
+        {{ $xxl = ($img.Fill (printf "%s webp Center" $xxlDim)) -}}
+        {{ $fallback = ($img.Fill (printf "%s jpg Center" $xxlDim)) -}}
     {{ else }}
         {{- $sm = ($img.Fit (printf "%s webp" $smDim)) -}}
         {{ $md = ($img.Fit (printf "%s webp" $mdDim)) -}}
