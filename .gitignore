@@ -2,6 +2,10 @@
 resources/
 node_modules/
 
+*.env
+*.log
+
 .DS_store
 .hugo_build.lock
 hugo_stats.json
+node_modules
