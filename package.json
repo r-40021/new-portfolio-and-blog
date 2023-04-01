@@ -20,7 +20,7 @@
     "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -w",
     "start:prod": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -e production",
     "prebuild": "npm run clean",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
+    "build": "tinacms build && exec-bin node_modules/.bin/hugo/hugo --gc --minify",
     "build:debug": "exec-bin node_modules/.bin/hugo/hugo -e debug --debug",
     "build:preview": "npm run build -D -F",
     "clean": "rimraf public resources",
