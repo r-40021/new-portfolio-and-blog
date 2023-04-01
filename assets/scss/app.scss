@@ -33,27 +33,27 @@ $line-height-base: 1.9;
 @import "bootstrap/scss/tables";
 @import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
-@import "bootstrap/scss/transitions";
+// @import "bootstrap/scss/transitions";
 @import "bootstrap/scss/dropdown";
 @import "bootstrap/scss/button-group";
 @import "bootstrap/scss/nav";
 @import "bootstrap/scss/navbar";
 @import "bootstrap/scss/card";
-@import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/accordion";
 @import "bootstrap/scss/breadcrumb";
 @import "bootstrap/scss/pagination";
-@import "bootstrap/scss/badge";
-@import "bootstrap/scss/alert";
-@import "bootstrap/scss/progress";
-@import "bootstrap/scss/list-group";
-@import "bootstrap/scss/close";
-@import "bootstrap/scss/toasts";
-@import "bootstrap/scss/modal";
-@import "bootstrap/scss/tooltip";
-@import "bootstrap/scss/popover";
-@import "bootstrap/scss/carousel";
-@import "bootstrap/scss/spinners";
-@import "bootstrap/scss/offcanvas";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+// @import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+// @import "bootstrap/scss/modal";
+// @import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+// @import "bootstrap/scss/offcanvas";
 @import "bootstrap/scss/placeholders";
 
 // Import Bootstrap helpers
@@ -92,15 +92,6 @@ $line-height-base: 1.9;
 @import "common/export.scss";
 @import "helpers/colored-links.scss";
 @import "helpers/display.scss";
-
-// TODO: include fonts with following statement in Dart Sass
-// @if $import-fonts {
-//     @include meta.load-css(theme/fonts);
-// }
-
-{{ if (not (hasPrefix (lower site.Params.style.themeFontPath) "http")) }}
-    @import "theme/fonts.scss";
-{{ end }}
 
 // Import theme placeholder
 @import "theme/theme.scss";

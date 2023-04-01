@@ -60,7 +60,7 @@
         homepage = 3
         separator = false
     [info]
-        title = "Privacy & Contact"
+        title = "Contact & Privacy"
         sort = "linktitle"
         reverse = false
         cols = 1

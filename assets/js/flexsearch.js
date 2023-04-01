@@ -74,7 +74,7 @@
 //         id: "id",
 //         tag: "tag",
 //         store: ["href", "title", "description"],
-//         index: ["title", "description", "content"]
+//         index: ["title", "description"]
 //       }
 //     });
   
