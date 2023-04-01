@@ -2,7 +2,7 @@ backend:
   name: github
   repo: "r-40021/new-portfolio-and-blog"
   branch: main
-  base_url: https://838c1dec.new-portfolio-and-blog.pages.dev/
+  base_url: https://new-portfolio-and-blog.pages.dev/
   auth_endpoint: /api/auth
 publish_mode: editorial_workflow
 media_folder: "static/img/uploads" # Media files will be stored in the repo under static/img/uploads
