@@ -114,7 +114,7 @@ export default defineConfig({
           },
         },
         match: {
-          include: "about",
+          include: "about.*",
         },
         fields: [
           {
@@ -129,7 +129,7 @@ export default defineConfig({
       {
         label: "Works",
         name: "works",
-        path: "content",
+        path: "content/work",
         format: "md",
         ui: {
           allowedActions: {
@@ -138,7 +138,7 @@ export default defineConfig({
           },
         },
         match: {
-          include: "works",
+          include: "work.*",
         },
         fields: [
           {
