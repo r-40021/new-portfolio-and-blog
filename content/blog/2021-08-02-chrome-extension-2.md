@@ -5,11 +5,19 @@ description: 1回15分でサクッと開発。今回はポップアップの作�
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: ポップアップ作成
-tags: プログラミング Chrome拡張機能 HTML JavaScript CSS
+tags:
+- プログラミング
+- Chrome拡張機能
+- HTML
+- JavaScript
+- CSS
 thumbnail: /img/2021-08-02-html.jpg
 photoCredits: '<a href="https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jackson So</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-08-02
+slug: chromechrome-extension-2
 ---
+
 拡張機能を作るシリーズ第2弾！今回は拡張機能のポップアップを作成していきます！
 
 これでかなり拡張機能っぽくなります。

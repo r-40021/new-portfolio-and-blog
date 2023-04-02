@@ -5,11 +5,18 @@ description: 1回15分でサクッと開発。今回は「権限多すぎ問題�
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: 権限を減らす
-tags: プログラミング Chrome拡張機能 JSON JavaScript
+tags:
+- プログラミング
+- Chrome拡張機能
+- JSON
+- JavaScript
 thumbnail: /img/2021-08-07-debug.jpg
 photoCredits: '<a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Sigmund</a>'
 photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-08-07
+slug: chromechrome-extension-5
 ---
+
 
 ## お詫びと訂正
 

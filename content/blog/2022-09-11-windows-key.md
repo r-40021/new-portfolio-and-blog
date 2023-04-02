@@ -1,8 +1,6 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags:
 - Windows
 - Linux
@@ -15,8 +13,10 @@ thumbnail: "/img/2022-09-10-win10.webp"
 headAlt: Windows 10 のロック画面
 series: ''
 series_title: ''
-
+date: 2022-09-11
+slug: windows
 ---
+
 Linux上でWindowsの仮想環境を建てる際にはWindowsのプロダクトキーが必要になりますが、最近のWindowsがプリインストールされたPCの場合、プロダクトキーが付属していない場合がほとんどです。そこで、今回はOEM版(プリインストール版)Windowsのプロダクトキーを確認する方法をご紹介します。Linux、Windowsのどちらからでも使えます。
 
 <div class="warning-card">

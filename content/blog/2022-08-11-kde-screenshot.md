@@ -1,8 +1,6 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags:
 - Linux
 - KDE
@@ -13,8 +11,10 @@ photoSource: '<a href="https://unsplash.com/s/photos/screen?utm_source=unsplash&
 title: KDE Plasmaでスクリーンショットが昔の画面になってしまう時の対処法
 thumbnail: "/img/2022-08-11-screen.jpg"
 headAlt: スクリーン
-
+date: 2022-08-11
+slug: kde
 ---
+
 KDE Plasma でスクリーンショットを撮ろうとしたところ、現在の画面ではなく随分昔の画面が撮影されてしまう不具合に遭遇しました。
 
 ## 現象

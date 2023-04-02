@@ -5,11 +5,17 @@ description: 1回30分でサクッと開発。要となるコピー機能の実�
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: コピー機能実装
-tags: プログラミング Chrome拡張機能 JavaScript
+tags:
+- プログラミング
+- Chrome拡張機能
+- JavaScript
 thumbnail: /img/2021-08-04-twitter.jpg
 photoCredits: '<a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Alexander Shatov</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/twitter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-08-04
+slug: chromechrome-extension-4
 ---
+
 
 こんにちは！1回30分で拡張機能を作るシリーズ、第4弾です。今回は、この拡張機能の要、「コピー機能」を実装していきます。
 

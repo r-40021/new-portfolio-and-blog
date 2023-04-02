@@ -5,11 +5,20 @@ description: 環境構築するほどのことでもないが。
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: 環境構築
-tags: プログラミング Chrome拡張機能 環境構築 JavaScript JSON HTML
+tags:
+- プログラミング
+- Chrome拡張機能
+- 環境構築
+- JavaScript
+- JSON
+- HTML
 thumbnail: /img/2021-07-30-develop.jpg
 photoCredits: '<a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Pankaj Patel</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-07-30
+slug: chromechrome-extension-1
 ---
+
 
 
 今回からは、連載企画ということで Chrome の拡張機能を開発していきます。何回分に渡るかはわかりませんが、1回分のボリュームを抑えていくので、物足りなさを感じてしまう方もいらっしゃるかもしれませんが、お付き合いよろしくお願いします。

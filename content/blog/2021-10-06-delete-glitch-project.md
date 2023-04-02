@@ -2,8 +2,13 @@
 author: FrogApp
 title: "Glitch のプロジェクトを削除する方法を調べてみた！"
 categories: プログラミング
-tags: プログラミング Glitch
+tags:
+- プログラミング
+- Glitch
+date: 2021-10-06
+slug: delete
 ---
+
 
 node.js をブラウザ上で使える <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> を使っていて、プロジェクトの削除方法が気になったので調べてみました。
 

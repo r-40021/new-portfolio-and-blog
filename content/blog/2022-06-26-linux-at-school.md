@@ -11,8 +11,10 @@ photoCredits: '<a href="https://unsplash.com/@nkly1004?utm_source=unsplash&utm_m
   rel="noopener noreferrer">Nguyen Khanh Ly</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/school?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  target="_blank"
   rel="noopener noreferrer">Unsplash</a>'
-
+date: 2022-06-26
+slug: linux
 ---
+
 私が通っている学校はBYOD制で、自由にデバイスを持ち込めるのですが、Linux(Manjaro)を実際に学校で使用してみて困ったことをまとめてみます。
 
 <div class="warning-card">

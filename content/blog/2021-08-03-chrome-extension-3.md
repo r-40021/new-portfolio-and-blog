@@ -3,13 +3,20 @@ author: FrogApp
 title: "Chrome 拡張機能を作って公開しよう③　〜形にする〜"
 description: 1回15分でサクッと開発。いよいよ形にしていきます！
 categories: プログラミング
-tags: プログラミング Chrome拡張機能 HTML JavaScript
+tags:
+- プログラミング
+- Chrome拡張機能
+- HTML
+- JavaScript
 thumbnail: /img/2021-08-03-mac.jpg
 series: Chrome 拡張機能を作ろう
 series_title: 仕様に沿って開発
 photoCredits: '<a href="https://unsplash.com/@jantined?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jantine Doornbos</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/develop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-08-03
+slug: chromechrome-extension-3
 ---
+
 
 こんにちは。1回15分で拡張機能を作るシリーズ、第3弾です。
 

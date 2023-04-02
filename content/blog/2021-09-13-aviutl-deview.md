@@ -3,9 +3,13 @@ author: FrogApp
 title: Aviutl の勉強をはじめました
 description: 早速初投稿
 categories: PC
-tags: Aviutl YouTube
-
+tags:
+- Aviutl
+- YouTube
+date: 2021-09-13
+slug: aviutl
 ---
+
 この度、Aviutl の勉強をはじめました。
 
 そしてその第１作目を YouTube に公開しました。

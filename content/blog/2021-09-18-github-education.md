@@ -3,8 +3,14 @@ author: FrogApp
 title: "学生は無料で GitHub Pro が使える？特典や申請方法などを解説！"
 description: "GitHub がますます好きになっちゃう"
 categories: プログラミング
-tags: プログラミング GitHub 学割
+tags:
+- プログラミング
+- GitHub
+- 学割
+date: 2021-09-18
+slug: github
 ---
+
 
 今回は、学生限定で GitHub の有料プラン、GitHub Pro を無料で使える方法を発見したので、ご紹介します。
 

@@ -1,19 +1,18 @@
 ---
 author: FrogApp
 categories: プログラミング
-
- 
 tags:
 - Cloudflare
 - ドメイン
-
 title: Cloudflare Pages で WWW あり・なしを正規化する
 thumbnail: "/img/2022-10-23-canonicalize.webp"
 headAlt: Cloudflare Pages で WWW あり・なしを正規化
 series: ''
 series_title: ''
-
+date: 2022-10-23
+slug: canonicalize
 ---
+
 先日、Cloudflare Pages で運営しているサイトで www あり・なしの正規化を行ったのですが、一筋縄ではいかなかったのでその解説を行います。
 
 ## やりたいこと

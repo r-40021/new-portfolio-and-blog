@@ -11,8 +11,10 @@ photoCredits: '<a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_m
   target="_blank" rel="noopener noreferrer">JESHOOTS.COM</a>'
 photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
-
+date: 2022-06-05
+slug: study
 ---
+
 (今回はプログラミングとは全く関係ない内容です。)
 
 特に留学したいわけではないのですが、なんとなく興味があるのと先生からの謎の圧で先輩の留学体験記を聞く機会がたまにあります。

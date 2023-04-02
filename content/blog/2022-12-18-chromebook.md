@@ -1,20 +1,19 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags:
 - PC
 - Google
 - Chromebook
-
 title: 改めて感じた Chromebook の良さ〜心配がいらない PC〜
 thumbnail: "/img/2022-12-18-chromebook.webp"
 headAlt: 机の上に置かれた Chromebook とスケッチブック
 series: ''
 series_title: ''
-
+date: 2022-12-18
+slug: chromebook
 ---
+
 個性的な CM が流れたり、GIGA スクール構想で大量導入されたりしてかなり知名度が上がった Chromebook。普段は Windows を使用している僕が久しぶりに使用してみて感じた良さを書きます。
 
 ※この記事で言う「Chromebook」は現在僕が使っているものを指します。全ての Chromebook で同じことが言えるとは限りませんのでご注意ください。

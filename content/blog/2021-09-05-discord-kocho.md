@@ -3,11 +3,15 @@ author: FrogApp
 title: "【完全無料・24時間稼働】Discord の bot を作った話"
 description: 1円もかけずに運営
 categories: SNS
-tags: Discord bot 自動化 Glitch
-
- 
-
+tags:
+- Discord
+- bot
+- 自動化
+- Glitch
+date: 2021-09-05
+slug: discord
 ---
+
 こんにちは！今回は、**1円もかけずに** Discord の bot を作ったのでその話をしていこうと思います。
 
 <div class="alert-card">

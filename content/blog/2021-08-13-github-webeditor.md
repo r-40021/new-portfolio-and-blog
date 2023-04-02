@@ -3,8 +3,14 @@ author: FrogApp
 title: "GitHub 公式がブラウザ上で VS Code を使える機能を実装したので、レビュー"
 description: VS Code がまんまブラウザで使える
 categories: プログラミング
-tags: プログラミング GitHub VSCode
+tags:
+- プログラミング
+- GitHub
+- VSCode
+date: 2021-08-13
+slug: github
 ---
+
 
 先日、GitHub がブラウザ上で VS Code を使える新機能を発表しました。
 

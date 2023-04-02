@@ -3,8 +3,14 @@ author: FrogApp
 title: "10分で定員付きの Google フォームを作ろう＜コピペ可＞"
 description: "定員に達したらフォームを閉じるだけじゃない"
 categories: プログラミング
-tags: Google GAS JavaScript
+tags:
+- Google
+- GAS
+- JavaScript
+date: 2021-09-16
+slug: form
 ---
+
 
 ## 今回やったこと
 

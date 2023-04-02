@@ -3,8 +3,14 @@ author: FrogApp
 title: "Google ドライブの動画が再生できないときの対処法"
 description: "原因は、Chrome のアレ"
 categories: PC
-tags: Google Chrome Safari
+tags:
+- Google
+- Chrome
+- Safari
+date: 2021-09-09
+slug: drive
 ---
+
 
 うぎゃぁぁぁぁぁぁあ
 

@@ -4,7 +4,10 @@ title: "Twitter のアカウントを復活！残るデータ・消えるデー�
 description: "筆者が体を張って検証！"
 categories: SNS
 tags: Twitter
+date: 2021-08-31
+slug: twitter
 ---
+
 
 ついにこの日がやってきてしまいました...
 

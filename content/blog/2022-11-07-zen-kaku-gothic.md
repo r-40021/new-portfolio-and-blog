@@ -1,17 +1,16 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags: []
-
 title: Google スライドで使える最強日本語フォント
 thumbnail: "/img/2022-11-07-title.webp"
 headAlt: "「Google スライドで使える最強日本語フォント」のカバー画像"
 series: ''
 series_title: ''
-
+date: 2022-11-07
+slug: zen
 ---
+
 「Google スライドって便利なんだけど日本語フォントが微妙… Noto Sans JP 早く使えるようにしてくれ！」と思ってフォント一覧を見ていたらよさげな日本語フォントを見つけたのでその紹介です。
 
 ## Zen Kaku Gothic New

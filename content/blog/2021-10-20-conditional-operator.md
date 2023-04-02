@@ -2,8 +2,13 @@
 author: FrogApp
 title: "三項演算子が便利すぎて感動した"
 categories: プログラミング
-tags: プログラミング JavaScript
+tags:
+- プログラミング
+- JavaScript
+date: 2021-10-20
+slug: conditional
 ---
+
 
 数ヶ月前、三項演算子に出会って感動したので、まだこの感動を味わっていない方向けに記事を書きました。
 

@@ -1,8 +1,6 @@
 ---
 author: FrogApp
 categories: お知らせ
-
- 
 tags:
 - Firefox
 - お知らせ
@@ -13,8 +11,10 @@ photoSource: '<a href="https://unsplash.com/s/photos/firefox?utm_source=unsplash
 title: Firefox学生マーケティングチームに参加しました
 thumbnail: "/img/2022-08-06-fox.jpg"
 headAlt: レッサーパンダ
-
+date: 2022-08-06
+slug: fxstudent
 ---
+
 学生が主体となってFirefoxの広報活動を行っている、Firefox学生マーケティングチームにこの度参加しました。
 
 ## Firefox学生マーケティングチームとは？

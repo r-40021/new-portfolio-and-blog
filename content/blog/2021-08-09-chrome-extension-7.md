@@ -5,11 +5,16 @@ description: いよいよ Web ストアに公開します！
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: Webストアに公開
-tags: プログラミング Chrome拡張機能
+tags:
+- プログラミング
+- Chrome拡張機能
 thumbnail: /img/2021-08-09-chrome.jpg
 photoCredits: '<a href="https://unsplash.com/@firmbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Firmbee.com</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/google-chrome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+date: 2021-08-09
+slug: chromechrome-extension-7
 ---
+
 
 拡張機能を作るシリーズ、最終回！いよいよ、拡張機能を Web ストアに公開していきます！
 

@@ -2,10 +2,16 @@
 author: FrogApp
 title: "Windows 11 に関する誤解を暴く"
 categories: PC
-tags: PC Windows Windows11
+tags:
+- PC
+- Windows
+- Windows11
 thumbnail: /img/2022-01-18-win11.jpg
 headAlt: Windows 11 の誤解を暴く
+date: 2022-01-18
+slug: windows11
 ---
+
 
 こんにちは。私は、Windows 11 を約1ヶ月間、メインで使っています。まだ新しい OS ということもあり、ネット上では「使いにくい」「改悪された」などいろいろなことが言われていますが、中には「誤解」も多く含まれています。
 

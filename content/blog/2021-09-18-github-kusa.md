@@ -2,8 +2,13 @@
 author: FrogApp
 title: "GitHub の草、17週連続フルコンボ達成！"
 categories: プログラミング
-tags: プログラミング GitHub
+tags:
+- プログラミング
+- GitHub
+date: 2021-09-18
+slug: github
 ---
+
 この度、GitHub の草で、17週連続フルコンボを達成しましたことをご報告いたします。
 
 「GitHub の草」というのは、GitHub 農場で育てている草のことではなく、GitHub のプロフィールに表示される、緑色のアレです。

@@ -1,19 +1,18 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags:
 - PC
 - レビュー
-
 title: メインPC (ThinkBook 13s Gen2)を1年弱使ってみて
 thumbnail: "/img/2022-10-04-stab.webp"
 headAlt: スタバで ThinkBook を開いている様子
 series: ''
 series_title: ''
-
+date: 2022-10-05
+slug: thinkbook
 ---
+
 1年弱メインPCとして利用しているThinkBook 13s Gen2をレビューします。今から同機種を買おうとする方は少ないと思いますが、同じThinkBookシリーズの購入を検討している方の一助になれば幸いです。
 
 ## 結論：安心して使える中価格帯PC

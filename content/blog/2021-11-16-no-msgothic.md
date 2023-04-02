@@ -2,12 +2,19 @@
 author: FrogApp
 title: "ＭＳ ゴシックを使わないで(切実)"
 categories: PC
-tags: PC Windows ポエム フォント
+tags:
+- PC
+- Windows
+- ポエム
+- フォント
 thumbnail: /img/2021-11-16-no-msgothic.jpg
 series: フォントの話
 series_title: ＭＳ ゴシックを使わないで(切実)
 headAlt: ＭＳ ゴシックを使わないで(切実)
+date: 2021-11-16
+slug: no
 ---
+
 
 私からのお願いです。「ＭＳ ゴシックを使わないでください。頭痛がします。」
 

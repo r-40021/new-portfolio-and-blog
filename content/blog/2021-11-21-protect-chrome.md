@@ -2,10 +2,16 @@
 author: FrogApp
 title: "プライバシーの宝庫、Chrome を守る〜晒し防止篇〜"
 categories: PC
-tags: PC Google Windows
+tags:
+- PC
+- Google
+- Windows
 thumbnail: /img/2021-11-21-protect-chrome.png
 headAlt: Chromeを守れ
+date: 2021-11-21
+slug: protect
 ---
+
 
 「他人に PC の画面を見せているとき、Chrome の他のタブで"アレ"な Web サイトを開いているのを見られてしまった...」
 

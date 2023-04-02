@@ -2,10 +2,16 @@
 author: FrogApp
 title: "【ソフト不要】Windows 11 のコンテキストメニューを従来の見た目に戻す"
 categories: PC
-tags: PC Windows Windows11
+tags:
+- PC
+- Windows
+- Windows11
 thumbnail: /img/2022-01-29-win11-context.jpg
 headAlt: Windows 11 のコンテキストメニューを戻す
+date: 2022-01-29
+slug: windows11
 ---
+
 
 こんにちは。今回は Windows 11 のコンテキストメニュー（右クリックしたときに出てくるメニュー）を従来の見た目に戻す方法を解説します。
 

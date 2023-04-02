@@ -5,8 +5,15 @@ description: 1回15分でサクッと開発。今回は、拡張機能をコン�
 categories: プログラミング
 series: Chrome 拡張機能を作ろう
 series_title: コンテキストメニューの作成
-tags: プログラミング Chrome拡張機能 JSON JavaScript
+tags:
+- プログラミング
+- Chrome拡張機能
+- JSON
+- JavaScript
+date: 2021-08-08
+slug: chromechrome-extension-6
 ---
+
 
 1回15分で拡張機能を作るシリーズ、第6弾！
 

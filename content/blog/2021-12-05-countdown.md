@@ -1,9 +1,12 @@
 ---
-author: FrogApp
+aut- hor:
+- FrogApp
 title: 年末年始の楽しい時間までカウントダウン！
 categories: 雑記
-
+date: 2021-12-05
+slug: countdown
 ---
+
 年末年始には楽しみなイベントがたくさんありますよね。
 
 クリスマスにお正月............

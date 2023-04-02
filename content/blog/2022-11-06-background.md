@@ -1,19 +1,18 @@
 ---
 author: FrogApp
 categories: プログラミング
-
- 
 tags:
 - アプリ開発
 - 雑記
-
 title: 自分のアプリが作られた背景を語る
 thumbnail: "/img/2022-11-06-background.webp"
 headAlt: それはどのようにして生まれたのか
 series: ''
 series_title: ''
-
+date: 2022-11-06
+slug: background
 ---
+
 そういえば、自分が運営しているウェブアプリが作られた背景の話をしたことがなかった気がするので今日はその話をします。
 
 以下のアプリの制作背景を今回は紹介します。

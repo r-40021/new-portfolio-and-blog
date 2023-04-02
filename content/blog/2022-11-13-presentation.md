@@ -1,18 +1,17 @@
 ---
 author: FrogApp
 categories: 雑記
-
- 
 tags:
 - プレゼン
-
 title: プレゼンで気をつけていること (自己流)
 thumbnail: "/img/2022-11-13-presentation.webp"
 headAlt: プレゼンで気をつけていること
 series: ''
 series_title: ''
-
+date: 2022-11-13
+slug: presentation
 ---
+
 今回は僕がプレゼンをするときに気をつけていることを紹介します。と言っても僕はそこまでプレゼンが上手いわけではないのですが、少しでも参考になれば幸いです。
 
 早速ですが、僕がいつも心がけているのは以下の7点です。

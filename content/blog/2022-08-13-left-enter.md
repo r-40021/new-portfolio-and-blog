@@ -1,8 +1,6 @@
 ---
 author: FrogApp
 categories: PC
-
- 
 tags:
 - PC
 - 作業効率化
@@ -13,8 +11,10 @@ photoSource: '<a href="https://unsplash.com/s/photos/typing?utm_source=unsplash&
 title: 左Enterキーのすゝめ(Linux、Windows対応)
 thumbnail: "/img/2022-08-13-keyboard.jpg"
 headAlt: タイピングしている様子
-
+date: 2022-08-13
+slug: left
 ---
+
 通常Enterキーは右側にありますが、これを左側にも設定すると便利だよーという話です。
 
 ## コストカットの被害者、Enter

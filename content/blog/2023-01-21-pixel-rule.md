@@ -1,20 +1,19 @@
 ---
 author: FrogApp
 categories: スマホ
-
- 
 tags:
 - スマホ
 - Google
 - Pixel
-
 title: "【Google Pixel】外出したらマナーモードを自動でオンにする"
 thumbnail: "/img/2023-01-21-rule.webp"
 headAlt: 前面に「マナーモードを自動で切り替える」の文字、背面は「ルール」の設定画面のスクリーンショット
 series: ''
 series_title: ''
-
+date: 2023-01-21
+slug: pixel
 ---
+
 Pixel の設定を眺めていたら、「ルール」という、現在地や接続している Wi-Fi に応じてマナーモードのオン / オフを切り替えられる非常に便利な機能を発見しました。
 
 今回は、そんな「ルール」機能の設定方法を解説します。

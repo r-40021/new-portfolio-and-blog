@@ -2,10 +2,15 @@
 author: FrogApp
 title: "Chromebook のランチャーを Windows のスタートメニューっぽくする"
 categories: PC
-tags: PC Chromebook
+tags:
+- PC
+- Chromebook
 thumbnail: /img/2022-02-18-chromebook-start-like-windows.jpg
 headAlt: WindowsのスタートメニューっぽいChromebookのランチャー
+date: 2022-02-18
+slug: chromebook
 ---
+
 
 お久しぶりです。最近、Chromebook の人気が出てきていますね。僕も学校で使っていますが、結構気に入っています。コスパ最高ですし、 Windows のように複雑な設定がないので使いやすいです。しかし、一つ気になる点を挙げるとすれば、**「「全画面のランチャーが使いづらい」」**点です。
 

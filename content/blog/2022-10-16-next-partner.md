@@ -1,8 +1,6 @@
 ---
 author: FrogApp
 categories: スマホ
-
- 
 tags:
 - iPhone
 - スマホ
@@ -17,8 +15,10 @@ thumbnail: "/img/2022-10-16-iphone6s.webp"
 headAlt: iPhone 6s
 series: ''
 series_title: ''
-
+date: 2022-10-16
+slug: next
 ---
+
 このブログを以前から読まれている方はご存知かと思いますが、私は iPhone 6s を使っています。数年前に Y!mobile で一括0円で手に入れたのですが、最近 iOS のサポートが切れたのと、バッテリーが壊滅的に持たなくなってきたので買い替えを検討している最中です。
 
 ## 結論：多分 Pixel 7

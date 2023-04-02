@@ -2,12 +2,18 @@
 author: FrogApp
 title: "ＭＳ ゴシックと Noto Sans を比較してみる(読者アンケート付き)"
 categories: PC
-tags: PC フォント ポエム
+tags:
+- PC
+- フォント
+- ポエム
 thumbnail: /img/2021-11-20-font-hikaku.png
 series: フォントの話
 series_title: フォントを比較
 headAlt: フォント比較
+date: 2021-11-20
+slug: font
 ---
+
 
 前回の記事で、「ＭＳ ゴシック」に対する私の意見を書かせていただきました。今回は実際にフォントを比較し、読者の皆様にも意見をお聞きしたいと思います。
 
