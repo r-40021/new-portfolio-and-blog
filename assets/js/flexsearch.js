@@ -65,7 +65,7 @@ Source:
   - https://raw.githack.com/nextapps-de/flexsearch/master/demo/autocomplete.html
 */
 
-function makeIndex() {
+async function makeIndex() {
     var index = new FlexSearch.Document({
       tokenize: "forward",
       cache: 100,
@@ -77,31 +77,17 @@ function makeIndex() {
       }
     });
   
-    // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
-    // Note: uses .Site.AllPages as .Site.RegularPages only returns content for the current language
-    //       pages without a title (such as browserconfig.xml) are excluded
-    {{ $list := where (where .Site.AllPages "Kind" "in" "page") "Title" "!=" "" }}
-    {{ $len := (len $list) -}}
-  
-    index.add(
-      {{ range $index, $element := $list -}}
-        {
-          id: {{ $index }},
-          tag: "{{ .Lang }}",
-          href: "{{ .RelPermalink }}",
-          title: {{ .Title | jsonify }},
-          {{ with .Description -}}
-            description: {{ . | jsonify }},
-          {{ else -}}
-            description: {{ .Summary | plainify | jsonify }},
-          {{ end -}}
-          content: {{ .Plain | jsonify }}
-        })
-        {{ if ne (add $index 1) $len -}}
-          .add(
-        {{ end -}}
-      {{ end -}}
-    ;
+    // インデックスファイルを取得
+    const js = await fetch('/search.js');
+    if (!js.ok) return;
+    const txt = await js.text();
+    const contents = trim(txt, 'const contents = ', '];') + ']';
+    const json = JSON.parse(contents);
+
+    // インデックスファイルをインデックスに追加
+    json.forEach(page => {
+      index.add(page);
+    });
   
     search.addEventListener('input', show_results, true);
   
@@ -159,3 +145,16 @@ function makeIndex() {
   }
   
 search.addEventListener('focus', makeIndex, {once: true});
+
+// 指定の文字の間の文字列を切り取る
+function trim(str, start, end) {
+  var start_index = str.indexOf(start);
+  if (start_index == -1) {
+      return "";
+  }
+  var end_index = str.indexOf(end, start_index + start.length);
+  if (end_index == -1) {
+      return "";
+  }
+  return str.substring(start_index + start.length, end_index);
+}

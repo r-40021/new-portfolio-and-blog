@@ -182,3 +182,8 @@ img {
 a.nav-link {
     white-space: nowrap;
 }
+
+#suggestions {
+    max-height: calc(100vh - 5em);
+    overflow-y: auto;
+}
