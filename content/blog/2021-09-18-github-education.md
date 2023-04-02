@@ -11,6 +11,7 @@ tags: プログラミング GitHub 学割
 (この記事で取り上げる情報は、全て2021年9月18日時点のものです。)
 
 ## GitHub Free と GitHub Pro の違い
+
 数多くある違いの中から、個人的に良さげに思ったものを取り上げます。
 
 - 非公開リポジトリでの GitHub Actions が2000分/月から3000分/月に
@@ -23,6 +24,7 @@ tags: プログラミング GitHub 学割
 ちなみに、通常ですと GitHub Pro は4米ドル/月かかります。
 
 ## 学生なら GitHub Education
+
 それでは本題に移っていきます。
 
 なんと学生の場合、GitHub Pro がタダで使えてしまうんです。
@@ -38,6 +40,7 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 ※GitHub Student Developer Pack の中身は、時期によって変わります。
 
 ## 登録手順
+
 まずは、<a href="https://education.github.com/pack/offers" target="_blank" rel="noopener noreferrer">GitHub Education 登録ページ</a>にアクセスしてください。
 
 ログインを求められるので、ログインしてください。
@@ -45,8 +48,6 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 13歳以上の学生かどうか尋ねられるので、自分が当てはまっていれば「Yes, I'm a student」をクリックしてください。
 
 ![生徒かどうかの確認](https://user-images.githubusercontent.com/75155258/133803169-32f022b7-58df-4774-9b69-b96c1083b4e6.png)
-
-
 
 遷移先のページに、また留意事項が表示されます。
 
@@ -82,6 +83,7 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 これで申請は完了です。
 
 ## メールを確認
+
 申請送信後、先程入力(入力というよりは選択？)したメールアドレスに、申請を受け付けた旨のメールが届きます。
 
 迷惑メールフォルダなどにも届いていない場合は、入力したメールアドレスが間違っていた可能性があります。
@@ -93,6 +95,7 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 期限を設定してくれるのはありがたいですね。ただ、僕の場合は期限を過ぎても結果が届きませんでしたが...
 
 ## 申請承認からの流れ
+
 学生であることを証明できており、かつ変なことを書いていなければ、申請はほぼ通ります。
 
 申請の結果が出ると、承認・却下問わず、申請受理メールと同じアドレスにメールが届きます。
@@ -109,10 +112,8 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 
 ![Proバッジ](https://user-images.githubusercontent.com/75155258/133808230-e29b1328-5794-43ab-b4dd-f89e8e67d117.png)
 
-
 ## まとめ
+
 いかがでしたか？
 
 学生限定の恩恵は、できる限りたくさん受けておきたいものです。
-
-

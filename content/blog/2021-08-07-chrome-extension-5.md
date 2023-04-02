@@ -12,6 +12,7 @@ photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=refe
 ---
 
 ## お詫びと訂正
+
 [本連載第4回 「コピー機能の実装」](https://blog.frogapp.net/2021-08/chrome-extension-4)のコードの一部に誤りがありました。お詫びして訂正いたします。
 
 誤
@@ -31,6 +32,7 @@ document.getElementById("LINE").addEventListener("click", ()=>{
 ```
 
 ## 権限を少なくする
+
 では、本題に入ります。
 
 前回まで書いてきたコードですが、まだ課題があります。
@@ -70,6 +72,7 @@ document.getElementById("LINE").addEventListener("click", ()=>{
 そこで、URL にこれらが存在するか調べる機能を実装していきます。
 
 ### HTML の修正
+
 「Facebook のシェアボタン」〜「LINE で送るボタン」までを、`<div id="sns">`で囲んでください。
 
 ### JavaScript の修正
@@ -101,6 +104,7 @@ if(!/http\:\/\/|https\:\/\//.test(tabUrl)) {
 今日は以上です！
 
 ## まとめ
+
 - `tabs` の代わりに `activeTab` を指定することで、権限が無駄に多くなることが防げる。
 - `test` を用いると、文字列を検索することができる。
 

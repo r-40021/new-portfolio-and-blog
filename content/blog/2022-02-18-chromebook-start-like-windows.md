@@ -7,11 +7,7 @@ thumbnail: /img/2022-02-18-chromebook-start-like-windows.jpg
 headAlt: WindowsのスタートメニューっぽいChromebookのランチャー
 ---
 
-お久しぶりです。最近、Chromebook の人気が出てきていますね。僕も学校で使っていますが、結構気に入っています。コスパ最高ですし、 Windows のように複雑な設定がないので使いやすいです。しかし、一つ気になる点を挙げるとすれば、
-
-**「「全画面のランチャーが使いづらい」」**
-
-点です。
+お久しぶりです。最近、Chromebook の人気が出てきていますね。僕も学校で使っていますが、結構気に入っています。コスパ最高ですし、 Windows のように複雑な設定がないので使いやすいです。しかし、一つ気になる点を挙げるとすれば、**「「全画面のランチャーが使いづらい」」**点です。
 
 ![普通のChromebookのランチャーのスクリーンショット](https://user-images.githubusercontent.com/75155258/154628667-f43003c2-c220-41bf-8b8b-cbfa6f20c627.jpg)
 
@@ -30,7 +26,6 @@ headAlt: WindowsのスタートメニューっぽいChromebookのランチャー
 <div class="alert-card">
   Chrome OS のバージョンによってはこの方法が使えない場合があります。
 </div>
-
 
 まずは、 Chrome のアドレスバーに `chrome://flags` と入力し、Enter キーを押してください。
 
@@ -65,7 +60,6 @@ headAlt: WindowsのスタートメニューっぽいChromebookのランチャー
 シェルフ縦置き族の皆様も安心して全画面ランチャーに別れを告げることができます。
 
 ![シェルフを右置きにした場合のスクリーンショット](https://user-images.githubusercontent.com/75155258/154661686-88d1069d-fe98-49e2-b05f-65234a5b1ee4.jpg)
-
 
 新鮮な Chromebook をぜひ楽しんでみてください！
 

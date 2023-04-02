@@ -21,6 +21,7 @@ categories: 雑記
 クリスマス直前には特別な演出があるかもしれません。
 
 ## 元日
+
 <a href="https://blog.frogapp.net/countdown-timer/?date=2022/01/01&time=00:00&title=%E3%81%95%E3%82%89%E3%81%B02021%E3%80%81%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F2022" target="_blank" rel="noopener noreferrer">タイマーを開く</a>
 
 2022年になる瞬間までのカウントダウンタイマーです。

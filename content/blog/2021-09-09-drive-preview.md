@@ -12,8 +12,8 @@ tags: Google Chrome Safari
 
 ぶおおおおおおおおおおおおおおおお
 
-
 ## 事件発生！
+
 それはある日のこと。Google ドライブ経由で動画が共有されたので、再生しようとした。
 
 **しかし！！**
@@ -23,8 +23,6 @@ tags: Google Chrome Safari
 ![ローディング](https://user-images.githubusercontent.com/75155258/132655066-b2fa2534-e9da-4d97-954b-fa12dfcc5133.png)
 
 永遠にローディング...
-
-
 
 しかも、その方はセキュリティ意識が高いのか、ダウンロードを禁止していました。
 
@@ -45,7 +43,6 @@ tags: Google Chrome Safari
 ![サードパーティCookieのブロック](https://user-images.githubusercontent.com/75155258/132655587-c7f39545-efc6-46e9-ac44-c5d33ce3a64a.png)
 
 ![cookieを許可](https://user-images.githubusercontent.com/75155258/132656296-20c2d78f-995d-49bb-ac73-f97290017faf.png)
-
 
 ## サードパーティ Cookie とは
 
@@ -94,6 +91,7 @@ Google ドライブを始めとする Google のサービスは、他のドメ�
 ただ、今回はサードパーティー Cookie を使用しないとサイトが正常に動作しないので、例外として許可しています。
 
 ## まずはサードパーティー Cookie を疑おう
+
 今後多くのサイトで「脱・サードパーティー Cookie」が進んでいくと思われますが、まだまだ初期段階です。
 
 今回のようにサイトが正常に動作しない場合は、まずサードパーティー Cookie を許可してみると、正常に動くようになるの可能性が高いので、ぜひ試してみてください。

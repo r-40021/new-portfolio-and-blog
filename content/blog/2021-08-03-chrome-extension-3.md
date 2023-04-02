@@ -18,7 +18,9 @@ photoSource: '<a href="https://unsplash.com/s/photos/develop?utm_source=unsplash
 今回はボリュームが大きいので、15分で終わらないかもしれません。その時はごめんなさい。
 
 ## 仕様
+
 まずは今回の拡張機能の仕様を紹介します。
+
 - 2つの独立したテキストボックスに、URL・ページタイトルをそれぞれ代入する
 - URL・ページタイトルは、それぞれコピーできる
 - URLとページタイトルを両方コピーすることもできる
@@ -27,6 +29,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/develop?utm_source=unsplash
 とりあえずこのような仕様でいきます。
 
 ## ポップアップの作成
+
 前回作ったものは、「Hello, world」と出力するだけのものでしたが、今回は更に拡張機能っぽくしていきます。
 
 なお、今から記述していく HTML と CSS は簡単なものなのでコピペで済ませて構いません。後半の JavaScript が難しいので...
@@ -186,7 +189,6 @@ url.value = location.href;  //URLを代入
 
 (URL は人によって異なるかもしれません。また、ポップアップに `<title>` タグが指定されていないため、「タイトル」欄は空白になっています。)
 
-
 そこで、用いるのが、`chrome.tabs.query`メソッドです！これは、Chrome の拡張機能のみが使用することができるメソッドとなっています。
 
 このメソッドを使うためには、`manifest.json`に以下の内容を書き加えて、「この拡張機能は開いているタブの情報を必要とするから教えてくれ」ということをブラウザに伝える必要があります。
@@ -217,6 +219,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, tabs => {
     url.value = tabs[0].url;
 });
 ```
+
 では、`chrome.tabs.query` について詳しく説明していきます。
 
 `chrome.tabs.query`は、条件に合うタブの情報を、NodeList 形式で返してくれるメソッドです。NodeList がよくわからない人は、普通の JavaScript の配列やオブジェクトと同じようなものと覚えておいてください。
@@ -286,6 +289,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, tabs => {
 では、今日はこの辺にして、次回はメインの「コピー機能」と SNS への「シェア機能」を実装していきます。お楽しみに！
 
 ## 問題点と予告
+
 実は、このコードにはまだ問題があります。この画像は、Chrome の拡張機能の管理画面のスクリーンショットです。
 
 ![権限多すぎ](https://user-images.githubusercontent.com/75155258/127963556-97d4558d-cb67-40f7-8ac4-cf119b9a35bc.png)
@@ -295,6 +299,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, tabs => {
 これについては、次々回で対処していきます！
 
 ## まとめ
+
 - `chrome.tabs.query` でタブの検索が行える。
 
 今日はお疲れさまでした！次回をお楽しみに。

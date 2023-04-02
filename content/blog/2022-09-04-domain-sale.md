@@ -19,7 +19,6 @@ series_title: ''
 この記事の内容は、2022/09/04時点の情報に基づいています。ドメインの価格は高頻度で変動するので、常に最新情報を参照するようにお願いします。
 </div>
 
-
 さて、以前[ドメインを1円で取得した話]({{ site.baseurl }}/2022-08/domain)をしましたが、なんと、それが今では0円になっているそうです。なんか損した気分。
 
 このセールを行っているのは、国内シェア1位を誇る<a href="https://www.onamae.com/" target="_blank" rel="noopener noreferrer">お名前.com</a>と、<a href="https://www.value-domain.com/" target="_blank" rel="noopener noreferrer">Value Domain</a>です。(他にもやっているところがあるかもしれませんが。)

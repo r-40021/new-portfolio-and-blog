@@ -15,6 +15,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
 これでかなり拡張機能っぽくなります。
 
 ## ポップアップとは
+
 拡張機能のアイコンをクリックした時に出てくるもののことです。ここから拡張機能の設定や操作を行うことができます。拡張機能を使ったことがあれば、一度は目にしたことがあるでしょう。
 
 実は、このポップアップは、**HTMLとCSSでできています**！
@@ -22,6 +23,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
 ということで、サクッと作っちゃいましょう！
 
 ## 今回作っていくもの
+
 前回、「作るものはお楽しみ」と言っておきましたが、今回作っていく拡張機能が、ついに決まりました。
 
 それは、「開いているページのタイトルとURLをコピーする拡張機能」です。
@@ -33,6 +35,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
 では、早速作っていきましょう！
 
 ## 設定ファイルを作る
+
 ブラウザに、「これはこのような拡張機能ですよ」と教えてあげるための、設定ファイルを作っていきます。
 
 拡張機能開発用のフォルダを作って、`manifest.json` を作成してください。その後、下のコードを記述してください。
@@ -55,9 +58,9 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
     }
   }
   ```
- 
+
 では、この`manifest.json`について解説していきます。
- 
+
 | 名称 | 説明 |
 | :---: | :--- |
 | `name` | 拡張機能の名称 |
@@ -68,6 +71,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
 | `action` | ポップアップに関する設定。<br><br>`default_title`で、拡張機能のアイコンにカーソルをホバーした時に表示されるテキストを指定。<br><br>`default_icon`で、ブラウザのURLバーの右側に表示される、拡張機能のアイコンを指定。ここでは、先程の`icons`で指定した`48x48`の画像を流用。<br><br>`default_popup`で、ポップアップとして表示させるHTMLファイルを指定。 |
 
 ## アイコン
+
 アイコンは下のリンクからダウンロードできます。
 
 `.zip`形式ですので、解凍して拡張機能の開発用フォルダの一番上の階層に、3つの画像を配置してください。
@@ -83,6 +87,7 @@ photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unspl
 ![フォルダ](https://user-images.githubusercontent.com/75155258/127797042-5be976a0-d12a-4653-a309-3afe987167fb.png)
 
 ## HTML ファイルの作成
+
 それでは、HTML ファイルを記述してポップアップを作っていきます。
 
 開発用フォルダの一番上の階層に、`popup.html` を作成し、以下のコードを記述してください。
@@ -126,7 +131,9 @@ setTimeout(() => {
 ![ファルダの中身](https://user-images.githubusercontent.com/75155258/127799634-641102be-ddef-43c8-9b93-80e54d0c24a7.png)
 
 ## テストする
+
 ここまで、
+
 - 設定ファイル(`manifest.json`)
 - HTMLファイル(`popup.html`)
 - CSSファイル(`popup.css`)
@@ -158,6 +165,7 @@ setTimeout(() => {
 ![拡張機能をピン留め](https://user-images.githubusercontent.com/75155258/127799053-701f68c1-05f0-4ebf-86d6-2a9f8843346d.png)
 
 ## まとめ
+
 - ポップアップ付き拡張機能の作成には、`manifest.json`、HTMLファイル、JavaScript ファイル、CSS ファイルが必要である。
 - `manifest.json`は拡張機能の情報を、ブラウザに伝えるためのファイルである。
 - HTML、CSS、JavaScript でポップアップを作成する。ここは、普通のWebアプリと変わらない。

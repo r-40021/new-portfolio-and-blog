@@ -16,6 +16,4 @@ YouTube チャンネルの使い道がやっとできた...
 
 記念すべき第1作目は、「Discord アカウントの作成手順」です。OBS の練習も兼ねています。
 
-
-
 <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/QzKQBk09cOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

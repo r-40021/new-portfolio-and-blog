@@ -40,7 +40,6 @@ tags: プログラミング Chrome拡張機能 JSON JavaScript
 }
 ```
 
-
 全体で以下のようになります。
 
 ```JSON
@@ -104,9 +103,8 @@ const parent = chrome.contextMenus.create({
 | 項目 | 説明 |
 | :---: | :--- |
 | `id` | 後で参照する時に用いる ID |
-| `title ` | コンテキストメニューに表示する文字列 |
+| `title` | コンテキストメニューに表示する文字列 |
 | `contexts` | どこを右クリックした際のコンテキストメニューに追加するか。<br><a href="https://developer.chrome.com/docs/extensions/reference/contextMenus/#type-ContextType" target="_blank" rel="noopener noreferrer">詳細情報</a> |
-
 
 ## 子コンテキストメニューを作成する
 
@@ -296,7 +294,7 @@ function LINE() {
 
 `info.menuItemId` に、先程コンテキストメニューを作成した際に指定した ID が格納されているので、それで処理を分けます。
 
-`switch` 文は `if ... else if ... else if ... else ... ` と同じような処理が簡単に行える文です。
+`switch` 文は `if ... else if ... else if ... else ...` と同じような処理が簡単に行える文です。
 <a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/switch" target="_blank" rel="noopener noreferrer">詳細情報</a>
 
 `chrome.scripting.executeScript` で、指定したタブに指定した JavaScript のコードを挿入できます。
@@ -312,13 +310,14 @@ function LINE() {
 これで、拡張機能を更新すると、コンテキストメニューからも各種操作が行えるようになります。
 
 ## まとめ
+
 - `background.js` でコンテキストメニューを作成できる。
 - `background.js` から DOM を操作するには、`scripting` 権限が必要である。`chrome.contextMenus.onClicked.addListener((info, tab) => {})` で JavaScript コードを指定のタブに挿入できる。
 
 今回扱ったコードは <a href="https://github.com/r-40021/copy_title-URL/tree/lesson_6" target="_blank" rel="noopener noreferrer">こちら</a> から見られます。ぜひ参考にしてみてください。
 
-
 ## 次回予告
+
 次回はいよいよ、作成した拡張機能を Web ストアに出品していきます。
 
 以下のものが必要になるので、次回までに用意しておいてください。

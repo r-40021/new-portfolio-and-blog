@@ -89,6 +89,7 @@ headAlt: Chromeを守れ
 | Gmail     | mail.google.com |
 
 ### 表示される Web サイト名を変更する
+
 デフォルトでは作者が考えた、架空の Web サイト名が表示されるようになっています。
 
 しかし、作者が考えた名前はどれも「学生仕様」で社会人の方々には使いづらいかもしれません。
@@ -106,11 +107,12 @@ headAlt: Chromeを守れ
 また、この設定は Google アカウントで同期されるので、他の端末で Chrome を使用している場合にいちいち設定する手間が省けます。
 
 ## 安全面
+
 この拡張機能は、三度の飯よりプログラミングが好きな日本人の学生が開発しています。
 
 また、開発者はユーザーの情報を一切収集していないとのことです。
 
-さらに、この拡張機能のプログラムコードはインターネット上で公開されており、誰でも閲覧できます。　
+さらに、この拡張機能のプログラムコードはインターネット上で公開されており、誰でも閲覧できます。
 
 <a href="https://github.com/r-40021/rename_tab" target="_blank" rel="noopener noreferrer">r-40021/rename_tab: タブの表示名を変更できるChrome拡張機能 - GitHub</a>
 
@@ -119,6 +121,7 @@ headAlt: Chromeを守れ
 これなら信用できそうですね。
 
 ## まとめ
+
 使い勝手抜群＆安心な拡張機能「Rename Tab」、ぜひ使ってみてください！！
 
 <a href="https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo" target="_blank" rel="noopener noreferrer">Rename Tab - Chrome ウェブストア</a>

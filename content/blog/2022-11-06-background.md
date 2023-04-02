@@ -70,7 +70,7 @@ series_title: ''
 
 ## ストップウォッチ
 
-![](/img/2022-11-06-stopwatch.webp)
+![ストップウォッチのスクリーンショット](/img/2022-11-06-stopwatch.webp)
 
 [ストップウォッチ](https://stopwatch.frogapp.net)
 
