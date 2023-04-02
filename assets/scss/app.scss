@@ -112,3 +112,69 @@ a[target="_blank"]:after {
 img {
     max-width: 100%;
 }
+
+.alert-card {
+    background-color: #ffe0e0;
+    border-radius: 7px;
+    color: #6e2121;
+    display: flex;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    a[target="_blank"]:after {
+        background-color: #6e2121;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.warning-card {
+    background-color: #fff5bf;
+    border-radius: 7px;
+    color: #544321;
+    display: flex;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    a[target="_blank"]:after {
+        background-color: #544321;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.info-card {
+    background-color: #cfe8ff;
+    border-radius: 7px;
+    color: #164d7a;
+    display: flex;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    a[target="_blank"]:after {
+        background-color: #164d7a;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
