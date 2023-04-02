@@ -45,7 +45,7 @@ slug: protect-chrome
 
 ブラウザの再起動が終わったら、再度拡張機能の設定画面を開いてください。
 
-![拡張機能の設定画面](https://blog.frogapp.net/uploads/2021/11/21/rename_tab.png)
+![拡張機能の設定画面](https://frogapp.net/blog/uploads/2021/11/21/rename_tab.png)
 
 これが設定画面です。シンプルですね。
 

@@ -20,7 +20,7 @@ slug: chrome-extension-5
 
 ## お詫びと訂正
 
-[本連載第4回 「コピー機能の実装」](https://blog.frogapp.net/2021-08/chrome-extension-4)のコードの一部に誤りがありました。お詫びして訂正いたします。
+[本連載第4回 「コピー機能の実装」](https://frogapp.net/blog/2021-08/chrome-extension-4)のコードの一部に誤りがありました。お詫びして訂正いたします。
 
 誤
 

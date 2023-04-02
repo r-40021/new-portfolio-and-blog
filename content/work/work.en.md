@@ -95,7 +95,7 @@ Does it look like a certain search engine's screen? No way...
 
 ![Snapdrop JP](/img/works-snapdrop-jp.webp)
 
-This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese. 
+This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese.
 
 Translating English-specific phrases is difficult, and there are still some unnatural parts, but I will improve it in the future.
 
@@ -119,7 +119,7 @@ This is an extension that hides the icon displayed on the browser tab and replac
 
 ![Easy Page Sharing](/img/works-share.png)
 
-This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps. 
+This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps.
 
 I have made sure that you can install it with peace of mind by not requiring any permissions during installation.
 
@@ -143,7 +143,7 @@ This is an extension that displays the number of characters in real-time when yo
 
 ![Making fonts easy to read by replacing them](/img/works-replace-font.jpg)
 
-This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font. 
+This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font.
 
 The author is surprised to see that the number of users has exceeded 500.
 

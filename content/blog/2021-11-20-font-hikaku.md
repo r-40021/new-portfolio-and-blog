@@ -21,7 +21,7 @@ slug: font-hikaku
 
 双方向って大事ですからね〜
 
-[【参考記事】ＭＳ ゴシックを使わないで(切実)](https://blog.frogapp.net/2021-11/no-msgothic)
+[【参考記事】ＭＳ ゴシックを使わないで(切実)](https://frogapp.net/blog/2021-11/no-msgothic)
 
 ## まずは2種類のフォントを比較
 

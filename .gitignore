@@ -10,4 +10,4 @@ node_modules/
 hugo_stats.json
 node_modules
 
-assets/img
+assets/img/*

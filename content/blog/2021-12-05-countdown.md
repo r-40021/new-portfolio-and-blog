@@ -17,7 +17,7 @@ slug: countdown
 
 ## クリスマス
 
-<a href="https://blog.frogapp.net/countdown-timer/?date=2021/12/25&time=00:00&title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9" target="_blank" rel="noopener noreferrer">タイマーを開く</a>
+<a href="https://timer.frogapp.net/?date=2021/12/25&time=00:00&title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9" target="_blank" rel="noopener noreferrer">タイマーを開く</a>
 
 クリスマスまでのカウントダウンタイマーです。
 
@@ -25,7 +25,7 @@ slug: countdown
 
 ## 元日
 
-<a href="https://blog.frogapp.net/countdown-timer/?date=2022/01/01&time=00:00&title=%E3%81%95%E3%82%89%E3%81%B02021%E3%80%81%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F2022" target="_blank" rel="noopener noreferrer">タイマーを開く</a>
+<a href="https://timer.frogapp.net/?date=2022/01/01&time=00:00&title=%E3%81%95%E3%82%89%E3%81%B02021%E3%80%81%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F2022" target="_blank" rel="noopener noreferrer">タイマーを開く</a>
 
 2022年になる瞬間までのカウントダウンタイマーです。
 
