@@ -42,6 +42,8 @@
             {{ partial "utilities/git.html" . }}
         </div>
     {{ else }}
+        {{- partial "assets/series.html" . -}}
+        {{- partial "assets/related.html" . -}}
         <div class="row row-cols-2 mt-5 mb-3">
             <div class="col">
                 {{ with .NextInSection -}}

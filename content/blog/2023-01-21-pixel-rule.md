@@ -11,7 +11,7 @@ headAlt: 前面に「マナーモードを自動で切り替える」の文字�
 series: ''
 series_title: ''
 date: 2023-01-21
-slug: pixel
+slug: pixel-rule
 ---
 
 Pixel の設定を眺めていたら、「ルール」という、現在地や接続している Wi-Fi に応じてマナーモードのオン / オフを切り替えられる非常に便利な機能を発見しました。

@@ -9,7 +9,7 @@ tags:
 thumbnail: /img/2022-01-29-win11-context.jpg
 headAlt: Windows 11 のコンテキストメニューを戻す
 date: 2022-01-29
-slug: windows11
+slug: windows11-context
 ---
 
 

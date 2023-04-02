@@ -6,7 +6,7 @@ tags:
 - プログラミング
 - Glitch
 date: 2021-10-06
-slug: delete
+slug: delete-glitch-project
 ---
 
 

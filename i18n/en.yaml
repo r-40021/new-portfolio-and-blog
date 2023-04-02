@@ -123,3 +123,7 @@
 # Draft
 - id: draft
   translation: "Draft"
+
+# Series
+- id: series
+  translation: "The posts of {{ . }}:"

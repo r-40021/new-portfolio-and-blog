@@ -12,7 +12,7 @@ title: 左Enterキーのすゝめ(Linux、Windows対応)
 thumbnail: "/img/2022-08-13-keyboard.jpg"
 headAlt: タイピングしている様子
 date: 2022-08-13
-slug: left
+slug: left-enter
 ---
 
 通常Enterキーは右側にありますが、これを左側にも設定すると便利だよーという話です。

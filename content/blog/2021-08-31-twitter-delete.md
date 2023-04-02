@@ -5,7 +5,7 @@ description: "筆者が体を張って検証！"
 categories: SNS
 tags: Twitter
 date: 2021-08-31
-slug: twitter
+slug: twitter-delete
 ---
 
 

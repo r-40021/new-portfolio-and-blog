@@ -44,7 +44,7 @@
         footer = "none"
         orientation = "stacked"
         style = "border-0 card-zoom"
-        homepage = 6
+        homepage = 9
         separator = true
     [works]
         title = "Works"

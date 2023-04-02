@@ -12,7 +12,7 @@ title: KDE Plasmaでスクリーンショットが昔の画面になってしま
 thumbnail: "/img/2022-08-11-screen.jpg"
 headAlt: スクリーン
 date: 2022-08-11
-slug: kde
+slug: kde-screenshot
 ---
 
 KDE Plasma でスクリーンショットを撮ろうとしたところ、現在の画面ではなく随分昔の画面が撮影されてしまう不具合に遭遇しました。

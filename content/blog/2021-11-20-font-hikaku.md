@@ -11,7 +11,7 @@ series: フォントの話
 series_title: フォントを比較
 headAlt: フォント比較
 date: 2021-11-20
-slug: font
+slug: font-hikaku
 ---
 
 

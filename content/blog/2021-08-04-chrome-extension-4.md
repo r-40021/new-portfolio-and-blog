@@ -13,7 +13,7 @@ thumbnail: /img/2021-08-04-twitter.jpg
 photoCredits: '<a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Alexander Shatov</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/twitter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2021-08-04
-slug: chromechrome-extension-4
+slug: chrome-extension-4
 ---
 
 

@@ -8,7 +8,7 @@ tags:
 - GitHub
 - VSCode
 date: 2021-08-13
-slug: github
+slug: github-webeditor
 ---
 
 

@@ -124,3 +124,7 @@
 # Draft
 - id: draft
   translation: "下書き"
+
+# Series
+- id: series
+  translation: "「{{ . }}」の記事一覧"

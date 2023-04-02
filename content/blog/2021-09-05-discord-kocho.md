@@ -9,7 +9,7 @@ tags:
 - 自動化
 - Glitch
 date: 2021-09-05
-slug: discord
+slug: discord-kocho
 ---
 
 こんにちは！今回は、**1円もかけずに** Discord の bot を作ったのでその話をしていこうと思います。

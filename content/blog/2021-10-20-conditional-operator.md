@@ -6,7 +6,7 @@ tags:
 - プログラミング
 - JavaScript
 date: 2021-10-20
-slug: conditional
+slug: conditional-operator
 ---
 
 

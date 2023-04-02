@@ -7,7 +7,7 @@ tags:
 - Aviutl
 - YouTube
 date: 2021-09-13
-slug: aviutl
+slug: aviutl-deview
 ---
 
 この度、Aviutl の勉強をはじめました。

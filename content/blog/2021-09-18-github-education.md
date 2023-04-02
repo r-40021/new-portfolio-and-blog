@@ -8,7 +8,7 @@ tags:
 - GitHub
 - 学割
 date: 2021-09-18
-slug: github
+slug: github-education
 ---
 
 

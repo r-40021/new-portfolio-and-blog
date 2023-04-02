@@ -8,7 +8,7 @@ title: ManjaroとXubuntuをデュアルブートしたらKarnel Panicになっ�
 thumbnail: "/img/2022-06-23-manjaro-gnome.jpg"
 headAlt: Manjaroのデスクトップ画面
 date: 2022-07-02
-slug: manjaro
+slug: manjaro-karnel
 ---
 
 Xubuntuは起動するのにManjaroくんが起動しない…

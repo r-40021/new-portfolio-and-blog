@@ -12,7 +12,7 @@ title: "【1周年記念】ブログを書くのは非効率だが、いいこ�
 thumbnail: "/img/2022-07-28-anniversary.jpg"
 headAlt: 誕生日ケーキ
 date: 2022-07-29
-slug: 1st
+slug: 1st-anniversary
 ---
 
 今日は、僕がブログを始めてちょうど1年になります。1年続けての振り返りと今感じていることを書き垂らします。

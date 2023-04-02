@@ -8,7 +8,7 @@ tags:
 - Chrome
 - Safari
 date: 2021-09-09
-slug: drive
+slug: drive-preview
 ---
 
 

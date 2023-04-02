@@ -12,7 +12,7 @@ photoCredits: '<a href="https://unsplash.com/@jeshoots?utm_source=unsplash&utm_m
 photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2022-06-05
-slug: study
+slug: study-abroad
 ---
 
 (今回はプログラミングとは全く関係ない内容です。)

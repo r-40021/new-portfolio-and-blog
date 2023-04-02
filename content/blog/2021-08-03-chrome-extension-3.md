@@ -14,7 +14,7 @@ series_title: 仕様に沿って開発
 photoCredits: '<a href="https://unsplash.com/@jantined?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jantine Doornbos</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/develop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2021-08-03
-slug: chromechrome-extension-3
+slug: chrome-extension-3
 ---
 
 

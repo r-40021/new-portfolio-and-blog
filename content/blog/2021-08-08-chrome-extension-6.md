@@ -11,7 +11,7 @@ tags:
 - JSON
 - JavaScript
 date: 2021-08-08
-slug: chromechrome-extension-6
+slug: chrome-extension-6
 ---
 
 

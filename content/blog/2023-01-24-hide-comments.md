@@ -9,7 +9,7 @@ headAlt: コメント欄非表示にします
 series: ''
 series_title: ''
 date: 2023-01-24
-slug: hide
+slug: hide-comments
 ---
 
 表題の通り、9月下旬から実証実験を行っていたコメント欄を一旦非表示にします。

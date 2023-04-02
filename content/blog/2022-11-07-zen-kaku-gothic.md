@@ -8,7 +8,7 @@ headAlt: "「Google スライドで使える最強日本語フォント」のカ
 series: ''
 series_title: ''
 date: 2022-11-07
-slug: zen
+slug: zen-kaku-gothic
 ---
 
 「Google スライドって便利なんだけど日本語フォントが微妙… Noto Sans JP 早く使えるようにしてくれ！」と思ってフォント一覧を見ていたらよさげな日本語フォントを見つけたのでその紹介です。
