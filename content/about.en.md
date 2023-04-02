@@ -3,6 +3,7 @@ slug: about
 title: About
 date: 2023-02-17
 showComments: false
+description: The overview of the site and an introduction of the owner.
 ---
 This is an overview of the site and an introduction of the owner.
 

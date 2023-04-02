@@ -3,6 +3,7 @@ slug: about
 title: 自己紹介
 date: 2023-02-17
 showComments: false
+description: サイトの概要と管理人の自己紹介
 ---
 このサイトの概要と管理人の自己紹介です。
 
