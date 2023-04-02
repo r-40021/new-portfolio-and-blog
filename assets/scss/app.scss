@@ -110,7 +110,13 @@ a[target="_blank"]:after {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
 }
 
 .alert-card {

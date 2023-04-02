@@ -8,23 +8,20 @@
 
     <body>
         <div class="d-flex flex-column min-vh-100{{ if and .IsHome .Site.Params.home.style }} {{ .Site.Params.home.style }}{{ end }}">
-            <div class="{{ if .Site.Params.navigation.fixed }}mb-4{{ end }}">
-                {{- partial "assets/navbar.html" (dict
-                    "page" .
-                    "fixed" (string .Site.Params.navigation.fixed)
-                    "color" (.Site.Params.navigation.color)
-                    "style" (default "light" .Site.Params.navigation.style))
-                -}}
-            </div>
+            
+            {{- partial "assets/navbar.html" (dict
+                "page" .
+                "fixed" (string .Site.Params.navigation.fixed)
+                "color" (.Site.Params.navigation.color)
+                "style" (default "light" .Site.Params.navigation.style))
+            -}}
             {{ if .IsHome -}}
                 {{ if .Site.Params.home.fullCover -}}
-                    <div class="d-flex flex-fill {{ if .Site.Params.navigation.fixed }}mt-5{{ end }}">
+                    <div class="d-flex flex-fill">
                         {{ block "featured" . }}{{ end -}}
                     </div>
                 {{ else -}}
-                    <div class="{{ if .Site.Params.navigation.fixed }}mt-5{{ end }}">
-                        {{ block "featured" . }}{{ end -}}
-                    </div>
+                    {{ block "featured" . }}{{ end -}}
                     <main class="d-flex flex-column flex-fill">
                         {{ block "main" . }}{{ end -}}
                     </main>
