@@ -43,7 +43,7 @@ This is a unique timer that combines the best features of an alarm clock and a c
 This is a bingo machine that can be used on any device without installation. It's simple and easy to use, and it even has an automatic save history feature.
 \* The save feature is not supported on some ancient browsers.
 
-It also has a function that allows you to undo your actions if you accidentally press the wrong button, so you can deal with the common happenings of bingo tournaments without being confused.
+It also has a function that allows you to undo your actions if you accidentally press the spin button, so you can deal with the common happenings of bingo tournaments without being confused.
 
 [Open the app](https://bingo.frogapp.net/)
 
@@ -69,7 +69,7 @@ It also has shortcut keys, so you can start/stop with the "space" key and reset 
 
 This is an app that allows you to easily transcribe text in your browser.
 
-It is ideal not only for Japanese but also for practicing pronunciation in American and British English.
+It is ideal not only for American and British English but also for practicing pronunciation in Japanese.
 
 The transcribed text can also be written to a text file.
 
@@ -95,7 +95,9 @@ Does it look like a certain search engine's screen? No way...
 
 ![Snapdrop JP](/img/works-snapdrop-jp.webp)
 
-This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese. Translating English-specific phrases is difficult, and there are still some unnatural parts, but we will improve it in the future.
+This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese. 
+
+Translating English-specific phrases is difficult, and there are still some unnatural parts, but I will improve it in the future.
 
 [Open the app](https://share.frogapp.net/)
 
@@ -117,7 +119,9 @@ This is an extension that hides the icon displayed on the browser tab and replac
 
 ![Easy Page Sharing](/img/works-share.png)
 
-This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps. We have made sure that you can install it with peace of mind by not requiring any permissions during installation.
+This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps. 
+
+I have made sure that you can install it with peace of mind by not requiring any permissions during installation.
 
 [Install](https://chrome.google.com/webstore/detail/easy-page-sharing/eoccdpbaigkllhflcgidhpcedgmlckkp)
 
@@ -139,7 +143,9 @@ This is an extension that displays the number of characters in real-time when yo
 
 ![Making fonts easy to read by replacing them](/img/works-replace-font.jpg)
 
-This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font. The author is surprised to see that the number of users has exceeded 500.
+This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font. 
+
+The author is surprised to see that the number of users has exceeded 500.
 
 [Install (Chrome)](https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd)
 
