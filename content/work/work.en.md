@@ -16,152 +16,133 @@ photoSource: '<a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>'
 url: works
 ---
 
-技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。\
-(技術力も高めねば……)
+With ease of use in mind, I am working hard to create an app, though I also need to improve my technical skills.
 
-## ウェブアプリ
+## Web apps
 
-### やまだのタイマー
+### Yamada's Timer
 
-![やまだのタイマー](/img/works-timer.webp)
+![Yamada's Timer](/img/works-timer.webp)
 
-目覚まし時計とタイマーのいいとこ取りをした、ちょっと変わったタイマーです。
+This is a unique timer that combines the best features of an alarm clock and a countdown timer. Originally created to count down the time until class dismissal at school, I added various functions to make it useful for different purposes.
 
-もともと学校でクラス解散までの時間をカウントダウンする目的で作ったのですが、それ以外にもいろいろな機能を追加し様々な用途で使えるようにしました。
+* The set time is stored in parameters, so you can enjoy the intense countdown with friends just by sharing the URL.
+* The remaining time is displayed in the browser's title bar, so you can check it even while doing other work.
+* Supports push notifications, so you can use it even in places where sound cannot be played.
+* You can change the alarm sound to your liking.
+* Can be used offline.
 
-* 設定時刻がパラメータに格納されるので、URL を共有するだけで仲間と一緒に緊迫のカウントダウンを楽しめます。
-* ブラウザーのタイトルバーに残り時間が表示されるので、他の作業をしていても残り時間を確認できます。
-* プッシュ通知にも対応。音が出せない場所でも使えます。
-* アラーム音を好きなものに変えられます。
-* オフラインでも使えます。
+[Open the app](https://timer.frogapp.net)
 
-[アプリを開く](https://timer.frogapp.net)
+[View the source code](https://github.com/r-40021/countdown-timer)
 
-[ソースコードを見る](https://github.com/r-40021/countdown-timer)
+### Yamada BINGO
 
-### やまだBINGO
+![Yamada BINGO](/img/works-bingo.webp)
 
-![やまだBINGO](/img/works-bingo.webp)
+This is a bingo machine that can be used on any device without installation. It's simple and easy to use, and it even has an automatic save history feature.
+\* The save feature is not supported on some ancient browsers.
 
-インストール不要で、デバイスを問わず使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。\
-\* 一部の太古のブラウザーでは保存機能に対応していません。
+It also has a function that allows you to undo your actions if you accidentally press the wrong button, so you can deal with the common happenings of bingo tournaments without being confused.
 
-また、誤ってボタンを押してしまった際に操作を取り消すことができる機能を搭載。ビンゴ大会のあるあるなハプニングにも、戸惑うことなく対応できます。
+[Open the app](https://bingo.frogapp.net/)
 
-[アプリを開く](https://bingo.frogapp.net/)
+[View the source code](https://github.com/r-40021/bingo)
 
-[ソースコードを見る](https://github.com/r-40021/bingo)
+### Stopwatch
 
-### ストップウォッチ
+![Stopwatch](/img/works-stopwatch.webp)
 
-![ストップウォッチ](/img/works-stopwatch.webp)
+This is a very simple stopwatch.
 
-シンプルすぎるストップウォッチ。
+To help you focus on your work, I removed anything extra, such as ads.
 
-作業に集中できるよう、広告を始めとした余計なものを取り除きました。
+It also has shortcut keys, so you can start/stop with the "space" key and reset with the "c" key.
 
-ショートカットキーも搭載し、「スペース」キーでスタート / ストップ、「c」キーでリセットの操作を行えます。
+[Open the app](https://stopwatch.frogapp.net/)
 
-[アプリを開く](https://stopwatch.frogapp.net/)
+[View the source code](https://github.com/r-40021/stopwatch/)
 
-[ソースコードを見る](https://github.com/r-40021/stopwatch/)
+### Speech-to-text tool
 
-### 文字起こしツール
+![Speech-to-text tool](/img/works-speech.webp)
 
-![文字起こしツール](/img/works-speech.webp)
+This is an app that allows you to easily transcribe text in your browser.
 
-ブラウザーだけで文字起こしが手軽にできるアプリです。
+It is ideal not only for Japanese but also for practicing pronunciation in American and British English.
 
-日本語のみならず、アメリカ英語・イギリス英語に対応しているため英語の発音練習にも最適です。
+The transcribed text can also be written to a text file.
 
-また、書き起こした文章はテキストファイルに書き出すことができます。
+It does not work properly on some browsers due to the use of technology that is still in the testing phase. Please use the latest browsers such as Chrome and Edge.
 
-まだ試験段階の技術を使用しているため、一部のブラウザーでは正常に機能しません。Chrome、Edge 等の最新のブラウザーでご利用下さい。
+[Open the app](https://speech.frogapp.net)
 
-[アプリを開く](https://speech.frogapp.net/)
+[View the source code](https://github.com/r-40021/web-speech-api)
 
-[ソースコードを見る](https://github.com/r-40021/web-speech-api)
+### Simple Text Reader
 
-### 簡易テキスト読み上げくん
+![Simple Text Reader](/img/works-read.webp)
 
-![簡易テキスト読み上げくん](/img/works-read.webp)
+This is a website where you can easily have text read aloud. Simply enter the text you want to read and press Enter, and the text will be read aloud. Because it only has the minimum necessary functions, it is very simple.
 
-手軽に音声読み上げができるサイトです。
+Does it look like a certain search engine's screen? No way...
 
-読み上げたい文字を入力して Enter キーを押すだけで文字が読み上げられます。
+[Open the app](https://read.frogapp.net/)
 
-必要最低限の機能しか搭載していない分、非常にシンプルなものになっています。
-
-某検索エンジンの画面と似ている？まさかそんなわけ……
-
-[アプリを開く](https://read.frogapp.net/)
-
-[ソースコードを見る](https://github.com/r-40021/read-text)
+[View the source code](https://github.com/r-40021/read-text)
 
 ### Snapdrop JP
 
 ![Snapdrop JP](/img/works-snapdrop-jp.webp)
 
-AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://snapdrop.net/) を日本語化したアプリです。
+This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese. Translating English-specific phrases is difficult, and there are still some unnatural parts, but we will improve it in the future.
 
-英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っていますが、今後改善していきます。
+[Open the app](https://share.frogapp.net/)
 
-[アプリを開く](https://share.frogapp.net/)
+[View the source code](https://github.com/r-40021/snapdrop-jp)
 
-[ソースコードを見る](https://github.com/r-40021/snapdrop-jp)
-
-## ブラウザー拡張機能
+## Browser extensions
 
 ### Rename Tab
 
 ![Rename Tab](/img/works-rename-tab.png)
 
-ブラウザーのタブに表示されるアイコンを非表示にし、ウェブサイト名を別のものに置き換える拡張機能です。
+This is an extension that hides the icon displayed on the browser tab and replaces the website name with another name. It can be used when you don't want others to see the web page you have open in another tab.
 
-ほかのタブで開いているウェブページを人に見られたくない場合などに使えます。
+[Install](https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo)
 
-[インストール](https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo)
+[View the source code](https://github.com/r-40021/rename_tab)
 
-[ソースコードを見る](https://github.com/r-40021/rename_tab)
+### Easy Page Sharing
 
-### ページ簡単共有
+![Easy Page Sharing](/img/works-share.png)
 
-![ページ簡単共有](/img/works-share.png)
+This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps. We have made sure that you can install it with peace of mind by not requiring any permissions during installation.
 
-閲覧しているページのタイトルや URL をコピーしたり、各種 SNS でシェアしたりできる拡張機能です。
+[Install](https://chrome.google.com/webstore/detail/easy-page-sharing/eoccdpbaigkllhflcgidhpcedgmlckkp)
 
-簡単な操作で、すぐにシェアできます。
+[View the source code](https://github.com/r-40021/copy_title-URL)
 
-また、安心してインストールできるようにするために、インストール時に権限を一切要求しないようにしました。
+### Character Counter
 
-[インストール](https://chrome.google.com/webstore/detail/easy-page-sharing/eoccdpbaigkllhflcgidhpcedgmlckkp)
+![Checking the number of characters on the spot](/img/works-count-character.jpg)
 
-[ソースコードを見る](https://github.com/r-40021/copy_title-URL)
+This is an extension that displays the number of characters in real-time when you enter text in a text box on a website. It can be used when there is a character limit in a free-form input field, etc.
 
-### 文字数カウント
+[Install (Chrome)](https://chrome.google.com/webstore/detail/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88/bhfihcmmnnagikobmgakbjliddjmfgmd)
 
-![その場で字数を確認](/img/works-count-character.jpg)
+[Install (Firefox)](https://addons.mozilla.org/ja/firefox/addon/count-character/)
 
-ウェブサイト上のテキストボックスに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。
+[View the source code](https://github.com/r-40021/count-character)
 
-フォームの自由記述で文字数制限がある場合などに使えます。
+### Definitely Noto Sans
 
-[インストール (Chrome)](https://chrome.google.com/webstore/detail/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88/bhfihcmmnnagikobmgakbjliddjmfgmd)
+![Making fonts easy to read by replacing them](/img/works-replace-font.jpg)
 
-[インストール (Firefox)](https://addons.mozilla.org/ja/firefox/addon/count-character/)
+This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font. The author is surprised to see that the number of users has exceeded 500.
 
-[ソースコードを見る](https://github.com/r-40021/count-character)
+[Install (Chrome)](https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd)
 
-### やっぱり Noto Sans
+[Install (Firefox)](https://addons.mozilla.org/ja/firefox/addon/replace-with-noto/)
 
-![フォントを置き換えて見やすく](/img/works-replace-font.jpg)
-
-ウェブサイト上の読みづらい・美しくない (と作者が勝手に思っている) フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。
-
-気付いたらユーザー数が500人を超えていて驚いています。
-
-[インストール (Chrome)](https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd)
-
-[インストール (Firefox)](https://addons.mozilla.org/ja/firefox/addon/replace-with-noto/)
-
-[ソースコードを見る](https://github.com/r-40021/replace-font)
+[View the source code](https://github.com/r-40021/replace-font)
