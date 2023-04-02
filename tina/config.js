@@ -96,6 +96,16 @@ export default defineConfig({
             }
           },
           {
+            type: "string",
+            name: "series",
+            label: "連載名",
+          },
+          {
+            type: "string",
+            name: "series_title",
+            label: "連載内でのタイトル",
+          },
+          {
             name: 'draft',
             label: '下書き',
             type: 'boolean',
