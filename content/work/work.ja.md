@@ -23,4 +23,4 @@ url: works
 
 ### やまだのタイマー
 
-![やまだのタイマー](/img/works-timer.webp)![ｙ](/img/works-timer.webp)
+![やまだのタイマー](/img/works-timer.webp)![やまだのタイマー](/img/works-timer.webp)
