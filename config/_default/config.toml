@@ -78,16 +78,6 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static"
     target = "static"
-# toml-docs-start javascript
-  [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js"
-    target = "assets/js/vendor/bootstrap"
-    includeFiles = "*.bundle.js"
-  [[module.mounts]]
-    source = "node_modules/flexsearch/dist"
-    target = "assets/js/vendor/flexsearch"
-    includeFiles = "*.bundle.js"
-# toml-docs-end javascript
 
 [permalinks]
   blog = "/blog/:year-:month/:slugorfilename/"

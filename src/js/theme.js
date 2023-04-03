@@ -21,14 +21,14 @@ const setTheme = function (theme) {
 const showActiveTheme = theme => {
   const activeSelector = document.querySelector('.theme-icon-active')
   const activeButton = document.querySelector(`[data-bs-theme-value="${theme}"]`)
-  const activeIcon = activeButton.querySelector('svg')
+  const activeIcon = activeButton.querySelector('span')
 
   document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
     element.classList.remove('active')
   })
 
-  activeSelector.className = activeIcon.classList
-  activeSelector.className = activeSelector.classList.replace('theme-icon', 'theme-icon-active')
+  activeSelector.classList = activeIcon.classList
+  activeSelector.classList = activeSelector.classList.replace('theme-icon', 'theme-icon-active')
   activeButton.classList.add('active')
 }
 
@@ -38,16 +38,15 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () 
   }
 })
 
-window.addEventListener('load', () => {
-  showActiveTheme(getPreferredTheme())
 
-  document.querySelectorAll('[data-bs-theme-value]')
-    .forEach(toggle => {
-      toggle.addEventListener('click', () => {
-        const theme = toggle.getAttribute('data-bs-theme-value')
-        localStorage.setItem('theme', theme)
-        setTheme(theme)
-        showActiveTheme(theme)
-      })
+showActiveTheme(getPreferredTheme())
+
+document.querySelectorAll('[data-bs-theme-value]')
+  .forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const theme = toggle.getAttribute('data-bs-theme-value')
+      localStorage.setItem('theme', theme)
+      setTheme(theme)
+      showActiveTheme(theme)
     })
-})
+  })

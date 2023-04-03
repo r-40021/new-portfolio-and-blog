@@ -2,6 +2,7 @@
 Source:
   - https://raw.githubusercontent.com/h-enk/doks/master/assets/js/index.js
 */
+import { Document } from "flexsearch";
 
 var suggestions = document.getElementById('suggestions');
 var search = document.getElementById('search');
@@ -66,7 +67,7 @@ Source:
 */
 
 async function makeIndex() {
-    var index = new FlexSearch.Document({
+    var index = new Document({
       tokenize: "forward",
       cache: 100,
       document: {
