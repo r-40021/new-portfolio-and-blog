@@ -109,12 +109,12 @@ a[target="_blank"]:after {
     -webkit-mask-size: cover;
 }
 
-img {
+img, iframe {
     max-width: 80%;
 }
 
 @media screen and (max-width: 768px) {
-    img {
+    img, iframe {
         max-width: 100%;
     }
 }
