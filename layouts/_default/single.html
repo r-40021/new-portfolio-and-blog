@@ -104,13 +104,13 @@
     {{ else }}
         <div class="container-fluid">
             <div class="row row-cols-1 row-cols-sm-3">
-                <div class="col col-md-2 d-none d-md-block"></div>
-                <section class="col col-sm-12 col-md-8">
+                <div class="col col-md-2 col-xl-3 d-none d-md-block"></div>
+                <section class="col col-sm-12 col-md-8 col-xl-6">
                     {{ partial "partials/header.html" . }}
                     {{ partial "partials/body.html" . }}
                     {{ partial "partials/footer.html" . }}
                 </section>
-                <div class="col col-md-2 d-none d-md-block">
+                <div class="col col-md-2 offset-xl-1 d-none d-md-block">
                     {{- if and .Site.Params.navigation.toc .Params.includeToc | default true -}}
                         {{ partial "assets/toc.html" . -}}
                     {{ end -}}

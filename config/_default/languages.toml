@@ -3,6 +3,7 @@
     languageName = "日本語"
     title = "カエルの人"
     weight = 1
+    hasCJKLanguage = true
     [ja.params.head]
         tagline = "カエルの人"
     [ja.params.feature]

@@ -11,7 +11,7 @@ const contents = [
     {{ with .Description -}}
     "description": {{ . | jsonify }},
     {{ else -}}
-    "description": {{ printf "%s..." (substr .Summary 0 30) | plainify | jsonify }},
+    "description": {{ printf "%s..." .Summary | plainify | jsonify }},
     {{ end -}}
     "content": {{ .Plain | jsonify }}
   }
