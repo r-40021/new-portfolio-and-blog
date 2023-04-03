@@ -11,3 +11,4 @@ hugo_stats.json
 node_modules
 
 assets/img/*
+assets/js/*.bundle.js

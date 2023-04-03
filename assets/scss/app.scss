@@ -12,8 +12,8 @@ $line-height-base: 1.9;
 @import "common/icons.scss";
 
 // Import Bootstrap banner and functions
-@import "bootstrap/scss/mixins/banner";
-@include bsBanner("");
+// @import "bootstrap/scss/mixins/banner";
+// @include bsBanner("");
 @import "bootstrap/scss/functions";
 
 // Import Bootstrap configuration
@@ -40,7 +40,7 @@ $line-height-base: 1.9;
 @import "bootstrap/scss/navbar";
 @import "bootstrap/scss/card";
 // @import "bootstrap/scss/accordion";
-@import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/breadcrumb";
 @import "bootstrap/scss/pagination";
 // @import "bootstrap/scss/badge";
 // @import "bootstrap/scss/alert";
@@ -54,7 +54,7 @@ $line-height-base: 1.9;
 // @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 // @import "bootstrap/scss/offcanvas";
-@import "bootstrap/scss/placeholders";
+// @import "bootstrap/scss/placeholders";
 
 // Import Bootstrap helpers
 @import "bootstrap/scss/helpers";
@@ -64,10 +64,10 @@ $line-height-base: 1.9;
 
 // Import Font Awesome
 // scss-docs-start awesome
-@import "@fortawesome/fontawesome-free/scss/fontawesome";
-@import "@fortawesome/fontawesome-free/scss/regular";
-@import "@fortawesome/fontawesome-free/scss/solid";
-@import "@fortawesome/fontawesome-free/scss/brands";
+// @import "@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "@fortawesome/fontawesome-free/scss/regular";
+// @import "@fortawesome/fontawesome-free/scss/solid";
+// @import "@fortawesome/fontawesome-free/scss/brands";
 // scss-docs-end awesome
 
 // Import Hinode theme styles

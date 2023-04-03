@@ -10,17 +10,16 @@
     "front-end",
     "blog"
   ],
-  "main": "index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "prestart": "npm run clean",
-    "start": "cp -r static/img assets/ && npx tinacms dev -c \"exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -w\"",
+    "start": "cp -r static/img assets/ && npx webpack && npx tinacms dev -c \"exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -w\"",
     "start:prod": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender -e production",
     "prebuild": "npm run clean",
-    "build": "cp -r static/img assets/ && tinacms build && exec-bin node_modules/.bin/hugo/hugo --gc --minify",
+    "build": "cp -r static/img assets/ && npx webpack && tinacms build && exec-bin node_modules/.bin/hugo/hugo --gc --minify",
     "build:debug": "exec-bin node_modules/.bin/hugo/hugo -e debug --debug",
     "build:preview": "npm run build -D -F",
     "clean": "rimraf public resources",
@@ -72,12 +71,16 @@
     "rimraf": "^4.1.2",
     "shx": "^0.3.4",
     "stylelint": "^15.2.0",
-    "stylelint-config-standard-scss": "^7.0.1"
+    "stylelint-config-standard-scss": "^7.0.1",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
   },
   "otherDependencies": {
     "hugo": "0.111.3"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@tinacms/cli": "^1.5.3",
     "tinacms": "^1.4.3"
   }
