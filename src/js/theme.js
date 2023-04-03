@@ -38,7 +38,6 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () 
   }
 })
 
-
 showActiveTheme(getPreferredTheme())
 
 document.querySelectorAll('[data-bs-theme-value]')

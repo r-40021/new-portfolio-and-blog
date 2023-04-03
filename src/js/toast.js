@@ -1,5 +1,5 @@
 // Bootstrap toast example: https://getbootstrap.com/docs/5.2/components/toasts/
-import { Toast } from 'bootstrap/js/dist/toast';
+import { Toast } from 'bootstrap/js/dist/toast'
 
 const toastTrigger = document.getElementById('toastButton')
 const toastLiveExample = document.getElementById('toastMessage')
