@@ -100,7 +100,7 @@ slug: thinkbook
 
 その際には、以前紹介したCapsLockをEnterキーに置き換える方法を試すと快適になるかもしれません。
 
-[左Enterキーのすゝめ(Linux、Windows対応)](/2022-08/left-enter)
+[左Enterキーのすゝめ(Linux、Windows対応)](/blog/2022-08/left-enter)
 
 ### MIL-STD-810G
 
