@@ -117,7 +117,7 @@
 
 # Search
 - id: ui_search
-  translation: "サイト内を検索…"
+  translation: "サイト内を検索..."
 - id: ui_no_results
   translation: "検索結果がありません"
 
