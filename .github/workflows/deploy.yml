@@ -32,7 +32,7 @@ jobs:
           npm run build
         env:
           CI: true
-          # TZ: Asia/Tokyo
+          TZ: Asia/Tokyo
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
 
