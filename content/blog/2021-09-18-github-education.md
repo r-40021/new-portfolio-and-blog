@@ -1,29 +1,34 @@
 ---
 author: FrogApp
-title: "学生は無料で GitHub Pro が使える？特典や申請方法などを解説！"
-description: "GitHub がますます好きになっちゃう"
+title: 学生は無料で GitHub Pro が使える？特典や申請方法などを解説！
+description: GitHub がますます好きになっちゃう
 categories: プログラミング
 tags:
-- プログラミング
-- GitHub
-- 学割
-date: 2021-09-18
+  - プログラミング
+  - GitHub
+  - 学割
+date: 2021-09-18T00:00:00.000Z
 slug: github-education
 ---
-
 
 今回は、学生限定で GitHub の有料プラン、GitHub Pro を無料で使える方法を発見したので、ご紹介します。
 
 (この記事で取り上げる情報は、全て2021年9月18日時点のものです。)
 
+<div class="info-card">
+<p>2023年現在ではより申請が厳格になっており、この記事の通りに申請しても承認されない可能性が高くなっています。</p>
+<p>2年ぶりに GitHub Education を申請したものの承認されなかった体験談は以下です。</p>
+<p><a href="https://frogapp.net/blog/2023-04/github-education/">GitHub Education の審査が厳しくなっていた話</a></p>
+</div>
+
 ## GitHub Free と GitHub Pro の違い
 
 数多くある違いの中から、個人的に良さげに思ったものを取り上げます。
 
-- 非公開リポジトリでの GitHub Actions が2000分/月から3000分/月に
-- 非公開リポジトリでの GitHub Packages の容量が500MBから2GBに
-- 非公開リポジトリで GitHub Pages が使用可能に
-- 非公開リポジトリで Wiki が使用可能に
+* 非公開リポジトリでの GitHub Actions が2000分/月から3000分/月に
+* 非公開リポジトリでの GitHub Packages の容量が500MBから2GBに
+* 非公開リポジトリで GitHub Pages が使用可能に
+* 非公開リポジトリで Wiki が使用可能に
 
 非公開のリポジトリで内輪で開発を進めたい場合には、重宝する機能ばかりではないでしょうか。
 
@@ -53,20 +58,20 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 
 13歳以上の学生かどうか尋ねられるので、自分が当てはまっていれば「Yes, I'm a student」をクリックしてください。
 
-![生徒かどうかの確認](https://user-images.githubusercontent.com/75155258/133803169-32f022b7-58df-4774-9b69-b96c1083b4e6.png)
+![生徒かどうかの確認](/imghttps://user-images.githubusercontent.com/75155258/133803169-32f022b7-58df-4774-9b69-b96c1083b4e6.png)
 
 遷移先のページに、また留意事項が表示されます。
 
 日本語訳すると、
 
-- 現在、高校、中等学校、大学、ホームスクール、または同様の教育機関の学位または卒業証書が授与されるコースに在籍している
-- 学校のメールアドレスを入力するか、学生であることを証明できる書類をアップロードしてください
-- GitHub アカウントを持っていなければなりません
-- 13歳以上でなくてはなりません
+* 現在、高校、中等学校、大学、ホームスクール、または同様の教育機関の学位または卒業証書が授与されるコースに在籍している
+* 学校のメールアドレスを入力するか、学生であることを証明できる書類をアップロードしてください
+* GitHub アカウントを持っていなければなりません
+* 13歳以上でなくてはなりません
 
 下にスクロールすると必要事項を入力するフォームが現れます。
 
-![必要事項入力](https://user-images.githubusercontent.com/75155258/133804548-6015d9e0-593f-4e4c-a166-91e6976741ac.png)
+![必要事項入力](/imghttps://user-images.githubusercontent.com/75155258/133804548-6015d9e0-593f-4e4c-a166-91e6976741ac.png)
 
 ここに必要事項を入力していきます。
 
@@ -116,7 +121,7 @@ GitKaren や Typeform、Bootstrap Studio などが含まれています。
 
 私はこのバッジで気が付きました。
 
-![Proバッジ](https://user-images.githubusercontent.com/75155258/133808230-e29b1328-5794-43ab-b4dd-f89e8e67d117.png)
+![Proバッジ](/imghttps://user-images.githubusercontent.com/75155258/133808230-e29b1328-5794-43ab-b4dd-f89e8e67d117.png)
 
 ## まとめ
 
