@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  TZ: Asia/Tokyo
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -32,7 +35,6 @@ jobs:
           npm run build
         env:
           CI: true
-          TZ: Asia/Tokyo
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
 
