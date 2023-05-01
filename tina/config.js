@@ -70,6 +70,10 @@ export default defineConfig({
             name: "date",
             label: "日付",
             required: true,
+            ui: {
+              dateFormat: "YYYY-MM-DD",
+              timeFormat: "HH:mm"
+            }
           },
           {
             type: "string",
