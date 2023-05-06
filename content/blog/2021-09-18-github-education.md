@@ -16,7 +16,7 @@ slug: github-education
 (この記事で取り上げる情報は、全て2021年9月18日時点のものです。)
 
 <div class="info-card">
-<p>2023年現在ではより申請が厳格になっており、この記事の通りに申請しても承認されない可能性が高くなっています。</p>
+<p>2023年現在ではより審査が厳格になっており、この記事の通りに申請しても承認されない可能性が高くなっています。</p>
 <p>2年ぶりに GitHub Education を申請したものの承認されなかった体験談は以下です。</p>
 <p><a href="https://frogapp.net/blog/2023-04/github-education/">GitHub Education の審査が厳しくなっていた話</a></p>
 </div>
