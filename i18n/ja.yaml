@@ -110,6 +110,8 @@
 # Related posts
 - id: seeAlso
   translation: "関連記事"
+- id: no_articles
+  translation: "該当記事がありません。"
 
 # Table of contents
 - id: toc

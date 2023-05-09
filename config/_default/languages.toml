@@ -4,6 +4,7 @@
     title = "カエルの人"
     weight = 1
     hasCJKLanguage = true
+    timezone = "Asia/Tokyo"
     [ja.params.head]
         tagline = "カエルの人"
     [ja.params.feature]
@@ -16,6 +17,7 @@
     languageName = "English"
     title = "FrogApp"
     weight = 2
+    timezone = "UTC"
     [en.params.head]
         tagline = "FrogApp"
     [en.params.feature]

@@ -89,7 +89,9 @@
 
 <div class="container-fluid p-4">
     {{ with $title }}<h1>{{ . }}</h1>{{ end }}
-    {{ if $paginate }}
+    {{ if eq $count 0 }}
+        <p>{{ i18n "no_articles" }}</p>
+    {{ else if $paginate }}
         <div class="row {{ $colGrid }}">
             {{ $paginator := $page.Paginate $list }}
             {{ range $index, $element := first $paginator.PageSize (after (mul (sub $paginator.PageNumber 1) $paginator.PageSize) $list) }}
