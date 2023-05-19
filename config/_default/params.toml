@@ -1,7 +1,7 @@
 # toml-docs-start main
 [main]
     separator = "-"
-    description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
+    description = "カエルの人のポートフォリオ兼ブログ"
     enableDarkMode = true
 # toml-docs-end main
 
