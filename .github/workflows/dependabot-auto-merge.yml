@@ -1,3 +1,5 @@
+# Thanks: https://moneyforward-dev.jp/entry/2022/12/16/dependabot-automation/
+
 name: Dependabot automation
 
 on:
