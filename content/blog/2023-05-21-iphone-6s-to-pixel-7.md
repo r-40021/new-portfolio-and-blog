@@ -61,7 +61,7 @@ iPhone 6s のときは起動に10秒くらい待たされるのもザラで、�
 
 個人的にこのアニメーションが結構好きです。
 
-<iframe width="461" height="819" src="[https://www.youtube.com/embed/1VPrHeyQdLA](https://www.youtube.com/embed/1VPrHeyQdLA)" title="Pixel 7 起動" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="461" height="819" src="https://www.youtube.com/embed/1VPrHeyQdLA" title="Pixel 7 起動" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ※ iPhone 6s で Pixel 7 の画面を直撮りしたので色がおかしくなっています。
 
