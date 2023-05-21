@@ -10,7 +10,7 @@ tags:
 - Chrome拡張機能
 - JSON
 - JavaScript
-thumbnail: /img/2021-08-07-debug.jpg
+thumbnail: /img/2021/08/07/debug.jpg
 photoCredits: '<a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Sigmund</a>'
 photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2021-08-07

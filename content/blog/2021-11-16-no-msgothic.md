@@ -7,7 +7,7 @@ tags:
 - Windows
 - ポエム
 - フォント
-thumbnail: /img/2021-11-16-no-msgothic.jpg
+thumbnail: /img/2021/11/16/no-msgothic.jpg
 series: フォントの話
 series_title: ＭＳ ゴシックを使わないで(切実)
 headAlt: ＭＳ ゴシックを使わないで(切実)

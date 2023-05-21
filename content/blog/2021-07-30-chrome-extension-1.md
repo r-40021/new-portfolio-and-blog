@@ -12,7 +12,7 @@ tags:
 - JavaScript
 - JSON
 - HTML
-thumbnail: /img/2021-07-30-develop.jpg
+thumbnail: /img/2021/07/30/develop.jpg
 photoCredits: '<a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Pankaj Patel</a>'
 photoSource: '<a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2021-07-30

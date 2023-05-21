@@ -11,7 +11,7 @@ photoCredits: '<a href="https://unsplash.com/@majulien?utm_source=unsplash&utm_m
 photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: iPhone 6s の次の相棒を探す
-thumbnail: "/img/2022-10-16-iphone6s.webp"
+thumbnail: "/img/2022/10/16/iphone6s.webp"
 headAlt: iPhone 6s
 series: ''
 series_title: ''

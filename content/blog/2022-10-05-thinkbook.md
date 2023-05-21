@@ -5,7 +5,7 @@ tags:
 - PC
 - レビュー
 title: メインPC (ThinkBook 13s Gen2)を1年弱使ってみて
-thumbnail: "/img/2022-10-04-stab.webp"
+thumbnail: "/img/2022/10/04/stab.webp"
 headAlt: スタバで ThinkBook を開いている様子
 series: ''
 series_title: ''
@@ -23,7 +23,7 @@ slug: thinkbook
 
 ## 基本スペック
 
-![ThinkBook 13s gen2 のカバー画像](/img/2022-10-04-cover.webp)
+![ThinkBook 13s gen2 のカバー画像](/img/2022/10/04/cover.webp)
 
 私が購入したPCのスペックは以下のとおりです。
 

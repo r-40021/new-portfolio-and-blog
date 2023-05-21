@@ -9,7 +9,7 @@ photoCredits: '<a href="https://unsplash.com/@qgrignet?utm_source=unsplash&utm_m
 photoSource: '<a href="https://unsplash.com/s/photos/firefox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: Firefox学生マーケティングチームに参加しました
-thumbnail: "/img/2022-08-06-fox.jpg"
+thumbnail: "/img/2022/08/06/fox.jpg"
 headAlt: レッサーパンダ
 date: 2022-08-06
 slug: fxstudent

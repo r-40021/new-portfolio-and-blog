@@ -4,7 +4,7 @@ categories: お知らせ
 tags:
 - お知らせ
 title: コメント欄を非表示にします
-thumbnail: "/img/2023-01-23-comment.webp"
+thumbnail: "/img/2023/01/23/comment.webp"
 headAlt: コメント欄非表示にします
 series: ''
 series_title: ''

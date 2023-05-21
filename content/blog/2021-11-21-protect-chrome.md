@@ -6,7 +6,7 @@ tags:
 - PC
 - Google
 - Windows
-thumbnail: /img/2021-11-21-protect-chrome.png
+thumbnail: /img/2021/11/21/protect-chrome.png
 headAlt: Chromeを守れ
 date: 2021-11-21
 slug: protect-chrome
@@ -45,7 +45,7 @@ slug: protect-chrome
 
 ブラウザの再起動が終わったら、再度拡張機能の設定画面を開いてください。
 
-![拡張機能の設定画面](/img/works-rename-tab.png)
+![拡張機能の設定画面](/img/works/rename-tab.png)
 
 これが設定画面です。シンプルですね。
 

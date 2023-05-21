@@ -10,7 +10,7 @@ tags:
   - web
   - apps
   - works
-thumbnail: img/2023-04-01-website.webp
+thumbnail: img/2023/04/01/website.webp
 photoCredits: '<a href="https://unsplash.com/@pankajpatel">Pankaj Patel</a>'
 photoSource: '<a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>'
 url: works
@@ -23,7 +23,7 @@ url: works
 
 ### やまだのタイマー
 
-![やまだのタイマー](/img/works-timer.webp)
+![やまだのタイマー](/img/works/timer.webp)
 
 目覚まし時計とタイマーのいいとこ取りをした、ちょっと変わったタイマーです。
 
@@ -41,7 +41,7 @@ url: works
 
 ### やまだBINGO
 
-![やまだBINGO](/img/works-bingo.webp)
+![やまだBINGO](/img/works/bingo.webp)
 
 インストール不要で、デバイスを問わず使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。\
 \* 一部の太古のブラウザーでは保存機能に対応していません。
@@ -54,7 +54,7 @@ url: works
 
 ### ストップウォッチ
 
-![ストップウォッチ](/img/works-stopwatch.webp)
+![ストップウォッチ](/img/works/stopwatch.webp)
 
 シンプルすぎるストップウォッチ。
 
@@ -68,7 +68,7 @@ url: works
 
 ### 文字起こしツール
 
-![文字起こしツール](/img/works-speech.webp)
+![文字起こしツール](/img/works/speech.webp)
 
 ブラウザーだけで文字起こしが手軽にできるアプリです。
 
@@ -84,7 +84,7 @@ url: works
 
 ### 簡易テキスト読み上げくん
 
-![簡易テキスト読み上げくん](/img/works-read.webp)
+![簡易テキスト読み上げくん](/img/works/read.webp)
 
 手軽に音声読み上げができるサイトです。
 
@@ -100,7 +100,7 @@ url: works
 
 ### Snapdrop JP
 
-![Snapdrop JP](/img/works-snapdrop-jp.webp)
+![Snapdrop JP](/img/works/snapdrop-jp.webp)
 
 AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://snapdrop.net/) を日本語化したアプリです。
 
@@ -114,7 +114,7 @@ AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://sn
 
 ### Rename Tab
 
-![Rename Tab](/img/works-rename-tab.png)
+![Rename Tab](/img/works/rename-tab.png)
 
 ブラウザーのタブに表示されるアイコンを非表示にし、ウェブサイト名を別のものに置き換える拡張機能です。
 
@@ -126,7 +126,7 @@ AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://sn
 
 ### ページ簡単共有
 
-![ページ簡単共有](/img/works-share.png)
+![ページ簡単共有](/img/works/share.png)
 
 閲覧しているページのタイトルや URL をコピーしたり、各種 SNS でシェアしたりできる拡張機能です。
 
@@ -140,7 +140,7 @@ AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://sn
 
 ### 文字数カウント
 
-![その場で字数を確認](/img/works-count-character.jpg)
+![その場で字数を確認](/img/works/count-character.jpg)
 
 ウェブサイト上のテキストボックスに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。
 
@@ -154,7 +154,7 @@ AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://sn
 
 ### やっぱり Noto Sans
 
-![フォントを置き換えて見やすく](/img/works-replace-font.jpg)
+![フォントを置き換えて見やすく](/img/works/replace-font.jpg)
 
 ウェブサイト上の読みづらい・美しくない (と作者が勝手に思っている) フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。
 

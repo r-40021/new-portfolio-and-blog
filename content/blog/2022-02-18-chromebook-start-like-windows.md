@@ -5,7 +5,7 @@ categories: PC
 tags:
 - PC
 - Chromebook
-thumbnail: /img/2022-02-18-chromebook-start-like-windows.jpg
+thumbnail: /img/2022/02/18/chromebook-start-like-windows.jpg
 headAlt: WindowsのスタートメニューっぽいChromebookのランチャー
 date: 2022-02-18
 slug: chromebook-start-like-windows

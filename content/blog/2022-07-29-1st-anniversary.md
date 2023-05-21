@@ -9,7 +9,7 @@ photoCredits: '<a href="https://unsplash.com/@tncjpg?utm_source=unsplash&utm_med
 photoSource: '<a href="https://unsplash.com/s/photos/anniversary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: "【1周年記念】ブログを書くのは非効率だが、いいこともある＆今後について"
-thumbnail: "/img/2022-07-28-anniversary.jpg"
+thumbnail: "/img/2022/07/28/anniversary.jpg"
 headAlt: 誕生日ケーキ
 date: 2022-07-29
 slug: 1st-anniversary
@@ -102,7 +102,7 @@ SEOとは、検索エンジン(Googleなど)で自分の記事が上の方に表
 
 最近はSNSでの宣伝も多いですが、ブログへの流入元は依然としてGoogleなどの検索サイトがダントツで多いです。
 
-![流入元の統計](/img/2022-07-29-referrers.png)
+![流入元の統計](/img/2022/07/29/referrers.png)
 
 (2022/7/22\~2022/7/29の記録、ブログ以外へのアクセスも含む)
 

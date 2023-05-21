@@ -8,7 +8,7 @@ tags:
 - Chrome拡張機能
 - HTML
 - JavaScript
-thumbnail: /img/2021-08-03-mac.jpg
+thumbnail: /img/2021/08/03/mac.jpg
 series: Chrome 拡張機能を作ろう
 series_title: 仕様に沿って開発
 photoCredits: '<a href="https://unsplash.com/@jantined?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jantine Doornbos</a>'

@@ -5,7 +5,7 @@ tags:
 - アプリ開発
 - 雑記
 title: 自分のアプリが作られた背景を語る
-thumbnail: "/img/2022-11-06-background.webp"
+thumbnail: "/img/2022/11/06/background.webp"
 headAlt: それはどのようにして生まれたのか
 series: ''
 series_title: ''
@@ -26,7 +26,7 @@ slug: background
 
 ## やまだのタイマー
 
-![やまだのタイマー](/img/2022-11-06-timer.webp)
+![やまだのタイマー](/img/2022/11/06/timer.webp)
 
 [やまだのタイマー](https://timer.frogapp.net)
 
@@ -42,7 +42,7 @@ slug: background
 
 ## やまだBINGO
 
-![やまだBINGO](/img/2022-11-06-bingo.webp)
+![やまだBINGO](/img/2022/11/06/bingo.webp)
 
 [やまだBINGO](https://bingo.frogapp.net)
 
@@ -69,7 +69,7 @@ slug: background
 
 ## ストップウォッチ
 
-![ストップウォッチのスクリーンショット](/img/2022-11-06-stopwatch.webp)
+![ストップウォッチのスクリーンショット](/img/2022/11/06/stopwatch.webp)
 
 [ストップウォッチ](https://stopwatch.frogapp.net)
 
@@ -79,7 +79,7 @@ slug: background
 
 ## 文字起こしツール
 
-![文字起こしツール](/img/2022-11-06-speech.webp)
+![文字起こしツール](/img/2022/11/06/speech.webp)
 
 [文字起こしツール](https://speech.frogapp.net)
 
@@ -89,7 +89,7 @@ React のチュートリアルで三目並べを作った後に最初に React �
 
 ## 簡易テキスト読み上げくん
 
-![簡易テキスト読み上げくん](/img/2022-11-06-read.webp)
+![簡易テキスト読み上げくん](/img/2022/11/06/read.webp)
 
 [簡易テキスト読み上げくん](https://read.frogapp.net)
 
@@ -101,7 +101,7 @@ UI が検索エンジンに似ているため間違えられそうですが…
 
 ## Snapdrop JP
 
-![Snapdrop JP](/img/2022-11-06-snapdrop-jp.webp)
+![Snapdrop JP](/img/2022/11/06/snapdrop-jp.webp)
 
 [Snapdrop JP](https://share.frogapp.net)
 

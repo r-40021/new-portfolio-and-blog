@@ -6,7 +6,7 @@ date: 2023-04-28T15:00:00.000Z
 tags:
   - プログラミング
   - GitHub
-thumbnail: /img/2023-04-29-github.webp
+thumbnail: /img/2023/04/29/github.webp
 photoCredits: '<a href="https://unsplash.com/@praveentcom">Praveen Thirumurugan</a>'
 photoSource: '<a href="https://unsplash.com/photos/KPAQpJYzH0Y">Unsplash</a>'
 author: FrogApp
@@ -31,7 +31,7 @@ draft: false
 
 内容は「GitHub Education の期限が切れるから、あなたがまだ学生なのであれば再申請してね」というものでした。
 
-![GitHub からのメール](/img/2023-04-29-email.webp)
+![GitHub からのメール](/img/2023/04/29/email.webp)
 
 ということで2年前のように再申請しようとしました。
 
@@ -39,7 +39,7 @@ draft: false
 
 例のごとく学校のメールアドレスを入力し、学校名を入力し、GitHub の使用目的を英文で入力し、次の画面へ進もうとしたところ、位置情報の権限を求められました。
 
-![When you click "Continue" you will be prompted to share your location with us. Providing your current location helps us verify your affiliation with your chosen school. To continue you must modify your browser settings to allow GitHub to use your location information. (日本語訳：\[続行\] をクリックすると、現在地を私たちと共有するよう求められます。  現在地を提供すると、選択した学校との所属を確認するのに役立ちます。続行するには、ブラウザーの設定を変更して、GitHub が位置情報を使用できるようにする必要があります。)](/img/2023-04-29-location.webp)
+![When you click "Continue" you will be prompted to share your location with us. Providing your current location helps us verify your affiliation with your chosen school. To continue you must modify your browser settings to allow GitHub to use your location information. (日本語訳：\[続行\] をクリックすると、現在地を私たちと共有するよう求められます。  現在地を提供すると、選択した学校との所属を確認するのに役立ちます。続行するには、ブラウザーの設定を変更して、GitHub が位置情報を使用できるようにする必要があります。)](/img/2023/04/29/location.webp)
 
 学校への所属を確認するために位置情報を使用すると書かれています。
 
@@ -59,7 +59,7 @@ draft: false
 
 あとは審査通過のメールを待つのみと思っていたら、まさかの「不承認」メールが届きました。
 
-![GitHub から届いた不承認メール](/img/2023-04-29-failed.webp)
+![GitHub から届いた不承認メール](/img/2023/04/29/failed.webp)
 
 提示された却下理由は以下の3点です。
 

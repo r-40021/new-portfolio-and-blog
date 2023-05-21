@@ -9,7 +9,7 @@ photoCredits: '<a href="https://unsplash.com/@quaritsch?utm_source=unsplash&utm_
 photoSource: '<a href="https://unsplash.com/s/photos/screen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: KDE Plasmaでスクリーンショットが昔の画面になってしまう時の対処法
-thumbnail: "/img/2022-08-11-screen.jpg"
+thumbnail: "/img/2022/08/11/screen.jpg"
 headAlt: スクリーン
 date: 2022-08-11
 slug: kde-screenshot

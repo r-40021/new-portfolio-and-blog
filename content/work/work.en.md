@@ -10,7 +10,7 @@ tags:
   - web
   - apps
   - works
-thumbnail: img/2023-04-01-website.webp
+thumbnail: img/2023/04/01/website.webp
 photoCredits: '<a href="https://unsplash.com/@pankajpatel">Pankaj Patel</a>'
 photoSource: '<a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>'
 url: works
@@ -22,7 +22,7 @@ With ease of use in mind, I am working hard to create an app, though I also need
 
 ### Yamada's Timer
 
-![Yamada's Timer](/img/works-timer.webp)
+![Yamada's Timer](/img/works/timer.webp)
 
 This is a unique timer that combines the best features of an alarm clock and a countdown timer. Originally created to count down the time until class dismissal at school, I added various functions to make it useful for different purposes.
 
@@ -38,7 +38,7 @@ This is a unique timer that combines the best features of an alarm clock and a c
 
 ### Yamada BINGO
 
-![Yamada BINGO](/img/works-bingo.webp)
+![Yamada BINGO](/img/works/bingo.webp)
 
 This is a bingo machine that can be used on any device without installation. It's simple and easy to use, and it even has an automatic save history feature.
 \* The save feature is not supported on some ancient browsers.
@@ -51,7 +51,7 @@ It also has a function that allows you to undo your actions if you accidentally 
 
 ### Stopwatch
 
-![Stopwatch](/img/works-stopwatch.webp)
+![Stopwatch](/img/works/stopwatch.webp)
 
 This is a very simple stopwatch.
 
@@ -65,7 +65,7 @@ It also has shortcut keys, so you can start/stop with the "space" key and reset 
 
 ### Speech-to-text tool
 
-![Speech-to-text tool](/img/works-speech.webp)
+![Speech-to-text tool](/img/works/speech.webp)
 
 This is an app that allows you to easily transcribe text in your browser.
 
@@ -81,7 +81,7 @@ It does not work properly on some browsers due to the use of technology that is 
 
 ### Simple Text Reader
 
-![Simple Text Reader](/img/works-read.webp)
+![Simple Text Reader](/img/works/read.webp)
 
 This is a website where you can easily have text read aloud. Simply enter the text you want to read and press Enter, and the text will be read aloud. Because it only has the minimum necessary functions, it is very simple.
 
@@ -93,7 +93,7 @@ Does it look like a certain search engine's screen? No way...
 
 ### Snapdrop JP
 
-![Snapdrop JP](/img/works-snapdrop-jp.webp)
+![Snapdrop JP](/img/works/snapdrop-jp.webp)
 
 This is an app that has localized [Snapdrop](https://snapdrop.net/), which allows you to do AirDrop-like things in the browser, into Japanese.
 
@@ -107,7 +107,7 @@ Translating English-specific phrases is difficult, and there are still some unna
 
 ### Rename Tab
 
-![Rename Tab](/img/works-rename-tab.png)
+![Rename Tab](/img/works/rename-tab.png)
 
 This is an extension that hides the icon displayed on the browser tab and replaces the website name with another name. It can be used when you don't want others to see the web page you have open in another tab.
 
@@ -117,7 +117,7 @@ This is an extension that hides the icon displayed on the browser tab and replac
 
 ### Easy Page Sharing
 
-![Easy Page Sharing](/img/works-share.png)
+![Easy Page Sharing](/img/works/share.png)
 
 This is an extension that allows you to copy the title or URL of the page you are viewing and share it on various SNS with simple operations. You can share it immediately with easy steps.
 
@@ -129,7 +129,7 @@ I have made sure that you can install it with peace of mind by not requiring any
 
 ### Character Counter
 
-![Checking the number of characters on the spot](/img/works-count-character.jpg)
+![Checking the number of characters on the spot](/img/works/count-character.jpg)
 
 This is an extension that displays the number of characters in real-time when you enter text in a text box on a website. It can be used when there is a character limit in a free-form input field, etc.
 
@@ -141,7 +141,7 @@ This is an extension that displays the number of characters in real-time when yo
 
 ### Definitely Noto Sans
 
-![Making fonts easy to read by replacing them](/img/works-replace-font.jpg)
+![Making fonts easy to read by replacing them](/img/works/replace-font.jpg)
 
 This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font.
 

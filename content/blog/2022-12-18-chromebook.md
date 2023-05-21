@@ -6,7 +6,7 @@ tags:
 - Google
 - Chromebook
 title: 改めて感じた Chromebook の良さ〜心配がいらない PC〜
-thumbnail: "/img/2022-12-18-chromebook.webp"
+thumbnail: "/img/2022/12/18/chromebook.webp"
 headAlt: 机の上に置かれた Chromebook とスケッチブック
 series: ''
 series_title: ''
@@ -90,7 +90,7 @@ ChromeOS はアップデートで少しずつ進化しています。
 
 例えば、最近のアップデートでは待望のゴミ箱機能が実装されました。(「逆になんで今までなかったの？」という感じですが…)
 
-![「ファイルアプリ」のゴミ箱の画面](/img/2022-12-18-trash.webp "「ファイルアプリ」のゴミ箱の画面")
+![「ファイルアプリ」のゴミ箱の画面](/img/2022/12/18/trash.webp "「ファイルアプリ」のゴミ箱の画面")
 
 ## 残念だった点
 

@@ -4,7 +4,7 @@ categories: 雑記
 tags:
 - プレゼン
 title: プレゼンで気をつけていること (自己流)
-thumbnail: "/img/2022-11-13-presentation.webp"
+thumbnail: "/img/2022/11/13/presentation.webp"
 headAlt: プレゼンで気をつけていること
 series: ''
 series_title: ''
@@ -28,7 +28,7 @@ slug: presentation
 
 ## 見通しを持たせる
 
-![発表の流れを見せる](/img/2022-11-13-flow.webp)
+![発表の流れを見せる](/img/2022/11/13/flow.webp)
 
 「いつ終わるかわからないようなプレゼン」よりも、「終わりが見えるプレゼン」のほうが聞き手は聞きやすいです。
 
@@ -44,7 +44,7 @@ slug: presentation
 
 ## 結論→理由→結論の順で
 
-![結論→理由→結論](/img/2022-11-13-r-r.webp)
+![結論→理由→結論](/img/2022/11/13/r-r.webp)
 
 先程のポイントとも似ているのですが、最初に結論を見せ、聞き手に自分が話そうとしていることを提示します。
 

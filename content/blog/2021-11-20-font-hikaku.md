@@ -6,7 +6,7 @@ tags:
 - PC
 - フォント
 - ポエム
-thumbnail: /img/2021-11-20-font-hikaku.png
+thumbnail: /img/2021/11/20/font-hikaku.png
 series: フォントの話
 series_title: フォントを比較
 headAlt: フォント比較
