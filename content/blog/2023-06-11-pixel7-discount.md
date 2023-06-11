@@ -11,7 +11,6 @@ thumbnail: /img/2023/06/11/pixel-7.webp
 photoCredits: '<a href="https://unsplash.com/@quangthai_itshop">Thai Nguyen</a>'
 photoSource: '<a href="https://unsplash.com/photos/j7TceNx_b7A">Unsplash</a>'
 author: FrogApp
-draft: true
 ---
 
 この前 [Pixel 7 の長期使用レビュー](https://frogapp.net/blog/2023-05/iphone-6s-to-pixel-7/) を書きましたが、今回はいかに Pixel 7 を安く手に入れたかという話をしていきます。
