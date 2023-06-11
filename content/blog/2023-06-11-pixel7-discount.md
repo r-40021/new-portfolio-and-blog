@@ -2,7 +2,7 @@
 title: Pixel 7 を実質無料以下で手に入れた話 (返却なし)
 slug: pixel7-discount
 description: あの手この手で割引
-date: 2023-06-10T15:00:00.000Z
+date: 2023-06-11T03:00:00.000Z
 tags:
   - スマホ
   - Google
