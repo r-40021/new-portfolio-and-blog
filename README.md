@@ -6,6 +6,6 @@ New website integrating portfolio with blog
 
 [Hugo Theme Hinode](https://github.com/gethinode/hinode)
 
-## Library
+## CMS
 
-- [netlify-cms-cloudflare-pages](https://github.com/i40west/netlify-cms-cloudflare-pages)
+[TinaCMS](https://tina.io/)
