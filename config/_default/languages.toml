@@ -9,7 +9,7 @@
         tagline = "カエルの人"
     [ja.params.feature]
         link = "/about"
-        caption = "自己紹介"
+        caption = "About"
     [ja.params.footer]
         license = ""
 
