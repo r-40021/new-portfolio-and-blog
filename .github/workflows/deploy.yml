@@ -39,7 +39,6 @@ jobs:
           CI: true
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          TINA_SEARCH_TOKEN: ${{ secrets.TINA_SEARCH_TOKEN }}
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
