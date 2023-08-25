@@ -1,10 +1,11 @@
 ---
 slug: about
 title: About
-date: 2023-02-17
+date: '2023-02-17T00:00:00.000Z'
 showComments: false
 description: The overview of the site and an introduction of the owner.
 ---
+
 This is an overview of the site and an introduction of the owner.
 
 Since the content is occasionally updated, it would be great if you could access it whenever you remember.
@@ -15,14 +16,12 @@ This is a personal blog where the owner writes about their favorite things, from
 
 ### Posting Frequency
 
-Since late May 2022, the blog is updated roughly once a week. However, there may be weeks when the owner is too busy to update, or when the article is thin and unsatisfactory.
-
-Before the blog started updating once a week, it was updated completely irregularly. It was common to go more than a month without an update.
+From late May 2022, I had been updating at approximately a weekly pace, but recently I've realized that quality is more important than quantity, (and also because I've been getting tired of writing articles every week,) I'm returning to irregular updates as before.
 
 ### Policy
 
-- All sponsored posts will be declined
-- Write honestly about what I think
+* All sponsored posts will be declined
+* Write honestly about what I think
 
 That's the gist of it.
 
@@ -58,20 +57,20 @@ Mainly focused on front-end development, but has recently started working on bac
 
 ### Languages I'm Good At
 
-- HTML
-- Pug
-- CSS
-- Sass
-- JavaScript
-- Python
+* HTML
+* Pug
+* CSS
+* Sass
+* JavaScript
+* Python
 
 ### Languages I Want to Study in the Future
 
-- PHP
-- Java
-- Ruby
-- Go
-- ~~AWS~~
+* PHP
+* Java
+* Ruby
+* Go
+* \~~AWS~~
 
 [Portfolio Site](/en)
 
