@@ -16,7 +16,7 @@ This is a personal blog where the owner writes about their favorite things, from
 
 ### Posting Frequency
 
-From late May 2022, I had been updating at approximately a weekly pace, but recently I've realized that quality is more important than quantity, (and also because I've been getting tired of writing articles every week,) I'm returning to irregular updates as before.
+From late May 2022, I had been updating at approximately a weekly pace, but recently I've realized that quality is more important than quantity, ~~(and also because I've been getting tired of writing articles every week,)~~ I'm returning to irregular updates as before.
 
 ### Policy
 
