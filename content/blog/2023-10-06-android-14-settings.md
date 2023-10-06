@@ -7,6 +7,7 @@ tags:
   - スマホ
   - Pixel
 author: FrogApp
+draft: true
 ---
 
 先日、Android 14 が当初の予定から遅れてリリースされました。
