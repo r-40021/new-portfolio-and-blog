@@ -2,7 +2,7 @@
 title: 【注意喚起】Android 14 にアップデートしたら確認しておきたい設定
 slug: android-14-settings
 description: Android 14 の仕様変更による影響で、いくつか確認が必要な設定項目が生じました。
-date: 2023-10-06T13:00:00.000Z
+date: 2023-10-06T03:00:00.000Z
 tags:
   - スマホ
   - Pixel
