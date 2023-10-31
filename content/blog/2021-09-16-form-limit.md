@@ -1,16 +1,14 @@
 ---
-author: FrogApp
-title: "10分で定員付きの Google フォームを作ろう＜コピペ可＞"
-description: "定員に達したらフォームを閉じるだけじゃない"
-categories: プログラミング
-tags:
-- Google
-- GAS
-- JavaScript
-date: 2021-09-16
+title: 10分で定員付きの Google フォームを作ろう＜コピペ可＞
 slug: form-limit
+description: 定員に達したらフォームを閉じるだけじゃない
+date: 2021-09-16T00:00:00.000Z
+tags:
+  - Google
+  - GAS
+  - JavaScript
+author: FrogApp
 ---
-
 
 ## 今回やったこと
 
@@ -18,9 +16,9 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 定員付きのフォームの作り方は他のサイトでも紹介されていますが、私が作ったものは、
 
-- フォームの説明欄に残り人数を表示できる
-- 枠が残り少なくなったときにだけ、フォームの説明欄に残り人数を表示するようにできる
-- ITに詳しくない人でも保守・管理が簡単→共同編集に便利
+* フォームの説明欄に残り人数を表示できる
+* 枠が残り少なくなったときにだけ、フォームの説明欄に残り人数を表示するようにできる
+* ITに詳しくない人でも保守・管理が簡単→共同編集に便利
 
 といった特徴があり、非常に便利なものになっています。
 
@@ -28,9 +26,9 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 ## 必要なもの
 
-- Google アカウント
-- Google フォームに関するスキル(フォームを作って、結果の集計ができる程度)
-- パソコン(一度作ってしまえば、保守管理はスマホからも行えます)
+* Google アカウント
+* Google フォームに関するスキル(フォームを作って、結果の集計ができる程度)
+* パソコン(一度作ってしまえば、保守管理はスマホからも行えます)
 
 ## フォームを作る
 
@@ -40,7 +38,7 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 この記事では、適当に作ったこのフォームを使って説明していきます。
 
-![適当に作ったフォーム](https://user-images.githubusercontent.com/75155258/133555756-5d5ef45d-c902-44dd-95f9-6d41bd9d4eca.png)
+![適当に作ったフォーム](/imghttps://user-images.githubusercontent.com/75155258/133555756-5d5ef45d-c902-44dd-95f9-6d41bd9d4eca.png)
 
 ただし、いくつか設定して欲しい箇所があります。
 
@@ -53,9 +51,9 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 そして、「回答者へのメッセージ」と書いてある下のテキストボックスに、任意のメッセージを入力してください。これは、定員に達してフォームの受付が終了した際に、ユーザーに表示されるものです(下の画像を参照)。
 
-![終了メッセージ](https://user-images.githubusercontent.com/75155258/133564206-c1d2463c-fe93-45bc-a171-dff451c3d63f.png)
+![終了メッセージ](/imghttps://user-images.githubusercontent.com/75155258/133564206-c1d2463c-fe93-45bc-a171-dff451c3d63f.png)
 
-![設定手順](https://user-images.githubusercontent.com/75155258/133564390-07ce9e94-2e6e-43a7-bf1e-ea2747231d67.png)
+![設定手順](/imghttps://user-images.githubusercontent.com/75155258/133564390-07ce9e94-2e6e-43a7-bf1e-ea2747231d67.png)
 
 回答者へのメッセージを入力し終えたら、必要に応じて「回答を受け付けていません」の右のスイッチをクリックして「回答を受付中」に戻してください。
 
@@ -63,7 +61,7 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 上のバーから「設定」をクリックしてください。
 
-![フォームの設定画面](https://user-images.githubusercontent.com/75155258/133563672-d2a23fa2-f46b-4186-bfda-e675b5045245.png)
+![フォームの設定画面](/imghttps://user-images.githubusercontent.com/75155258/133563672-d2a23fa2-f46b-4186-bfda-e675b5045245.png)
 
 その後、「別の回答を送信するためのリンクを表示」をオフ、もしくは「回答を1回に制限する」をオンにします。
 
@@ -75,15 +73,15 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 ### 「別の回答を送信するためのリンクを表示」をオフにする場合
 
-設定画面を開いたら、プレゼンテーション＞「別の回答を送信するためのリンクを表示」の右側のスイッチをオフ のように操作してください。
+設定画面を開いたら、表示設定＞「別の回答を送信するためのリンクを表示」の右側のスイッチをオフ のように操作してください。
 
-![設定手順](https://user-images.githubusercontent.com/75155258/133565390-3b450917-4bb9-4590-aa69-062352c0b992.png)
+![設定手順](/imghttps://user-images.githubusercontent.com/75155258/133565390-3b450917-4bb9-4590-aa69-062352c0b992.png)
 
 ### 「回答を1回に制限する」をオンにする場合
 
 設定画面を開いたら、回答＞「回答を 1 回に制限する」の右側のスイッチをオフ のように操作してください。
 
-![設定手順](https://user-images.githubusercontent.com/75155258/133565700-586a6655-8833-49a3-81b7-724a68fc0e44.png)
+![設定手順](/imghttps://user-images.githubusercontent.com/75155258/133565700-586a6655-8833-49a3-81b7-724a68fc0e44.png)
 
 これら以外の設定は、ご自由にどうぞ。
 
@@ -91,11 +89,11 @@ Google フォームで、「先着何人」というフォームを作りたい�
 
 まず、右上の縦に3つ並んでいるドットをクリックし、「スクリプトエディタ」をクリックしてください。
 
-![スクリプトエディタを開く](https://user-images.githubusercontent.com/75155258/133567550-01708788-5490-40fe-89fa-fbbbfdabe98c.png)
+![スクリプトエディタを開く](/imghttps://user-images.githubusercontent.com/75155258/133567550-01708788-5490-40fe-89fa-fbbbfdabe98c.png)
 
 ※「現在、ファイルを開くことができません。」と表示された場合は、一旦ログインしているすべての Google アカウントからログアウトし、その後フォームを作成した Google アカウントだけログインし直してみてください。
 
-![スクリプト編集画面](https://user-images.githubusercontent.com/75155258/133556475-e76ba572-a838-44ea-b5c1-30855b1d94d6.png)
+![スクリプト編集画面](/imghttps://user-images.githubusercontent.com/75155258/133556475-e76ba572-a838-44ea-b5c1-30855b1d94d6.png)
 
 このような画面が表示されたら、すでに記述されているもの(`function myFunction() { ~` の部分)をすべて消してください。
 
@@ -242,7 +240,7 @@ function formatLimit(int) {
 
 左上の「無題のプロジェクト」と書いてある部分をクリックすると表示されるポップアップに、好きな名前を入力してください。
 
-![image](https://user-images.githubusercontent.com/75155258/133560684-52644e39-e471-429c-b987-b44db83a056c.png)
+![image](/imghttps://user-images.githubusercontent.com/75155258/133560684-52644e39-e471-429c-b987-b44db83a056c.png)
 
 ここまで書いたら、保存してください。
 
@@ -250,7 +248,7 @@ function formatLimit(int) {
 
 キーボードの Ctrl+S でも保存できます。
 
-![保存](https://user-images.githubusercontent.com/75155258/133557894-f7e775f9-6eb4-43fc-b11e-262403203766.png)
+![保存](/imghttps://user-images.githubusercontent.com/75155258/133557894-f7e775f9-6eb4-43fc-b11e-262403203766.png)
 
 プログラミングを勉強されている方のために、少し解説します。(とりあえずものが作れればいいという方は読み飛ばしてもらって結構です)
 
@@ -272,15 +270,15 @@ JavaScript がベースになっており、Google の色々なサービスを(�
 
 (カーソルを乗せるとメニューが広がります。)
 
-![メニューからトリガーを選ぶ](https://user-images.githubusercontent.com/75155258/133558176-81758725-2bc8-43d5-b929-6a80a7583c0d.png)
+![メニューからトリガーを選ぶ](/imghttps://user-images.githubusercontent.com/75155258/133558176-81758725-2bc8-43d5-b929-6a80a7583c0d.png)
 
 画面が変わったら、右下の「トリガーを追加」をクリックしてください。
 
-![トリガーを追加](https://user-images.githubusercontent.com/75155258/133559955-1375b59b-4493-401d-a31e-55a543933f64.png)
+![トリガーを追加](/imghttps://user-images.githubusercontent.com/75155258/133559955-1375b59b-4493-401d-a31e-55a543933f64.png)
 
 このとき、画面左下にこのようなポップアップが表示されたら、先程書いたプログラムが保存されていないということなので、青字の「保存」をクリックしてプログラムを保存してください。
 
-![プログラム未保存の状態](https://user-images.githubusercontent.com/75155258/133559822-d1afeb26-bcb8-4d4a-80a5-28f80cb3090f.png)
+![プログラム未保存の状態](/imghttps://user-images.githubusercontent.com/75155258/133559822-d1afeb26-bcb8-4d4a-80a5-28f80cb3090f.png)
 
 実行する関数→ 「endFormCheck」
 
@@ -292,7 +290,7 @@ JavaScript がベースになっており、Google の色々なサービスを(�
 
 を選んで、右下の「保存」をクリックしてください。
 
-![トリガーをセット](https://user-images.githubusercontent.com/75155258/133558445-c4b72802-7221-4a08-a947-855bb9f42800.png)
+![トリガーをセット](/imghttps://user-images.githubusercontent.com/75155258/133558445-c4b72802-7221-4a08-a947-855bb9f42800.png)
 
 少し待つと Google アカウントのログイン画面が表示されます。
 
@@ -300,13 +298,13 @@ JavaScript がベースになっており、Google の色々なサービスを(�
 
 この画面が表示されたら、「許可」をクリックしてください。
 
-![権限を許可](https://user-images.githubusercontent.com/75155258/133560019-785a56b7-2b79-4119-a670-533c783d2d27.png)
+![権限を許可](/imghttps://user-images.githubusercontent.com/75155258/133560019-785a56b7-2b79-4119-a670-533c783d2d27.png)
 
 「このアプリは確認されていません」との警告が出る場合がありますが、これは普通のことです。
 
 私の環境では再現できなかったのですが(Google に開発者登録をしているからかも)、もしそのような警告が出た場合は、下のサイトの手順通りに対処してください。
 
-<a href="https://auto-worker.com/?p=609#toc_id_2" target="_blank" rel="noopener noreferrer">Google Apps Script(GAS)入門 初回コード実行時の承認・許可方法を解説【図説】 | AutoWorker〜Google Apps Script(GAS)とSikuliで始める業務改善入門</a>
+<a href="https://auto-worker.com/blog/?p=609#toc_id_2" target="_blank" rel="noopener noreferrer">Google Apps Script(GAS)入門 初回コード実行時の承認・許可方法を解説【図説】 | AutoWorker〜Google Apps Script(GAS)とSikuliで始める業務改善入門</a>
 
 ※私のコードが信用できないという方は、「安全なページに戻る」をクリックしても構いません。
 
@@ -318,33 +316,33 @@ JavaScript がベースになっており、Google の色々なサービスを(�
 
 「定員付きフォーム」に関する設定は、パズルのアイコン＞「定員制御」からすべて行えます。
 
-![定員制御](https://user-images.githubusercontent.com/75155258/133560462-1312cfa9-80fb-49ee-b0d1-5604f4abad0b.png)
+![定員制御](/imghttps://user-images.githubusercontent.com/75155258/133560462-1312cfa9-80fb-49ee-b0d1-5604f4abad0b.png)
 
 設定画面はこんな感じです。
 
-![設定画面](https://user-images.githubusercontent.com/75155258/133561915-b753151b-1f04-47eb-ad84-2416abd80b04.png)
+![設定画面](/imghttps://user-images.githubusercontent.com/75155258/133561915-b753151b-1f04-47eb-ad84-2416abd80b04.png)
 
 ### 最初にやること
 
 まず最初に、「定員を変更」をクリックしてください。
 
-![設定画面から定員を変更を選択](https://user-images.githubusercontent.com/75155258/133561983-ad986396-9041-4c62-9b4e-bf769a8dac0f.png)
+![設定画面から定員を変更を選択](/imghttps://user-images.githubusercontent.com/75155258/133561983-ad986396-9041-4c62-9b4e-bf769a8dac0f.png)
 
 表示されたポップアップに、設定したい定員を半角数字で入力し、「OK」をクリックしてください。
 
-![定員設定](https://user-images.githubusercontent.com/75155258/133561523-ec4f49ab-4002-4e78-bb49-c37aa81e57d3.png)
+![定員設定](/imghttps://user-images.githubusercontent.com/75155258/133561523-ec4f49ab-4002-4e78-bb49-c37aa81e57d3.png)
 
 次に、概要文に残りの枠数を表示させるかどうかの設定をします。
 
 先程の設定画面から、「残りの枠数を表示するしきい値を変更」をクリックしてください。
 
-![しきい値を設定](https://user-images.githubusercontent.com/75155258/133562142-df80837b-d1f6-4c9d-9a93-0b20985c88ea.png)
+![しきい値を設定](/imghttps://user-images.githubusercontent.com/75155258/133562142-df80837b-d1f6-4c9d-9a93-0b20985c88ea.png)
 
 このプログラムでは、フォームの概要文に「あと何枠です」というように表示させることができます。
 
-しかし、あまり枠が埋まっていないことが分かると、申し込む気がなくなってしまう人もいます。(特に日本人はその傾向が強いと言われています。)
+しかし、あまり枠が埋まっていないことが分かると、申し込む気が失せてしまう人もいるかもしれません。
 
-そこで、枠が残り少なくなったら、「あと何枠です」という表示を開始するように設定できます。
+そこで、枠が残り少なくなってから、「あと何枠です」という表示を開始するように設定できます。
 
 ここでは、「数」か「割合」で設定できます。
 
@@ -368,12 +366,8 @@ JavaScript がベースになっており、Google の色々なサービスを(�
 
 ## まとめ
 
-いかがでしたか？
+久しぶりのGASだったので色々調べながらの開発でしたが、楽しかったです。
 
-久しぶりのGASだったので、色々調べながらの開発でしたが、楽しかったです。
+本日紹介したコードは報告不要・クレジット表記不要・商用利用可で使っていただいて構いません。
 
-ぜひ、本日紹介したプログラムを使ってみてください！
-
-報告不要・クレジット表記不要・商用利用可　です。
-
-なお、ここで紹介したコードは<a href="https://github.com/r-40021/form_limit" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。
+コードは<a href="https://github.com/r-40021/form_limit" target="_blank" rel="noopener noreferrer">GitHub</a>でも公開しているので、Star、Issue、プルリク等していただけると幸いです。
