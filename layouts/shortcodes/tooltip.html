@@ -1,16 +1,18 @@
-<!--
+<!-- 
     Displays a tooltip for a link. The shortcode supports the following arguments:
     "color":        Optional theme color of the element, either "primary" (default), "secondary", "success",
-                    "danger", "warning", "info", "light", "dark", "white" or "black".
-    "title"         Required text to display in the tooltip.
+                    "danger", "warning", "info", "light", or "dark".
+    "title"         Required plain text to display in the tooltip.
     "href"          Required address for the button or hyperlink.
-    "placement"     Optional position of the tooltip: "top" (default), "bottom", "left", or "right".
+    "placement"     Optional position of the tooltip: "top" (default), "bottom", "left", or "right". 
+    "class"         Optional class attribute of the tooltip's button element.
+    "spacing"       Optional flag to add spacing to the inline tooltip, defaults to "true".
 -->
 
 {{ $error := false }}
 {{ $type := "link" -}}
 
-{{ $title := trim .Inner " \r\n" -}}
+{{ $title := trim .Inner " \r\n" | plainify -}}
 {{ if not $title -}}
     {{ errorf "Missing inner element text: %s" .Position -}}
     {{ $error = true }}
@@ -18,15 +20,15 @@
 
 {{ $color := "primary" -}}
 {{ with .Get "color" }}{{ $color = . }}{{ end -}}
-{{ $supportedColors := slice "primary" "secondary" "success" "danger" "warning" "info" "light" "dark" "white" "black" -}}
+{{ $supportedColors := slice "primary" "secondary" "success" "danger" "warning" "info" "light" "dark" -}}
 {{ if not (in $supportedColors $color) -}}
     {{ errorf "Invalid value for param 'color': %s" .Position -}}
     {{ $error = true }}
 {{ end -}}
 
-{{ $tooltip := .Get "title" -}}
+{{ $tooltip := .Get "title" | default "" -}}
 
-{{ $href := .Get "href" -}}
+{{ $href := .Get "href" | default "" -}}
 {{ if not $href -}}
     {{ errorf "Missing value for param 'href': %s" .Position -}}
     {{ $error = true }}
@@ -40,6 +42,21 @@
     {{ $error = true }}
 {{ end -}}
 
+{{- $class := .Get "class" | default "" -}}
+
+{{- $spacing := .Get "spacing" | default true -}}
+
 {{ if not $error }}
-    {{- partial "button.html" (dict "type" $type "title" $title "color" $color "tooltip" $tooltip "href" $href "placement" $placement) -}}
+    <div class="d-inline-flex">
+        {{- partial "assets/button.html" (dict 
+            "type" $type
+            "title" $title
+            "color" $color
+            "tooltip" $tooltip
+            "href" $href
+            "placement" $placement
+            "class" $class
+            "spacing" $spacing) 
+        -}}
+    </div>
 {{ end }}

@@ -1,69 +1,14 @@
-{{- define "partials/header.html" -}}
-    {{ if site.Params.navigation.breadcrumb }}{{ partial "breadcrumb.html" . }}{{ end -}}
-    {{ if in (slice "docs" "minimal") .Layout }}
-        <h1>{{ .Title }}</h1>
-    {{ else }}
-        {{ $lastmodstr := (partial "utilities/date.html" (dict "date" .Lastmod "format" "long")) -}}
-        {{ $datestr := (partial "utilities/date.html" (dict "date" .Date "format" "long")) -}}
-        <h1>{{ .Title }}</h1>
-        <p class="lead mb-4 mt-4">{{ .Description }}</p>
-        <small class="text-body-secondary text-uppercase">
-            {{ $datestr | i18n "postedOnDate" -}}
-            {{ if ne $datestr $lastmodstr -}}&nbsp;({{ $lastmodstr | i18n "lastModified" }}){{ end }} &bull;
-            {{ i18n "read" -}} {{ .ReadingTime | lang.FormatNumber 0 }}&nbsp;{{ i18n "minutesShort" }}
-        </small>
+{{- define "partials/single-main.html" -}}
+    {{ if .Site.Params.navigation.breadcrumb }}{{ partial "assets/breadcrumb.html" . }}{{ end -}}
 
-        <div class="mt-3">
-            {{ range (.GetTerms "tags") -}}
-                <a class="btn btn-light btn-sm" href="{{ (path.Join .Page.RelPermalink) | relURL }}" role="button">{{ .LinkTitle }}</a> 
-            {{ end -}}
-        </div>
-    {{ end }}
-{{ end -}}
+    {{ .Render "single/header" }}
 
-{{ define "partials/body.html" -}}
-    <article class="mt-3">
-        {{ if eq .Layout "docs"}}
-            {{ .Content }}
-        {{ else }}
-            {{ if .Params.thumbnail -}}
-                {{- $credits := "" -}}
-                {{- if .Params.photoCredits }}{{ if .Params.PhotoSource }}{{ $credits = printf "%s %s %s %s" (T "photoBy") .Params.photoCredits (T "photoOn") .Params.PhotoSource }}{{ end }}{{ end -}}
-                {{- partial "image.html" (dict "url" .Params.thumbnail "ratio" "21x9" "outerClass" "img-wrap" "innerClass" "rounded" "title" .Params.title "caption" $credits) -}}
-            {{ end -}}
-            <div class="mb-3"></div>
-            {{ .Content }}
-    </article>
-{{ end }}
-{{ end -}}
+    {{- if and .Site.Params.navigation.toc .Params.includeToc | default true -}}
+        <div class="d-md-none pb-5">{{ partial "assets/toc-dropdown.html" . }}</div>
+    {{- end -}}
+    {{ .Render "single/body" }}
 
-{{ define "partials/footer.html" -}}
-    {{ if eq .Layout "docs"}}
-        <div class="mt-5 small">
-            {{ partial "utilities/git.html" . }}
-        </div>
-    {{ else }}
-        {{- partial "assets/series.html" . -}}
-        {{- partial "assets/related.html" . -}}
-        <div class="row row-cols-2 mt-5 mb-3">
-            <div class="col">
-                {{ with .NextInSection -}}
-                    {{ $next := . -}}
-                    {{ with .OutputFormats.Get "html" -}}
-                        <a class="next" href="{{ $next.Permalink }}"><i class="fas fa-arrow-left"></i> {{ $next.Title }}</a>
-                    {{- end -}}
-                {{ end -}}
-            </div>
-            <div class="col text-end">
-                {{ with .PrevInSection -}}
-                    {{ $prev := . -}}
-                    {{ with .OutputFormats.Get "html" -}}
-                        <a class="previous" href="{{ $prev.Permalink }}">{{ $prev.Title }} <i class="fas fa-arrow-right"></i></a>
-                    {{- end -}}
-                {{ end -}}
-            </div>
-        </div>
-    {{ end }}
+    {{ .Render "single/footer" }}
     {{- if and .Site.Params.comments.enabled .Params.showComments | default true -}}
         <hr>
         {{ partial "assets/comments.html" . }}
@@ -72,50 +17,58 @@
 
 {{ define "main" -}}
     {{- $menu := .Scratch.Get "sidebar" -}}
-    {{- $sidebar := .Site.Params.navigation.sidebar | default true -}}
-    {{ if and $menu $sidebar -}}
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvass-sidebar" aria-labelledby="offcanvas-label">
+    {{- $version := .Scratch.Get "version" -}}
+
+    {{ $sidebar := "" }}
+    {{- $hasSidebar := .Site.Params.navigation.sidebar | default true -}}
+    {{ if and $menu $hasSidebar  }}{{ $sidebar = partial "assets/sidebar.html" (dict "page" . "menu" $menu "version" $version) }}{{ end }}
+
+    {{ $toc := .Render "single/panel-toc" }}
+
+    {{ with $sidebar -}}
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvass-sidebar" aria-inledby="offcanvas-label">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvas-label">{{ strings.FirstUpper .Section }}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title" id="offcanvas-label">{{ strings.FirstUpper $.Section }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="{{ T "close" }}"></button>
             </div>
             <div class="offcanvas-body">
-                {{ partial "assets/sidebar" (dict "page" . "menu" $menu) }}
+                {{ . | safeHTML }}
             </div>
         </div>
- 
-        <section class="container-fluid">
+    {{ end }}
+
+    <div class="container-xxl flex-fill p-4 px-xxl-0">
+        {{ if and $menu $hasSidebar -}}
             <div class="row row-cols-md-2 row-cols-lg-3">
-                <div class="col col-md-3 col-lg-2 d-none mt-5 d-md-block">
-                    {{ partial "assets/sidebar" (dict "page" . "menu" $menu) }}
+                <div class="col col-md-3 col-lg-2 d-none pt-5 d-md-block sidebar-overflow sticky-top">
+                    {{ $sidebar | safeHTML }}
                 </div>
                 <div class="col col-md-9 col-lg-8 mb-5 p-4">
-                    {{ partial "partials/header.html" . }}
-                    {{ partial "partials/body.html" . }}
-                    {{ partial "partials/footer.html" . }}
+                    {{ partial "partials/single-main.html" . }}
                 </div>
-                <div class="col col-lg-2 d-none d-lg-block mt-5">
-                    {{- if and .Site.Params.navigation.toc .Params.includeToc | default true -}}
-                        {{ partial "assets/toc.html" . -}}
-                    {{ end -}}
+                <div class="col col-lg-2 d-none d-lg-block pt-5">
+                    {{ $toc | safeHTML }}
                 </div>
             </div>
-        </section>
-    {{ else }}
-        <div class="container-fluid">
+        {{ else if $hasSidebar }}
             <div class="row row-cols-1 row-cols-sm-3">
-                <div class="col col-md-2 col-xl-3 d-none d-md-block"></div>
-                <section class="col col-sm-12 col-md-8 col-xl-6">
-                    {{ partial "partials/header.html" . }}
-                    {{ partial "partials/body.html" . }}
-                    {{ partial "partials/footer.html" . }}
-                </section>
-                <div class="col col-md-2 offset-xl-1 d-none d-md-block">
-                    {{- if and .Site.Params.navigation.toc .Params.includeToc | default true -}}
-                        {{ partial "assets/toc.html" . -}}
-                    {{ end -}}
+                <div class="col col-md-2 d-none d-md-block"></div>
+                <div class="col col-sm-12 col-md-8">
+                    {{ partial "partials/single-main.html" . }}
                 </div>
-            </div> 
-        </div>
-    {{ end -}}
+                <div class="col col-md-2 d-none d-md-block">
+                    {{ $toc | safeHTML }}
+                </div>
+            </div>    
+        {{ else }}
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col col-sm-12 col-md-9">
+                    {{ partial "partials/single-main.html" . }}
+                </div>
+                <div class="col col-md-3 d-none d-md-block">
+                    {{ $toc | safeHTML }}
+                </div>
+            </div>    
+        {{ end -}}
+    </div>
 {{ end -}}

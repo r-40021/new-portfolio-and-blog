@@ -1,0 +1,93 @@
+<!-- 
+    Defines an individual nav item. The shortcode supports the following arguments:
+    "header"        Required header of the nav item.
+    "class"         Optional class attribute of the inner nav item.
+    "show"          Optional flag to indicate an item should be shown.
+-->
+
+{{ $current := "" }}
+{{ $error := false -}}
+
+{{ if not .Parent }}
+    {{ errorf "The nav-item shortcode should be contained within a nav shortcode: %s" .Position }}
+{{ else }}
+    {{- $id := .Ordinal -}}
+    {{- $parent := printf "nav-%d" .Parent.Ordinal -}}
+    {{- with (.Parent.Get "id") -}}
+        {{- $parent = . -}}
+    {{- end -}}
+
+    {{- $fade := false -}}
+    {{- if eq (.Parent.Get "fade") "true" -}}
+        {{- $fade = true -}}
+    {{- end -}}
+
+    {{- $type := .Parent.Get "type" -}}
+
+    {{- $header := .Get "header" | default "" -}}
+    {{- if not $header -}}
+        {{- errorf "Missing value for param 'header': %s" .Parent.Position -}}
+    {{- end -}}
+
+    {{- $class := .Get "class" | default "" -}}
+    {{- $body := trim .Inner " \r\n" | .Page.RenderString -}}
+
+    {{- $supportedFlags := slice "true" "false" -}}
+    {{- $showParam := "false" -}}
+    {{- $show := false -}}
+    {{- with .Get "show" }}{{ $showParam = . }}{{ end -}}
+    {{- if in $supportedFlags $showParam -}}
+        {{- if eq $showParam "true" }}{{ $show = true }}{{ else }}{{ $show = false }}{{ end -}}
+    {{- else -}}
+        {{- errorf "Invalid value for param 'show': %s" $showParam -}}
+    {{- end -}}
+
+    {{- $disabledParam := "false" -}}
+    {{- $disabled := false -}}
+    {{- with .Get "disabled" }}{{ $disabledParam = . }}{{ end -}}
+    {{- if in $supportedFlags $disabledParam -}}
+        {{- if eq $disabledParam "true" }}{{ $disabled = true }}{{ else }}{{ $disabled = false }}{{ end -}}
+    {{- else -}}
+        {{- errorf "Invalid value for param 'disabled': %s" $disabledParam -}}
+    {{- end -}}
+
+    {{ $output := partial "assets/nav-item" (dict 
+        "id" $id
+        "parentID" $parent
+        "fade" $fade
+        "header" $header
+        "class" $class
+        "body" $body
+        "show" $show
+        "disabled" $disabled
+        "type" $type
+        )
+    }}
+
+    {{ $current := .Parent.Scratch.Get "inner" }}
+    {{ if $current }}
+        {{ .Parent.Scratch.Set "inner" (print $current $output) }}
+    {{ else }}
+        {{ .Parent.Scratch.Set "inner" $output }}
+    {{ end }}
+
+    {{ $alternative := partial "assets/nav-item" (dict 
+        "id" $id
+        "parentID" $parent
+        "fade" $fade
+        "header" $header
+        "class" $class
+        "body" $body
+        "show" $show
+        "disabled" $disabled
+        "type" "accordion"
+        )
+    }}
+
+    {{ $current := .Parent.Scratch.Get "alternative" }}
+    {{ if $current }}
+        {{ .Parent.Scratch.Set "alternative" (print $current $alternative) }}
+    {{ else }}
+        {{ .Parent.Scratch.Set "alternative" $alternative }}
+    {{ end }}
+{{ end }}

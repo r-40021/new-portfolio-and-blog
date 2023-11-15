@@ -1,37 +1,49 @@
 {{ define "head" }}
-{{ $desc := .Page.Description | default (.Page.Content | safeHTML | truncate 150) -}}
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{{ partial "head/stylesheet.html" . -}}
-{{ partial "head/seo.html" . }}
-{{ partialCached "head/favicon.html" . -}}
-{{ if gt (len .Site.Languages) 1}}
-<meta name="lang" content="{{ .Site.Language }}">
-{{ end }}
-{{/* カラーモード切替 */}}
-<script>
-    (() => {
-        'use strict'
+    {{ $desc := .Page.Description | default (.Page.Content | safeHTML | truncate 150) -}}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ hugo.Generator}}
+    {{ partialCached "head/stylesheet-core.html" . -}}
+    {{- $modules := site.Params.modules.optional | intersect .Page.Params.modules -}}
+    {{- range $index, $mod := $modules -}}
+        {{- $source := printf "scss/%s.scss" $mod -}}
+        {{- $target := printf "css/%s.css" $mod -}}
+        {{- partial "head/stylesheet.html" (dict "source" $source "target" $target "core" false "page" .) }}
+    {{- end -}}
+    {{- if hasPrefix (lower .Site.Params.style.themeFontPath) "http" -}}
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="stylesheet" href="{{ .Site.Params.style.themeFontPath | default "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" }}">
+    {{- end -}}
+    {{ partial "head/seo.html" . }}
+    {{ partialCached "head/favicon.html" . -}}
+    {{ if gt (len .Site.Languages) 1}}
+    <meta name="lang" content="{{ .Site.Language }}">
+    {{ end }}
+    {{/* カラーモード切替 */}}
+    <script>
+        (() => {
+            'use strict'
 
-        const storedTheme = localStorage.getItem('theme')
+            const storedTheme = localStorage.getItem('theme')
 
-        const getPreferredTheme = () => {
-            if (storedTheme) {
-                return storedTheme
+            const getPreferredTheme = () => {
+                if (storedTheme) {
+                    return storedTheme
+                }
+
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
             }
 
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-        }
-
-        const setTheme = function (theme) {
-            if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                document.documentElement.setAttribute('data-bs-theme', 'dark')
-            } else {
-                document.documentElement.setAttribute('data-bs-theme', theme)
+            const setTheme = function (theme) {
+                if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark')
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', theme)
+                }
             }
-        }
 
-        setTheme(getPreferredTheme())
-    })()
+            setTheme(getPreferredTheme())
+        })()
 </script>
 {{ end }}

@@ -1,0 +1,80 @@
+<!-- 
+    Source: https://github.com/twbs/bootstrap/blob/main/site/layouts/shortcodes/scss-docs.html
+
+    Print the full content of any given file supported by the Chroma syntax highlighter. The shortcode supports the
+    following arguments:
+    "path"          Path of the input file. The path is relative to the `basePath` defined in the `docs` section of the
+                    site's parameters. If the file starts with `./`, the path of the repository is used as base path instead.
+    "lang"          Language to be used by the syntax highlighter.
+    "show"          If unset, shows the panel with the code in collapsed state. By default, the panel is expanded.
+    "full"          If unset, shows the filename only. By default, the full relative path is shown.
+    "id"            Optional id of the collapse panel, defaults to "file-collapse-n" with a sequential number n
+                    starting at 1.
+    "class"         Optional class argument of the tab control.
+-->
+
+{{- $basePath := .Site.Params.docs.basePath -}}
+{{- $file := .Get "path" | default "" -}}
+{{- if hasPrefix $file "./" -}}
+    {{- $file = path.Clean $file -}}
+{{- else -}}
+    {{- $file = path.Join $basePath (path.Clean $file) -}}
+{{- end -}}
+
+{{- $extension := strings.TrimLeft "." (path.Ext $file)  }}
+{{- $lang := .Get "lang" | default $extension -}}
+{{- $id := printf "file-collapse-%d" .Ordinal -}}
+{{ with .Get "id" }}
+    {{ $id = . }}
+{{ end }}
+
+{{ $supportedFlags := slice "true" "false" -}}
+{{ $showParam := "true" -}}
+{{ $show := true -}}
+{{ with .Get "show" }}{{ $showParam = . }}{{ end -}}
+{{ if in $supportedFlags $showParam -}}
+    {{ if eq $showParam "true" }}{{ $show = true }}{{ else }}{{ $show = false }}{{ end -}}
+{{ else -}}
+    {{ errorf "Invalid value for param 'show': %s" $showParam -}}
+{{ end -}}
+
+{{ $fullParam := "true" -}}
+{{ $full := true -}}
+{{ with .Get "full" }}{{ $fullParam = . }}{{ end -}}
+{{ if in $supportedFlags $fullParam -}}
+    {{ if eq $fullParam "true" }}{{ $full = true }}{{ else }}{{ $full = false }}{{ end -}}
+{{ else -}}
+    {{ errorf "Invalid value for param 'full': %s" $fullParam -}}
+{{ end -}}
+
+{{- $class := .Get "class" | default "" -}}
+
+{{- /* If any parameters are missing, print an error and exit */ -}}
+{{- if not $file -}}
+    {{- errorf "%s: %q: Missing required parameters! Got: path=%q!" .Position .Name $file -}}
+{{- else -}}
+
+    {{- /* Force-check if the file exists */ -}}
+    {{ $tmp := os.Stat $file }}
+    {{- $content := readFile $file -}}
+
+    <ul class="nav nav-tabs{{ with $class }} {{ . }}{{ end }}">
+        <li class="nav-item">
+            <a class="nav-link active font-monospace" 
+                href="#body-{{ $id }}" 
+                aria-current="page" 
+                data-bs-toggle="collapse" 
+                data-bs-target=".multi-{{ $id }}" 
+                aria-expanded="false" 
+                aria-controls="body-{{ $id }} footer-{{ $id }}">
+                <small>{{ if $full }}{{ strings.TrimPrefix $basePath $file }}{{ else }}{{ path.Base $file }}{{ end }}</small>
+            </a>
+        </li>
+    </ul>
+    <div class="border-start border-end border-bottom mb-3">
+        <div class="collapse multi-{{ $id }}{{ if $show }} show{{ end }} syntax-highlight" id="body-{{ $id }}">
+            {{- highlight (trim $content "\r\n") $lang "" -}}
+        </div>
+        <div class="collapse multi-{{ $id }}{{ if not $show }} show{{ end }} p-3" id="footer-{{ $id }}"><i>...</i></div>
+    </div>
+{{- end -}}

@@ -1,7 +1,7 @@
-{{ $items := len (findRE "<li.*?>(.|\n)*?</li>" .TableOfContents) -}}
-{{ if (gt $items 1) -}}
-    <div class="toc mb-5 my-md-0 ps-xl-3 mb-lg-5 p-3 text-body-secondary sticky-top">
-        <strong class="d-block h6 my-2 pb-2 border-bottom">{{ T "toc" }}</strong>
-        {{ .TableOfContents }}
-    </div>
+{{- $page := .page -}}
+
+{{ $items := len (findRE "<li.*?>(.|\n)*?</li>" $page.TableOfContents) -}}
+{{ if gt $items 1 -}}
+    <strong class="d-block h6 my-2 pb-2 border-bottom">{{ T "toc" }}</strong>
+    {{ $page.TableOfContents }}
 {{ end -}}

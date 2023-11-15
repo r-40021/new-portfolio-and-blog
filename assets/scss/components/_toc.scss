@@ -1,20 +1,21 @@
 //
-// Table of contents sidebar
+// Table of contents sidebar & drop-down panel
 //
 // scss-docs-start toc
-.toc {
+.toc-sidebar {
     grid-area: toc;
     right: 0;
     z-index: 2;
-    height: calc(100vh - 7rem);
+    height: calc(100vh - 5rem);
     overflow-y: auto;
-    top: $navbar-offset;
+    top: 5rem;
 }
 
 // scss-docs-end toc
 
 .toc nav {
     font-size: 0.875rem;
+    margin-bottom: -0.875rem;
 }
 
 .toc nav ul {
@@ -33,6 +34,10 @@
 
 .toc nav a {
     color: inherit;
+
+    &:hover {
+        color: var(--bs-primary);
+    }
 }
 
 .toc nav a:not(:hover) {
@@ -41,4 +46,55 @@
 
 .toc nav a code {
     font: inherit;
+}
+
+#toc-collapse {
+    border-color: var(--bs-secondary-color) !important;
+}
+
+.toc-button {
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-body-bg);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-body-bg);
+    --bs-btn-active-border-color: var(--bs-primary);
+
+    &.active,
+    &:hover,
+    &:focus {
+        color: var(--bs-primary);
+        border-color: var(--bs-primary);
+        box-shadow: 0 0 0 4px var(--bs-primary-border-subtle);
+        outline: none;
+    }
+}
+
+@if $enable-dark-mode {
+    [data-bs-theme="dark"] {
+        .toc-button {
+            --bs-btn-color: var(--bs-body-color);
+            --bs-btn-border-color: var(--bs-body-color);
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        #toc-collapse {
+            border-color: var(--bs-body-color) !important;
+        }
+
+        .toc nav a {
+            color: var(--bs-body-color);
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.section-menu > .nav-link.active, .section-menu > .nav-link:hover {
+    color: var(--bs-primary);
 }

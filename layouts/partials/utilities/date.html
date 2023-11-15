@@ -1,1 +1,1 @@
-{{ if eq .format "long" }}{{ dateFormat "2006年1月2日" .date.Local }}{{ else }}{{ dateFormat "2006/1/2" .date.Local }}{{ end }}
+{{ if eq .format "long" }}{{ .date | time.Format ":date_long" }}{{ else }}{{ .date | time.Format ":date_medium" }}{{ end }}

@@ -15,6 +15,10 @@
     width: 100%;
 }
 
+.card-icon {
+    color: $secondary;
+}
+
 .card-zoom::after .card-img-wrap img {
     content: "";
     position: absolute;
@@ -48,6 +52,10 @@
     color: $body-color if($enable-important-utilities, !important, null);
 }
 
+.card-body-margin {
+    margin-bottom: $spacer * 1.5; // equals mb-4
+}
+
 @if $enable-dark-mode {
     @include color-mode(dark) {
         .card-body-link {
@@ -61,6 +69,18 @@
     &:hover,
     &:focus {
         color: shade-color($primary, $link-shade-percentage) if($enable-important-utilities, !important, null);
+    }
+}
+
+@if $enable-dark-mode {
+    @include color-mode(dark) {
+        .card-zoom card-body-link,
+        .card-body-link {
+            &:hover,
+            &:focus {
+                color: $primary-bg-subtle-dark if($enable-important-utilities, !important, null);
+            }
+        }
     }
 }
 

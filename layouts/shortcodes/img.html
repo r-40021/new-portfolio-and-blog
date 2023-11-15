@@ -1,34 +1,40 @@
-<!--
+<!-- 
     Renders a carousel item with a responsive image (see the image shortcode for more details). The shortcode
     supports the following arguments:
     "src":          Required relative url of the image, e.g. "img/example.jpg"
-    "ratio":        Optional ratio of the image, either "1x1", "4x3", "16x9", or "21x9". Other values are ignored.
-                    Instead, the original aspect ratio of the image is preserved.
+    "ratio":        Optional ratio of the image, either "1x1", "3x2", "4x3", "16x9", or "21x9". Other values are
+                    ignored. Instead, the original aspect ratio of the image is preserved.
+    "portrait":     Optional flag to adjust the ratio from landscape to portrait. The image itself is not rotated, only
+                    the crop area is adjusted.
     "caption":      Optional carousel slide caption.
 -->
 
-{{- $src := .Get "src" -}}
-{{ $caption := .Get "caption" -}}
-{{- $ratio := "" -}}
-{{ with .Parent -}}
-    {{ with .Get "ratio" }}{{ $ratio = . }}{{ end -}}
+{{ if not .Parent }}
+    {{ errorf "The img shortcode should be contained within a carousel shortcode: %s" .Position }}
 {{ else }}
-    {{ with .Get "ratio" }}{{ $ratio = . }}{{ end -}}
-{{ end -}}
+    {{- $src := .Get "src" | default "" -}}
+    {{- if $src -}}
+        {{- $caption := .Get "caption" | default "" -}}
+        {{- $ratio := partial "utilities/GetArg" (dict "page" . "arg" "ratio") -}}
+        {{- $portrait := partial "utilities/GetArg" (dict "page" . "arg" "portrait") | default false -}}
+        {{- $active := eq .Ordinal 0 -}}
+        {{- $output := partial "assets/carousel-item" (dict 
+            "page" .Page
+            "active" $active
+            "src" $src
+            "caption" $caption
+            "ratio" $ratio
+            "portrait" $portrait                
+        ) }}
 
-{{- if $src -}}
-    <div class="carousel-item {{ if eq .Ordinal 0 }}active{{ end }}">
-        {{ partial "image.html" (dict "url" $src "ratio" $ratio "innerClass" "d-block w-100") }}
-        {{ with $caption }}
-            <div class="carousel-caption d-none d-md-block gradient">
-                <div class="d-flex justify-content-center align-items-end h-100 w-100 p-4">{{ . }}</div>
-            </div>
+        {{ $current := .Parent.Scratch.Get "inner" }}
+        {{ if $current }}
+            {{ .Parent.Scratch.Set "inner" (print $current $output) }}
+        {{ else }}
+            {{ .Parent.Scratch.Set "inner" $output }}
         {{ end }}
-    </div>
-{{ else -}}
-    {{ with .Parent -}}
-        {{ errorf "Missing value for param 'src': %s" .Position -}}
+    
     {{ else -}}
-        {{ errorf "Missing value for param 'src': %s" .Position -}}
+        {{ errorf "Missing value for param 'src': %s" .Parent.Position -}}
     {{ end -}}
 {{ end -}}

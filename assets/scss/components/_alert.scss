@@ -1,0 +1,18 @@
+.alert code {
+    color: inherit;
+}
+
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+.alert a {
+    color: inherit;
+    
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-color: var(--bs-body);
+    }    
+}
+/* stylelint-enable declaration-block-no-redundant-longhand-properties */

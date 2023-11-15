@@ -7,25 +7,22 @@
     {{ $.Scratch.Set "title" .Site.Title -}}
 {{ end -}}
 
-{{ with .Description -}}
-    {{ $.Scratch.Set "description" . -}}
-{{ else -}}
-    {{ with .Summary | plainify -}}
-        {{ $.Scratch.Set "description" . -}}
-    {{ else -}}
-        {{ $.Scratch.Set "description" .Site.Params.main.description -}}
-    {{ end -}}
-{{ end -}}
+{{ $description := or (partial "utilities/GetDescription.html" .) .Site.Params.main.description }}
+{{ $.Scratch.Set "description" $description -}}
 
-{{ with .Params.thumbnail -}}
-    {{ $source := partial "utilities/GetImage.html" (dict "url" .) -}}
-    {{ with $source -}}
+{{- $thumbnail := (or (and (reflect.IsMap .Params.Thumbnail) .Params.Thumbnail.url) .Params.Thumbnail) -}}
+{{ with $thumbnail -}}
+{{- $res := partial "utilities/GetImage.html" (dict "url" .) -}}
+{{- $img := "" -}}
+{{ with $res }}{{ $img = $res.resource }}{{ end }}
+{{ with $img -}}
         {{ $dim := "1280x640" -}}
-        {{ $img := (.Fill (printf "%s jpg" $dim)) -}}
-        {{ $.Scratch.Set "thumbnail" ($img.Permalink | absURL) -}}
+        {{ $scaled := (.Fill (printf "%s jpg" $dim)) -}}
+        {{- $scaled = $scaled | resources.Copy (replace $img.RelPermalink ".jpg" (printf "-%s.jpg" $dim)) -}}
+        {{ $.Scratch.Set "thumbnail" ($scaled.Permalink | absURL) -}}
     {{ end -}}
 {{ else -}}
-    {{ with .Site.Params.schema.image.url -}} 
+    {{ with .Site.Params.schema.image.url -}}    
         {{ $.Scratch.Set "thumbnail" (. | absURL) -}}
     {{ else -}}
         {{ $images := $.Resources.ByType "image" -}}
@@ -57,9 +54,9 @@
 {{ end -}}
 
     {{ if .IsHome -}}
-        <title>{{ .Site.Title }}</title>
+        <title>{{ .Site.Title }} {{ if .Site.Params.head.tagline }} {{ .Site.Params.main.separator }} {{ .Site.Params.head.tagline }}{{ end }}</title>
     {{ else -}}
-        <title>{{ .Title }} {{ .Site.Params.main.separator }} {{ .Site.Title }}</title>
+        <title>{{ .Site.Title }} {{ .Site.Params.main.separator }} {{ .Title }}</title>
     {{ end -}}
 
     <meta name="description" content="{{ $.Scratch.Get "description" }}">

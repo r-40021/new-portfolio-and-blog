@@ -1,0 +1,39 @@
+{{- $page := .page -}}
+{{- $class := printf "img-wrap" -}}
+{{- with .class }}{{ $class = printf "img-wrap %s" . }}{{ end -}}
+{{- $ratio := .ratio | default "21x9" -}}
+{{- $thumbnail := "" -}}
+{{- $credits := "" -}}
+
+{{- if reflect.IsMap $page.Params.Thumbnail -}}
+    {{- $thumbnail = $page.Params.Thumbnail.url -}}
+    {{- $author := "" -}}
+    {{- if and $page.Params.Thumbnail.authorURL "text" $page.Params.Thumbnail.author }}
+        {{- $author = partial "utilities/link" (dict "destination" $page.Params.Thumbnail.authorURL "text" $page.Params.Thumbnail.author) -}}
+    {{- else if $page.Params.Thumbnail.author }}
+        {{- $author = $page.Params.Thumbnail.author -}}
+    {{- end -}}
+
+    {{- $origin := "" -}}
+    {{- if and $page.Params.Thumbnail.originURL "text" $page.Params.Thumbnail.origin }}
+        {{- $origin = partial "utilities/link" (dict "destination" $page.Params.Thumbnail.originURL "text" $page.Params.Thumbnail.origin) -}}
+    {{- else if $page.Params.Thumbnail.origin }}
+        {{- $origin = $page.Params.Thumbnail.origin -}}
+    {{- end }}
+
+    {{- if and $author $origin }}
+        {{ $credits = printf (T "photoFull") $author $origin }}
+    {{ else if $author }}
+        {{ $credits = T "photoShort" $author }}
+    {{ end }}
+{{ else }}
+    {{- $thumbnail = $page.Params.Thumbnail -}}
+    {{ if or $page.Params.photoCredits $page.Params.photoSource }}
+        {{ warnf "DEPRECATED: frontmatter variables `photoCredits` and `photoSource` have been deprecated in release v0.18: %s" $page.RelPermalink }}
+    {{ end }}
+    {{- if and $page.Params.photoCredits $page.Params.PhotoSource }}{{ $credits = printf (T "photoFull") $page.Params.photoCredits $page.Params.PhotoSource }}{{ end -}}
+{{- end -}}
+
+{{ if $thumbnail -}}
+    {{- partial "assets/image.html" (dict "url" $thumbnail "ratio" $ratio "outerClass" $class "innerClass" "rounded" "title" $page.Params.title "caption" $credits "priority" "high") -}}
+{{ end -}}
