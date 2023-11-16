@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/hinode",
-  "version": "0.21.6",
+  "version": "0.21.7",
   "description": "Hinode is a clean documentation and blog theme for Hugo, an open-source static site generator",
   "keywords": [
     "hugo",
@@ -60,7 +60,7 @@
     "type": "git",
     "url": "git+https://github.com/gethinode/hinode.git"
   },
-  "author": "FrogApp",
+  "author": "Mark Dumay",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gethinode/hinode/issues"

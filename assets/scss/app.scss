@@ -1,91 +1,43 @@
 // Define template variables
 @import "hugo:vars";
 
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
-$headings-font-weight: 800;
-$line-height-base: 1.9;
-
 // Include default variable overrides
 @import "common/variables.scss";
+@import "theme/variables.scss";
 @import "common/icons.scss";
 
-// Import Bootstrap banner and functions
-// @import "bootstrap/scss/mixins/banner";
-// @include bsBanner("");
-@import "bootstrap/scss/functions";
+// Import Bootstrap configuration (mounted by core Bootstrap module)
+@import "bootstrap.scss";
 
-// Import Bootstrap configuration
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark.scss";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
-
-// Import Bootstrap layout & components
-@import "bootstrap/scss/root";
-@import "bootstrap/scss/reboot";
-@import "bootstrap/scss/type";
-@import "bootstrap/scss/images";
-@import "bootstrap/scss/containers";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/tables";
-@import "bootstrap/scss/forms";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/transitions";
-@import "bootstrap/scss/dropdown";
-@import "bootstrap/scss/button-group";
-@import "bootstrap/scss/nav";
-@import "bootstrap/scss/navbar";
-@import "bootstrap/scss/card";
-// @import "bootstrap/scss/accordion";
-// @import "bootstrap/scss/breadcrumb";
-@import "bootstrap/scss/pagination";
-// @import "bootstrap/scss/badge";
-// @import "bootstrap/scss/alert";
-// @import "bootstrap/scss/progress";
-// @import "bootstrap/scss/list-group";
-// @import "bootstrap/scss/close";
-// @import "bootstrap/scss/toasts";
-// @import "bootstrap/scss/modal";
-// @import "bootstrap/scss/tooltip";
-// @import "bootstrap/scss/popover";
-// @import "bootstrap/scss/carousel";
-// @import "bootstrap/scss/spinners";
-// @import "bootstrap/scss/offcanvas";
-// @import "bootstrap/scss/placeholders";
-
-// Import Bootstrap helpers
-@import "bootstrap/scss/helpers";
-
-// Import Bootstrap utilities
-@import "bootstrap/scss/utilities/api";
-
-// Import Font Awesome
-// scss-docs-start awesome
-// @import "@fortawesome/fontawesome-free/scss/fontawesome";
-// @import "@fortawesome/fontawesome-free/scss/regular";
-// @import "@fortawesome/fontawesome-free/scss/solid";
-// @import "@fortawesome/fontawesome-free/scss/brands";
-// scss-docs-end awesome
+// Include dark mode overrides
+@import "common/variables-dark.scss";
 
 // Import Hinode theme styles
+@import "components/abbr.scss";
+@import "components/alert.scss";
 @import "components/blockquote.scss";
-@import "components/buttons.scss";
+@import "components/breadcrumb.scss";
+@import "components/button.scss";
 @import "components/card.scss";
 @import "components/carousel.scss";
 @import "components/clipboard.scss";
 @import "components/command.scss";
 @import "components/comments.scss";
+@import "components/feature.scss";
+@import "components/footer.scss";
+@import "components/nav.scss";
 @import "components/navbar.scss";
 @import "components/img.scss";
+@import "components/pagination.scss";
+@import "components/persona.scss";
 @import "components/popover.scss";
-@import "components/search.scss";
 @import "components/sidebar.scss";
 @import "components/syntax.scss";
+@import "components/table.scss";
+@import "components/timeline.scss";
 @import "components/toc.scss";
-@import "components/vimeo.scss";
+@import "components/video.scss";
+@import "common/animation.scss";
 @import "common/styles.scss";
 @import "layouts/reboot.scss";
 @import "layouts/type.scss";
@@ -93,100 +45,17 @@ $line-height-base: 1.9;
 @import "helpers/colored-links.scss";
 @import "helpers/display.scss";
 
+// TODO: include fonts with following statement in Dart Sass
+// @if $import-fonts {
+//     @include meta.load-css(theme/fonts);
+// }
+
+{{ if (not (hasPrefix (lower site.Params.style.themeFontPath) "http")) }}
+    @import "theme/fonts.scss";
+{{ end }}
+
 // Import theme placeholder
 @import "theme/theme.scss";
 
-a[target="_blank"]:after {
-    display: inline-block;
-    width: .8rem;
-    height: .8rem;
-    content: "";
-    margin: 0 .2em;
-    background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-    mask: url("/icons/open-in-new.svg");
-    -webkit-mask: url("/icons/open-in-new.svg");
-    mask-size: cover;
-    -webkit-mask-size: cover;
-}
-
-img, iframe {
-    max-width: 80%;
-}
-
-@media screen and (max-width: 768px) {
-    img, iframe {
-        max-width: 100%;
-    }
-}
-
-.alert-card {
-    background-color: #ffe0e0;
-    border-radius: 7px;
-    color: #6e2121;
-    margin-bottom: 1em;
-    padding: .5em 1em;
-
-    a {
-        color: inherit;
-        text-decoration: underline;
-    }
-
-    a[target="_blank"]:after {
-        background-color: #6e2121;
-    }
-
-    p:last-child {
-        margin-bottom: 0;
-    }
-}
-
-.warning-card {
-    background-color: #fff5bf;
-    border-radius: 7px;
-    color: #544321;
-    margin-bottom: 1em;
-    padding: .5em 1em;
-
-    a {
-        color: inherit;
-        text-decoration: underline;
-    }
-
-    a[target="_blank"]:after {
-        background-color: #544321;
-    }
-
-    p:last-child {
-        margin-bottom: 0;
-    }
-}
-
-.info-card {
-    background-color: #cfe8ff;
-    border-radius: 7px;
-    color: #164d7a;
-    margin-bottom: 1em;
-    padding: .5em 1em;
-
-    a {
-        color: inherit;
-        text-decoration: underline;
-    }
-
-    a[target="_blank"]:after {
-        background-color: #164d7a;
-    }
-
-    p:last-child {
-        margin-bottom: 0;
-    }
-}
-
-a.nav-link {
-    white-space: nowrap;
-}
-
-#suggestions {
-    max-height: calc(100vh - 5em);
-    overflow-y: auto;
-}
+// Import Bootstrap utilities API  (mounted by core Bootstrap module)
+@import "modules/bootstrap/utilities/api";

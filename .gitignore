@@ -1,17 +1,7 @@
-/public
+/_vendor
+public/
 resources/
 node_modules/
-_vendor/
-
-*.env
-*.log
 
 .DS_store
 .hugo_build.lock
-hugo_stats.json
-node_modules
-
-assets/img/*
-assets/js/*.bundle.js
-assets/js/*.bundle.js.map
-assets/js/*.txt
