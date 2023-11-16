@@ -1,6 +1,7 @@
 /public
 resources/
 node_modules/
+_vendor/
 
 *.env
 *.log

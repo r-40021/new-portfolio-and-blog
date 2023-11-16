@@ -1,17 +1,22 @@
+# toml-docs-start main
 [main]
     separator = "-"
     description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
     enableDarkMode = true
     modes = ["light", "dark"]
     canonifyAssetsURLs = false
+    endorse = true
     footerBelowFold = false
     loading = "lazy"
+    breakpoint = "md"
     [main.externalLinks]
-        cue = true
-        tab = true
+        cue = false
+        tab = false
     [main.build]
-        transpiler = "dartsass"
+        transpiler = "libsass"
+# toml-docs-end main
 
+# toml-docs-start modules
 [modules]
     core = ["bootstrap", "flexsearch", "fontawesome"]
     optional = ["leaflet", "katex", "lottie"]
@@ -23,17 +28,21 @@
         inline = true
         debug = true
         skipMissing = false
+# toml-docs-end modules
 
+# toml-docs-start debugging
 [debugging]
     showJS = false
     showSCSS = false
-    purgeHTMLComments = true # prevents a Goldmark warning when processing HTML comments (as used by markdownlint)
+    purgeHTMLComments = false
+# toml-docs-end debugging
 
+# toml-docs-start docs
 [docs]
-    basePath = "/" # TODO: replace
     github = "https://github.com/gethinode/hinode"
     release = "https://github.com/gethinode/hinode/releases/tag/"
     checkVersion = false
+# toml-docs-end docs
 
 [home]
     sections = ["blog", "projects"]
@@ -131,6 +140,24 @@
         homepage = 3
         separator = false
 
+# toml-docs-start sections
+# [sections]
+#     [sections.posts]
+#         title = "Posts"
+#         sort = "date"
+#         reverse = true
+#         nested = true
+#         cols = 3
+#         color = ""
+#         padding = "0"
+#         header = "full"
+#         footer = "none"
+#         orientation = "stacked"
+#         style = "border-0 card-zoom card-body-margin"
+#         homepage = 3
+#         separator = true
+# toml-docs-end sections
+
 [favicon]
     logo = "img/favicon.png"
     sizes = [16, 32, 48]
@@ -145,14 +172,19 @@
     danger = "#dc3545"
     light = "#f8f9fa"
     dark = "#212529"
+# toml-docs-end theme-colors
     themeOpacity = "10"
     darkModeShade = "20%"
     darkModeTint = "40%"
+# toml-docs-start font
     themeFont = "Inter"
     # themeFontPath = "https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&display=swap" # external path
     themeFontPath = "/fonts" # local path
-    purge = true
-# toml-docs-end theme-colors
+    fontSizeBase = "1rem" # assumes the browser default, typically '16px'
+# toml-docs-end font
+# toml-docs-start build
+    purge = false
+# toml-docs-end build
 
 [schema]
     type = "Organization"
@@ -178,7 +210,7 @@
 
 [opengraph]
     images = ["logo.png"]
-    locale = "en_US"
+    locale = "ja_JP"
 
 [comments]
     enabled = false
@@ -190,11 +222,4 @@
     #theme = "" 
 
 [links]
-    bs_badge_heading = "https://getbootstrap.com/docs/5.3/components/badge/#headings"
-    hinode_docs = "https://gethinode.com"
-    hugo_imaging = "https://gohugo.io/content-management/image-processing/#imaging-configuration"
-    mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
-    observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
-    pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
-    utterances = "https://utteranc.es"
     hinode = "https://gethinode.com"
