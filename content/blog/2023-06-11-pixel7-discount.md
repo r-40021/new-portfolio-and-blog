@@ -7,8 +7,10 @@ tags:
   - スマホ
   - Google
   - Pixel
-thumbnail: /img/2023/06/11/pixel-7.webp
-photoCredits: '<a href="https://unsplash.com/@quangthai_itshop">Thai Nguyen</a>'
+thumbnail:
+  url: /img/2023/06/11/pixel-7.webp
+  author: 'Thai Nguyen'
+  authorURL: 'https://unsplash.com/@quangthai_itshop'
 photoSource: '<a href="https://unsplash.com/photos/j7TceNx_b7A">Unsplash</a>'
 author: FrogApp
 ---

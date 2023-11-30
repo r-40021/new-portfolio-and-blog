@@ -1,0 +1,6 @@
+baseURL = 'https://frogapp.net/'
+languageCode = 'ja-jp'
+title = 'カエルの人'
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'

@@ -5,7 +5,7 @@ date: 2021-03-27
 description: 当サイトがユーザーの情報をどの程度収集し、何の目的で使用しているのかをご説明します。
 showComments: false
 url: "privacy"
-layout: "docs"
+type: docs
 ---
 ## 変更履歴
 

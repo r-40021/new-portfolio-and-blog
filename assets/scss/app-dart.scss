@@ -15,28 +15,28 @@
 @import "common/variables-dark.scss";
 
 // Import Hinode theme styles
-@import "components/abbr.scss";
+// @import "components/abbr.scss";
 @import "components/alert.scss";
 @import "components/blockquote.scss";
 @import "components/breadcrumb.scss";
 @import "components/button.scss";
 @import "components/card.scss";
-@import "components/carousel.scss";
-@import "components/clipboard.scss";
+// @import "components/carousel.scss";
+// @import "components/clipboard.scss";
 @import "components/command.scss";
-@import "components/comments.scss";
+// @import "components/comments.scss";
 @import "components/feature.scss";
 @import "components/footer.scss";
 @import "components/nav.scss";
 @import "components/navbar.scss";
-@import "components/img.scss";
+// @import "components/img.scss";
 @import "components/pagination.scss";
-@import "components/persona.scss";
-@import "components/popover.scss";
-@import "components/sidebar.scss";
+// @import "components/persona.scss";
+// @import "components/popover.scss";
+// @import "components/sidebar.scss";
 @import "components/syntax-dart.scss"; // note: modified for dart-sass
 @import "components/table.scss";
-@import "components/timeline.scss";
+// @import "components/timeline.scss";
 @import "components/toc.scss";
 @import "components/video.scss";
 @import "common/animation.scss";
@@ -56,4 +56,21 @@
 @import "theme/theme.scss";
 
 // Import Bootstrap utilities API  (mounted by core Bootstrap module)
-@import "modules/bootstrap/utilities/api";
+// @import "modules/bootstrap/utilities/api";
+
+img {
+  max-width: 100%;
+}
+
+p > a[target="_blank"]:after {
+  display: inline-block;
+  width: .8rem;
+  height: .8rem;
+  content: "";
+  margin: 0 .2em;
+  background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  mask: url("/icons/open-in-new.svg");
+  -webkit-mask: url("/icons/open-in-new.svg");
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}

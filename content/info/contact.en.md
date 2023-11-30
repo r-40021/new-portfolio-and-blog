@@ -1,11 +1,11 @@
 ---
+type: docs
 slug: contact
 title: Contact
 description: Contact form is here.
 date: 2023-03-31
 showComments: false
 url: "contact"
-layout: "docs"
 ---
 To prevent spam, we cannot respond to inquiries that are not submitted through this contact form.
 

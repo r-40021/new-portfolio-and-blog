@@ -3,7 +3,8 @@ author: FrogApp
 categories: PC
 tags: []
 title: Google スライドで使える最強日本語フォント
-thumbnail: "/img/2022/11/07/title.webp"
+thumbnail:
+  url: "/img/2022/11/07/title.webp"
 headAlt: "「Google スライドで使える最強日本語フォント」のカバー画像"
 series: ''
 series_title: ''

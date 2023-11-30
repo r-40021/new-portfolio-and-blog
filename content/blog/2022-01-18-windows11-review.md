@@ -6,7 +6,8 @@ tags:
 - PC
 - Windows
 - Windows11
-thumbnail: /img/2022/01/18/win11.jpg
+thumbnail:
+  url: /img/2022/01/18/win11.jpg
 headAlt: Windows 11 の誤解を暴く
 date: 2022-01-18
 slug: windows11-review

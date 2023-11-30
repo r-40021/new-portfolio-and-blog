@@ -11,8 +11,10 @@ tags:
 - HTML
 - JavaScript
 - CSS
-thumbnail: /img/2021/08/02/html.jpg
-photoCredits: '<a href="https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Jackson So</a>'
+thumbnail:
+  url: /img/2021/08/02/html.jpg
+  author: Jackson So
+  authorURL: https://unsplash.com/@jacksonsophat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 photoSource: '<a href="https://unsplash.com/s/photos/html%2Fcss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2021-08-02
 slug: chrome-extension-2

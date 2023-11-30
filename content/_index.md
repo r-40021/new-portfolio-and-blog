@@ -1,15 +1,11 @@
 ---
-title: Welcome to Hinode!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+author: FrogApp
+title: カエルの人
+description: ウェブアプリやブラウザー拡張機能を開発しています。
 thumbnail:
-    url: /img/sunrise.jpg
-    author: Harris Vo
-    authorURL: https://unsplash.com/@hoanvokim
-    origin: https://unsplash.com/photos/ZX6BPboJrYk
-    originName: Unsplash
+  url: "/img/icon.webp"
 actions:
-  get-started:
-    url: "https://gethinode.com/docs"
-    title: "Get started"
-    icon: "fas book-open"
+  about:
+    url: "about"
+    title: "About"
 ---

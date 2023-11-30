@@ -6,7 +6,8 @@ tags:
 - Google
 - Chromebook
 title: 改めて感じた Chromebook の良さ〜心配がいらない PC〜
-thumbnail: "/img/2022/12/18/chromebook.webp"
+thumbnail:
+  url: "/img/2022/12/18/chromebook.webp"
 headAlt: 机の上に置かれた Chromebook とスケッチブック
 series: ''
 series_title: ''

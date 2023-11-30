@@ -8,7 +8,8 @@ tags:
   - Google
   - iPhone
   - スマホ
-thumbnail: /img/2023/05/21/box.webp
+thumbnail:
+  url: /img/2023/05/21/box.webp
 author: FrogApp
 draft: false
 ---

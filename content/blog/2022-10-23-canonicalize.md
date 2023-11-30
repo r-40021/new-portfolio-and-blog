@@ -5,7 +5,8 @@ tags:
 - Cloudflare
 - ドメイン
 title: Cloudflare Pages で WWW あり・なしを正規化する
-thumbnail: "/img/2022/10/23/canonicalize.webp"
+thumbnail:
+  url: "/img/2022/10/23/canonicalize.webp"
 headAlt: Cloudflare Pages で WWW あり・なしを正規化
 series: ''
 series_title: ''

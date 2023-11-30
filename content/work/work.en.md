@@ -10,8 +10,10 @@ tags:
   - web
   - apps
   - works
-thumbnail: img/2023/04/01/website.webp
-photoCredits: '<a href="https://unsplash.com/@pankajpatel">Pankaj Patel</a>'
+thumbnail:
+  url: img/2023/04/01/website.webp
+  author: Pankaj Patel
+  authorURL: 'https://unsplash.com/@pankajpatel'
 photoSource: '<a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>'
 url: works
 ---

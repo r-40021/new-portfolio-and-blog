@@ -6,7 +6,8 @@ date: 2023-10-06T03:00:00.000Z
 tags:
   - スマホ
   - Pixel
-thumbnail: /img/2023/10/06/android14.webp
+thumbnail:
+  url: /img/2023/10/06/android14.webp
 author: FrogApp
 draft: false
 ---

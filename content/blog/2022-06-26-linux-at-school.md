@@ -5,10 +5,11 @@ tags:
 - Linux
 - 学校
 title: 学校でLinuxを使う上で困ったこと
-thumbnail: "/img/2022/06/26/hallway.jpg"
+thumbnail:
+  url: "/img/2022/06/26/hallway.jpg"
 headAlt: 廊下
-photoCredits: '<a href="https://unsplash.com/@nkly1004?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  target="_blank"
-  rel="noopener noreferrer">Nguyen Khanh Ly</a>'
+author: 'Nguyen Khanh Ly'
+authorURL: 'https://unsplash.com/@nkly1004?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
 photoSource: '<a href="https://unsplash.com/s/photos/school?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  target="_blank"
   rel="noopener noreferrer">Unsplash</a>'
 date: 2022-06-26

@@ -6,7 +6,8 @@ tags:
 - PC
 - Google
 - Windows
-thumbnail: /img/2021/11/21/protect-chrome.png
+thumbnail:
+  url: /img/2021/11/21/protect-chrome.png
 headAlt: Chromeを守れ
 date: 2021-11-21
 slug: protect-chrome

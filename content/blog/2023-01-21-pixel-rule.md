@@ -6,7 +6,8 @@ tags:
 - Google
 - Pixel
 title: "【Google Pixel】外出したらマナーモードを自動でオンにする"
-thumbnail: "/img/2023/01/21/rule.webp"
+thumbnail:
+  url: "/img/2023/01/21/rule.webp"
 headAlt: 前面に「マナーモードを自動で切り替える」の文字、背面は「ルール」の設定画面のスクリーンショット
 series: ''
 series_title: ''

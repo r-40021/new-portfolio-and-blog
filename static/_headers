@@ -1,8 +1,0 @@
-https://:project.pages.dev/*
-  Link: <https://frogapp.net/:splat>; rel="canonical"
-  X-Robots-Tag: noindex
-  Refresh: 0; url=https://frogapp.net/:splat
-
-https://www.frogapp.net/*
-  Link: <https://frogapp.net/:splat>; rel="canonical"
-  X-Robots-Tag: noindex

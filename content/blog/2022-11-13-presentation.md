@@ -4,7 +4,8 @@ categories: 雑記
 tags:
 - プレゼン
 title: プレゼンで気をつけていること (自己流)
-thumbnail: "/img/2022/11/13/presentation.webp"
+thumbnail:
+  url: "/img/2022/11/13/presentation.webp"
 headAlt: プレゼンで気をつけていること
 series: ''
 series_title: ''

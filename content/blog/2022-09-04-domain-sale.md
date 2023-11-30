@@ -4,7 +4,8 @@ categories: プログラミング
 tags:
 - ドメイン
 title: ".com .netドメインが1年間0円で使える！"
-thumbnail: "/img/2022/09/03/domain-sale.webp"
+thumbnail:
+  url: "/img/2022/09/03/domain-sale.webp"
 headAlt: ".com .net がお一人さま1個0円"
 series: ''
 series_title: ''

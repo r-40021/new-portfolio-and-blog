@@ -5,7 +5,7 @@ description: How much user information my site collects and for what purpose it 
 date: 2021-03-27
 showComments: false
 url: "privacy"
-layout: "docs"
+type: docs
 ---
 ## Change log
 

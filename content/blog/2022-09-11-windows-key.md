@@ -4,12 +4,13 @@ categories: PC
 tags:
 - Windows
 - Linux
-photoCredits: '<a href="https://unsplash.com/@meymigrou?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Panos Sakalakis</a>'
 photoSource: '<a href="https://unsplash.com/photos/Ik0wTGgZYYM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: LinuxやWindowsからOEM版Windowsのプロダクトキーを確認する方法
-thumbnail: "/img/2022/09/10/win10.webp"
+thumbnail:
+  url: "/img/2022/09/10/win10.webp"
+  author: Panos Sakalakis
+  authorURL: https://unsplash.com/@meymigrou?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 headAlt: Windows 10 のロック画面
 series: ''
 series_title: ''

@@ -6,8 +6,10 @@ date: 2023-04-28T15:00:00.000Z
 tags:
   - プログラミング
   - GitHub
-thumbnail: /img/2023/04/29/github.webp
-photoCredits: '<a href="https://unsplash.com/@praveentcom">Praveen Thirumurugan</a>'
+thumbnail:
+  url: /img/2023/04/29/github.webp
+author: 'Praveen Thirumurugan'
+authorURL: 'https://unsplash.com/@praveentcom'
 photoSource: '<a href="https://unsplash.com/photos/KPAQpJYzH0Y">Unsplash</a>'
 author: FrogApp
 draft: false

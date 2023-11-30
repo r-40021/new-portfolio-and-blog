@@ -5,7 +5,8 @@ tags:
 - アプリ開発
 - 雑記
 title: 自分のアプリが作られた背景を語る
-thumbnail: "/img/2022/11/06/background.webp"
+thumbnail:
+  url: "/img/2022/11/06/background.webp"
 headAlt: それはどのようにして生まれたのか
 series: ''
 series_title: ''

@@ -5,7 +5,8 @@ tags:
 - PC
 - レビュー
 title: メインPC (ThinkBook 13s Gen2)を1年弱使ってみて
-thumbnail: "/img/2022/10/04/stab.webp"
+thumbnail:
+  url: "/img/2022/10/04/stab.webp"
 headAlt: スタバで ThinkBook を開いている様子
 series: ''
 series_title: ''

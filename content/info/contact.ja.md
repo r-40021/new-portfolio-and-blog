@@ -1,11 +1,11 @@
 ---
+type: docs
 slug: contact
 title: お問い合わせ
 description: お問い合わせはこちらからお願いします。
 date: 2023-03-31
 showComments: false
 url: "contact"
-layout: "docs"
 ---
 
 スパム防止のため、このお問い合わせフォームを通さないお問い合わせに対応することはできません。
