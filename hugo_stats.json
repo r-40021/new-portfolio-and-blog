@@ -56,10 +56,7 @@
     "classes": [
       "active",
       "alert",
-      "alert-card",
-      "alert-danger",
       "alert-info",
-      "alert-primary",
       "alert-warning",
       "align-items-center",
       "align-self-center",
@@ -190,7 +187,6 @@
       "hstack",
       "img-fluid",
       "img-wrap",
-      "info-card",
       "invisible",
       "is-search",
       "justify-content-between",
@@ -313,7 +309,6 @@
       "top-bar",
       "twitter-tweet",
       "vr",
-      "warning-card",
       "youtube"
     ],
     "ids": [

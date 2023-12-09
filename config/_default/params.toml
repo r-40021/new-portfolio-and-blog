@@ -25,6 +25,14 @@
         debug = true
         skipMissing = false
 
+
+# toml-docs-start version
+[docs]
+    basePath = "_vendor/github.com/r-40021/new-portfolio-and-blog"
+    github = "https://github.com/r-40021/new-portfolio-and-blog"
+    release = "https://github.com/r-40021/new-portfolio-and-blog/releases/tag/"
+# toml-docs-end version
+
 [debugging]
     showJS = false
     showSCSS = false
