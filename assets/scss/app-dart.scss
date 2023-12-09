@@ -62,7 +62,7 @@ img {
   max-width: 100%;
 }
 
-p > a[target="_blank"]:after {
+p > a[target="_blank"]:after, .alert a[target="_blank"]:after {
   display: inline-block;
   width: .8rem;
   height: .8rem;
