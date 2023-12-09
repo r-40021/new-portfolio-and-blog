@@ -14,7 +14,8 @@ thumbnail:
     url: /img/2021/08/07/debug.jpg
     author: Sigmund
     authorURL: https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+    origin: Unsplash
+    originURL: https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 date: 2021-08-07
 slug: chrome-extension-5
 ---

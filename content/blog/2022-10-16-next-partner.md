@@ -6,8 +6,8 @@ tags:
 - スマホ
 - Google
 - Pixel
-photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
+origin: Unsplash
+originURL: https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 title: iPhone 6s の次の相棒を探す
 thumbnail:
   url: "/img/2022/10/16/iphone6s.webp"

@@ -14,7 +14,8 @@ thumbnail:
   url: img/2023/04/01/website.webp
   author: 'Pankaj Patel'
   authorURL: 'https://unsplash.com/@pankajpatel'
-photoSource: '<a href="https://unsplash.com/photos/Ylk5n_nd9dA">Unsplash</a>'
+  origin: Unsplash
+  originURL: https://unsplash.com/photos/Ylk5n_nd9dA
 url: works
 ---
 

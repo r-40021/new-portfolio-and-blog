@@ -74,3 +74,11 @@ p > a[target="_blank"]:after {
   mask-size: cover;
   -webkit-mask-size: cover;
 }
+
+.display-1,.display-2,.display-3,.display-4,.display-5,.display-6 {
+  font-weight: bold;
+}
+
+.toast-header {
+  display: none;
+}

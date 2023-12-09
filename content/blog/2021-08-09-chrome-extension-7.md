@@ -12,7 +12,8 @@ thumbnail:
   url: /img/2021/08/09/chrome.jpg
   author: Firmbee.com
   authorURL: https://unsplash.com/@firmbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-photoSource: '<a href="https://unsplash.com/s/photos/google-chrome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
+  origin: Unsplash
+  originURL: https://unsplash.com/s/photos/google-chrome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 date: 2021-08-09
 slug: chrome-extension-7
 ---

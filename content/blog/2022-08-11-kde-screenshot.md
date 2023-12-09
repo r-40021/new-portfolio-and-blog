@@ -4,8 +4,8 @@ categories: PC
 tags:
 - Linux
 - KDE
-photoSource: '<a href="https://unsplash.com/s/photos/screen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
+origin: Unsplash
+originURL: https://unsplash.com/s/photos/screen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 title: KDE Plasmaでスクリーンショットが昔の画面になってしまう時の対処法
 thumbnail:
   url: "/img/2022/08/11/screen.jpg"

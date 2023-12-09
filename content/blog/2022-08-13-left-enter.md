@@ -4,13 +4,13 @@ categories: PC
 tags:
 - PC
 - 作業効率化
-author: Cytonn Photography
-authorURL: https://unsplash.com/@cytonn_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-photoSource: '<a href="https://unsplash.com/s/photos/typing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: 左Enterキーのすゝめ(Linux、Windows対応)
 thumbnail:
   url: "/img/2022/08/13/keyboard.jpg"
+  author: Cytonn Photography
+  authorURL: https://unsplash.com/@cytonn_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  origin: Unsplash
+  originURL: https://unsplash.com/s/photos/typing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 headAlt: タイピングしている様子
 date: 2022-08-13
 slug: left-enter

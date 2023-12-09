@@ -4,13 +4,13 @@ categories: お知らせ
 tags:
 - Firefox
 - お知らせ
-author: Quentin Grignet
-authorURL: https://unsplash.com/@qgrignet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-photoSource: '<a href="https://unsplash.com/s/photos/firefox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
 title: Firefox学生マーケティングチームに参加しました
 thumbnail:
   url: "/img/2022/08/06/fox.jpg"
+  author: Quentin Grignet
+  authorURL: https://unsplash.com/@qgrignet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  origin: Unsplash
+  originURL: https://unsplash.com/s/photos/firefox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 headAlt: レッサーパンダ
 date: 2022-08-06
 slug: fxstudent

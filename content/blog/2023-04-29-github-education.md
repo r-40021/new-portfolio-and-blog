@@ -8,9 +8,10 @@ tags:
   - GitHub
 thumbnail:
   url: /img/2023/04/29/github.webp
-author: 'Praveen Thirumurugan'
-authorURL: 'https://unsplash.com/@praveentcom'
-photoSource: '<a href="https://unsplash.com/photos/KPAQpJYzH0Y">Unsplash</a>'
+  author: 'Praveen Thirumurugan'
+  authorURL: 'https://unsplash.com/@praveentcom'
+  origin: Unsplash
+  originURL: https://unsplash.com/photos/KPAQpJYzH0Y
 author: FrogApp
 draft: false
 ---

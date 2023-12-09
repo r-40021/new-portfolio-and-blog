@@ -7,11 +7,11 @@ tags:
 title: 留学体験記を聞いて
 thumbnail:
   url: "/img/2022/06/05/airport.jpg"
+  author: JESHOOTS.COM
+  authorURL: https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  origin: Unsplash
+  originURL: https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 headAlt: 飛行機を見る人
-author: JESHOOTS.COM
-authorURL: https://unsplash.com/@jeshoots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-photoSource: '<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
 date: 2022-06-05
 slug: study-abroad
 ---

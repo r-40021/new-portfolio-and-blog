@@ -42,7 +42,7 @@
 - id: copyToClipboard
   translation: "クリップボードにコピー"
 - id: copiedToClipboard
-  translation: "クリップボードにコピーしました"
+  translation: "をクリップボードにコピーしました"
 - id: link
   translation: "リンク"
 - id: code

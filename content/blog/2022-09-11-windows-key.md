@@ -4,8 +4,8 @@ categories: PC
 tags:
 - Windows
 - Linux
-photoSource: '<a href="https://unsplash.com/photos/Ik0wTGgZYYM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-  target="_blank" rel="noopener noreferrer">Unsplash</a>'
+origin: Unsplash
+originURL: https://unsplash.com/photos/Ik0wTGgZYYM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 title: LinuxやWindowsからOEM版Windowsのプロダクトキーを確認する方法
 thumbnail:
   url: "/img/2022/09/10/win10.webp"

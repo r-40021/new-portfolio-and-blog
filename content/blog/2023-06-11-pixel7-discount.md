@@ -11,7 +11,8 @@ thumbnail:
   url: /img/2023/06/11/pixel-7.webp
   author: 'Thai Nguyen'
   authorURL: 'https://unsplash.com/@quangthai_itshop'
-photoSource: '<a href="https://unsplash.com/photos/j7TceNx_b7A">Unsplash</a>'
+  origin: Unsplash
+  originURL: https://unsplash.com/photos/j7TceNx_b7A
 author: FrogApp
 ---
 
