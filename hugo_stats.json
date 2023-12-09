@@ -55,7 +55,12 @@
     ],
     "classes": [
       "active",
+      "alert",
       "alert-card",
+      "alert-danger",
+      "alert-info",
+      "alert-primary",
+      "alert-warning",
       "align-items-center",
       "align-self-center",
       "align-self-end",

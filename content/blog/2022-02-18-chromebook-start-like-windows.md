@@ -29,9 +29,9 @@ slug: chromebook-start-like-windows
 
 設定は非常に簡単で、人によっては1分もかからずに終わると思います。
 
-<div class="alert-card">
-  Chrome OS のバージョンによってはこの方法が使えない場合があります。
-</div>
+{{< alert color="warning" >}}
+    Chrome OS のバージョンによってはこの方法が使えない場合があります。
+{{< /alert >}}
 
 まずは、 Chrome のアドレスバーに `chrome://flags` と入力し、Enter キーを押してください。
 
