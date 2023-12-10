@@ -7,6 +7,8 @@ tags:
 - Google
 - Chrome
 - Safari
+thumbnail:
+  url: /img/2023/12/10/drive-video.webp
 date: 2021-09-09
 slug: drive-preview
 ---

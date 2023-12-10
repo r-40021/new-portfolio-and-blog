@@ -3,6 +3,8 @@ author: FrogApp
 title: アイコンを変えました
 categories: お知らせ
 tags: お知らせ
+thumbnail:
+  url: /img/2023/12/10/change-icon.webp
 date: 2022-01-14
 slug: change-icon
 ---

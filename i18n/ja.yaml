@@ -133,3 +133,13 @@
   translation: "表示"
 - id: comments
   translation: "コメント" 
+
+# Series
+- id: series
+  translation: "「{{ . }}」の記事一覧"
+- id: reading
+  translation: "閲覧中"
+
+# Related
+- id: related
+  translation: "関連記事"

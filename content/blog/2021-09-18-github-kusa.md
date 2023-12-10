@@ -5,6 +5,8 @@ categories: プログラミング
 tags:
 - プログラミング
 - GitHub
+thumbnail:
+  url: /img/2023/12/10/github-kusa.webp
 date: 2021-09-18
 slug: github-kusa
 ---

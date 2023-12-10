@@ -8,6 +8,8 @@ tags:
 - bot
 - 自動化
 - Glitch
+thumbnail:
+  url: /img/2023/12/10/discord-bot.webp
 date: 2021-09-05
 slug: discord-kocho
 ---

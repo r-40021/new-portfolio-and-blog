@@ -1,16 +1,17 @@
 ---
-author: FrogApp
-title: "GitHub 公式がブラウザ上で VS Code を使える機能を実装したので、レビュー"
-description: VS Code がまんまブラウザで使える
 categories: プログラミング
-tags:
-- プログラミング
-- GitHub
-- VSCode
-date: 2021-08-13
+title: GitHub 公式がブラウザ上で VS Code を使える機能を実装したので、レビュー
 slug: github-webeditor
+description: VS Code がまんまブラウザで使える
+date: 2021-08-13T00:00:00.000Z
+tags:
+  - プログラミング
+  - GitHub
+  - VSCode
+thumbnail:
+  url: /img/2023/12/10/vscode-github.webp
+author: FrogApp
 ---
-
 
 先日、GitHub がブラウザ上で VS Code を使える新機能を発表しました。
 
@@ -88,8 +89,8 @@ PC のみならず、タブレットでも開発ができます。スマホだ�
 
 個人的には、
 
-- Live Server
-- テキスト校正くん
+* Live Server
+* テキスト校正くん
 
 が使えないのが痛いですね...
 
@@ -111,8 +112,8 @@ Live Server に関しては、類似サービスの <a href="https://www.gitpod.
 
 ## どのような用途に向いているか
 
-- コンパイルがいらない言語(JavaScript、Python など)での軽いプログラミング
-- ブログの執筆
-- コードの閲覧
+* コンパイルがいらない言語(JavaScript、Python など)での軽いプログラミング
+* ブログの執筆
+* コードの閲覧
 
 Web Editor の用途はかなり限られてしまいますが、手軽な開発環境としてはかなり優秀ではないのでしょうか。

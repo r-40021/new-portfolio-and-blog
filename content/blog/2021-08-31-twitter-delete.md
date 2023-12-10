@@ -4,6 +4,8 @@ title: "Twitter のアカウントを復活！残るデータ・消えるデー�
 description: "筆者が体を張って検証！"
 categories: SNS
 tags: Twitter
+thumbnail:
+  url: /img/2023/12/10/delete-twitter.webp
 date: 2021-08-31
 slug: twitter-delete
 ---

@@ -99,6 +99,7 @@ export default defineConfig({
                 type: "image",
                 name: "url",
                 label: "画像",
+                required: true,
               },
               {
                 type: "string",

@@ -1,8 +1,10 @@
 ---
-aut- hor:
+author:
 - FrogApp
 title: 年末年始の楽しい時間までカウントダウン！
 categories: 雑記
+thumbnail:
+  url: /img/2023/12/10/countdown.webp
 date: 2021-12-05
 slug: countdown
 ---

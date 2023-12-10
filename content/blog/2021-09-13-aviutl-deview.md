@@ -6,6 +6,8 @@ categories: PC
 tags:
 - Aviutl
 - YouTube
+thumbnail:
+  url: /img/2023/12/10/aviutl.webp
 date: 2021-09-13
 slug: aviutl-deview
 ---

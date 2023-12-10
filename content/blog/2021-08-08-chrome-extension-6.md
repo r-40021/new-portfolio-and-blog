@@ -10,6 +10,8 @@ tags:
 - Chrome拡張機能
 - JSON
 - JavaScript
+thumbnail:
+  url: /img/2023/12/10/context.webp
 date: 2021-08-08
 slug: chrome-extension-6
 ---

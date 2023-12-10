@@ -5,6 +5,8 @@ categories: プログラミング
 tags:
 - プログラミング
 - Glitch
+thumbnail:
+  url: /img/2023/12/10/delete-glitch.webp
 date: 2021-10-06
 slug: delete-glitch-project
 ---

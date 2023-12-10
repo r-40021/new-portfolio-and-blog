@@ -1,0 +1,14 @@
+{{ $series := .Params.series }}
+{{ $page_link := .Permalink }}
+{{- if and ($series) (ne $series "") -}}
+  <p class="h4 mt-5">{{ $series | i18n "series" }}</p>
+  <ol>
+    {{ range .Site.Pages.Reverse }}
+      {{- if eq .Params.series $series -}}
+        {{ $page := . }}
+        {{ $item_link := $page.Permalink }}
+          <li><a href="{{ $item_link }}">{{ .Params.series_title }}</a>{{- if eq $page_link $item_link -}} ({{ i18n "reading" }}){{- end -}}</li>
+      {{- end -}}
+    {{- end -}}
+  </ol>
+{{- end -}}

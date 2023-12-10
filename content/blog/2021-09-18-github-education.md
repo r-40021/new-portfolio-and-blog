@@ -7,6 +7,8 @@ tags:
   - プログラミング
   - GitHub
   - 学割
+thumbnail:
+  url: /img/2023/12/10/github-education.webp
 date: 2021-09-18T00:00:00.000Z
 slug: github-education
 ---

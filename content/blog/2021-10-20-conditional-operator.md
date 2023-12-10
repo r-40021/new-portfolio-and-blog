@@ -5,6 +5,8 @@ categories: プログラミング
 tags:
 - プログラミング
 - JavaScript
+thumbnail:
+  url: /img/2023/12/10/conditional-operator.webp
 date: 2021-10-20
 slug: conditional-operator
 ---

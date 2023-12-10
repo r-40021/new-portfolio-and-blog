@@ -1,0 +1,9 @@
+# Series
+- id: series
+  translation: "The posts of {{ . }}:"
+- id: reading
+  translation: "Reading"
+
+# Related
+- id: related
+  translation: "Related Posts"
