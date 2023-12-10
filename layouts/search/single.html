@@ -1,0 +1,19 @@
+{{ $list := where (where .Site.AllPages "Kind" "in" "page") "Title" "!=" "" }}
+{{ $len := (len $list) -}}
+
+const contents = [
+{{ range $index, $element := $list -}}
+  {{ if ne $index 0 }},{{ end }}{
+    "id": {{ $index }},
+    "tag": "{{ .Lang }}",
+    "href": "{{ .RelPermalink }}",
+    "title": {{ .Title | jsonify }},
+    {{ with .Description -}}
+    "description": {{ . | jsonify }},
+    {{ else -}}
+    "description": {{ printf "%s..." .Summary | plainify | jsonify }},
+    {{ end -}}
+    "content": {{ .Plain | jsonify }}
+  }
+{{ end -}}
+];
