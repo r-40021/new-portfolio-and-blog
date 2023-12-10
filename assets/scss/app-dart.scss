@@ -57,6 +57,9 @@
 
 // Import Bootstrap utilities API  (mounted by core Bootstrap module)
 // @import "modules/bootstrap/utilities/api";
+body {
+  font-weight: normal;
+}
 
 img {
   max-width: 100%;
