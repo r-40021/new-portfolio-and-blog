@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.32",
-    "postcss-cli": "^10.1.0",
+    "postcss-cli": "^11.0.0",
     "tinacms": "^1.5.27"
   },
   "devDependencies": {
