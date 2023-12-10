@@ -51,7 +51,7 @@ jobs:
       - name: Remove Exif
         run: |
           sudo apt install libimage-exiftool-perl -y
-          exiftool -all= -r -overwrite_original -ext jpg -ext jpeg -ext png -ext webp -ext gif static
+          exiftool -all= -r -overwrite_original -ext jpg -ext jpeg -ext png -ext webp -ext gif static/img
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
