@@ -56,6 +56,12 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: "yarn run build"
+
+  # Deployment job
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
@@ -65,10 +71,3 @@ jobs:
           directory: ./public
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-  # # Deployment job
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-
