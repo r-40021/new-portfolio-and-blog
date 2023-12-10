@@ -4,7 +4,7 @@
     "dev": "cp -r static/img assets/ && npx tinacms dev -c \"hugo server\""
   },
   "dependencies": {
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.32",
     "postcss-cli": "^10.1.0",
     "tinacms": "^1.5.27"
   },
