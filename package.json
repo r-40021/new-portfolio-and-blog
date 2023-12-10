@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "tinacms build && hugo -b $CF_PAGES_URL",
+    "dev": "cp -r static/img assets/ && npx tinacms dev -c \"hugo server\""
+  },
   "dependencies": {
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
