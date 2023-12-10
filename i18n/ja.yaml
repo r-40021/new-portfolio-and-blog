@@ -64,7 +64,7 @@
 
 # Navigation
 - id: colorMode
-  translation: "テーマを切り替え"
+  translation: "テーマ切り替え"
 - id: colorLight
   translation: "ライト"
 - id: colorDark
@@ -90,7 +90,7 @@
 
 # Sidebar
 - id: toggleSidebar
-  translation: "サイドバーを切り替え"
+  translation: "サイドバー切り替え"
 
 # Feature
 - id: addedFeature
