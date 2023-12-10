@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tinacms build && hugo -b $CF_PAGES_URL",
+    "build": "tinacms build && hugo --minify",
     "dev": "cp -r static/img assets/ && npx tinacms dev -c \"hugo server\""
   },
   "dependencies": {
