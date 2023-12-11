@@ -16,3 +16,5 @@ assets/js/*.bundle.js.map
 assets/js/*.txt
   
 .env
+
+.yarn

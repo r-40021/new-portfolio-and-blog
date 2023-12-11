@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "cp -r static/img assets/ && tinacms build && hugo --minify",
-    "dev": "cp -r static/img assets/ && npx tinacms dev -c \"hugo server\""
+    "dev": "npx tinacms dev -c \"hugo server\""
   },
   "dependencies": {
     "postcss": "^8.4.32",
