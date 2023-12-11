@@ -197,6 +197,30 @@ export default defineConfig({
           },
         ],
       },
+      {
+        label: "Contact & Privacy",
+        name: "contact_and_privacy",
+        path: "content/contact-and-privacy",
+        format: "md",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "(contact|privacy).*",
+        },
+        fields: [
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
 });

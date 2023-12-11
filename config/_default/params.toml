@@ -39,7 +39,7 @@
     purgeHTMLComments = true # prevents a Goldmark warning when processing HTML comments (as used by markdownlint)
 
 [home]
-    sections = ["blog", "work", "info"]
+    sections = ["blog", "work", "contact-and-privacy"]
     fullCover = false
     centerHeadline = false
     style = ""
@@ -114,7 +114,7 @@
         homepage = 3
         breadcrumb = false
 
-    [sections.info]
+    [sections.contact-and-privacy]
         title = "Contact & Privacy"
         sort = "linktitle"
         reverse = false
