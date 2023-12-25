@@ -12,10 +12,10 @@ tags:
   - works
 thumbnail:
   url: img/2023/04/01/website.webp
-  author: 'Pankaj Patel'
+  author: Pankaj Patel
   authorURL: 'https://unsplash.com/@pankajpatel'
   origin: Unsplash
-  originURL: https://unsplash.com/photos/Ylk5n_nd9dA
+  originURL: 'https://unsplash.com/photos/Ylk5n_nd9dA'
 url: works
 ---
 
@@ -161,7 +161,7 @@ AirDrop みたいなことがブラウザーでできる、[Snapdrop](https://sn
 
 ウェブサイト上の読みづらい・美しくない (と作者が勝手に思っている) フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。
 
-気付いたらユーザー数が500人を超えていて驚いています。
+気付いたらユーザー数が1000人を超えていて驚いています。
 
 [インストール (Chrome)](https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd)
 
