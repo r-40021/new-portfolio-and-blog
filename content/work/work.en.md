@@ -15,7 +15,7 @@ thumbnail:
   author: Pankaj Patel
   authorURL: 'https://unsplash.com/@pankajpatel'
   origin: Unsplash
-  originURL: https://unsplash.com/photos/Ylk5n_nd9dA
+  originURL: 'https://unsplash.com/photos/Ylk5n_nd9dA'
 url: works
 ---
 
@@ -148,7 +148,7 @@ This is an extension that displays the number of characters in real-time when yo
 
 This is a browser extension that replaces hard-to-read and unattractive (at least according to the author) fonts on websites with the legible and beautiful Noto Sans font.
 
-The author is surprised to see that the number of users has exceeded 500.
+The author is surprised to see that the number of users has exceeded 1000.
 
 [Install (Chrome)](https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd)
 
