@@ -8,69 +8,61 @@ url: privacy
 type: docs
 ---
 
-## 変更履歴
+## Change Log
 
-2023/12/11　Google Search Console では Google 社のシステムを利用した検索エンジン (Yahoo! Japan 等) でのデータも収集されると記載していましたが、誤りであることが判明したため訂正致しました。誤情報を長期間にわたり掲載していたことを深くお詫び申し上げます。
+**2023/12/11:** We previously indicated that Google Search Console collects data from search engines using Google's system (such as Yahoo! Japan), but we have corrected this as it was found to be inaccurate. We deeply apologize for the misinformation that was published over an extended period.
 
-2023/01/23　表記の修正
+**2023/01/23:** Notation correction.
 
-2022/09/21　使用するアクセス解析ツールの GoatCounter から Cloudflare Web Analytics への変更、読みやすさの改善
+**2022/09/21:** Switched from using the access analysis tool GoatCounter to Cloudflare Web Analytics, and improved readability and user experience.
 
-## プライバシーポリシーについて
+## Privacy Policy
 
-このプライバシーポリシーには、当サイトがユーザーの皆様のどのような情報を収集し、それがどのように利用されているかが記されています。
+This privacy policy outlines what information our site collects from users and how it is utilized. The policy applies to all services provided under the frogapp.net domain, including subdomains.
 
-このプライバシーポリシーは、frogapp.net ドメイン (サブドメイン含む) で提供されるすべてのサービスに適用されます。
+## Information Collected
 
-## 収集している情報
-
-当サイトでは、「[Google Search Console](https://search.google.com/search-console/)」と「[Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)」の 2 つのサービスを利用してユーザーのアクセス状況を収集しています。
-
-収集している主なデータは以下の通りです。
+Our site uses two services, [Google Search Console](https://search.google.com/search-console/) and [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/), to collect user access data. The main data collected includes:
 
 ### Google Search Console
 
-* Google 検索での当サイトの表示数
-* Google 検索から当サイトへの訪問者数
-* Google 検索での当サイトの平均掲載順位
-* Google 検索で当サイトを検索した際のブラウザー・OS
-* Google 検索で当サイトを検索した際のアクセス元の国
-* 当サイトにたどり着くために Google 検索で検索した語句
+* Display count of our site in Google searches
+* Number of visitors from Google searches to our site
+* Average ranking of our site in Google searches
+* Browser and OS used when our site is searched on Google
+* Country of origin of access when our site is searched on Google
+* Search queries used on Google to reach our site
 
 ### Cloudflare Web Analytics
 
-* アクセス日時
-* アクセス元の国
-* アクセスしたブラウザー・OS
-* アクセス元のサイト
-  (Google 検索から、Twitter から等)
-* ページの読み込みにかかった時間
+* Access date and time
+* Country of access
+* Browser and OS used for access
+* Referring site (e.g., Google search, Twitter, etc.)
+* Time taken to load pages
 
-アクセス解析サービスが個人を特定できる情報を収集することはありません。その上、運営者はアクセス解析サービスにより統計処理された情報しか閲覧できません。
+The access analysis services do not collect information that can personally identify individuals. Additionally, operators can only view information processed through statistical analysis by the access analysis service.
 
-収集した情報は、訪問者の興味関心の傾向を分析してよりよいコンテンツを提供したり、ウェブページの問題を迅速に発見し修正したりするために用いられます。
+The collected information is used to analyze trends in visitor interests, provide better content, and promptly identify and rectify issues with web pages.
 
-## 収集していない情報
+## Information Not Collected
 
-当サイトがユーザーの個人情報(個人を特定できる情報)を収集することはありませんし、する気もありません。
+Our site does not collect and has no intention of collecting users' personal information (information that can identify individuals). The operator cannot access information such as timer settings, alarm sounds, or numbers generated in Yamada BINGO.
 
-やまだのタイマーで設定した時間やアラーム音、やまだ BINGO で出た数字などを、運営者が知ることは一切できません。
+App save data is stored on users' devices, not on servers.
 
-アプリのセーブデータは、サーバー上ではなくユーザーの端末上に保存されるためです。
-(具体的には、「Local Storage」という仕組みを利用しています。)
+(Specifically, it uses the "Local Storage" mechanism.)
 
-これらのデータはブラウザーの設定から削除することができます。また、いわゆるシークレットモードでは、ブラウザーを終了するとこれらのデータが自動的に削除されます。
+Users can delete this data from their browser settings, and in incognito mode, the data is automatically deleted when the browser is closed.
 
-## Cookie について
+## About Cookies
 
-当サイトのプログラムには、第三者が作成したサービスやプログラムが組み込まれていることがほとんどです。
+Our site's programs often include services and programs created by third parties. While these programs may use cookies, it is for the purpose of providing users with a comfortable experience and not for tracking users.
 
-これらのプログラムが Cookie を使用している場合がありますが、これはユーザーの皆様に快適な体験をしていただくためのものであって、ユーザーの皆様を追跡するためのものではありません。
+## Other
 
-## その他
+If there are any unclear or confusing points or if you have any requests, please feel free to write to us via the [contact form](/contact) or [GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues).
 
-分からない箇所・分かりにくい箇所・ご要望等があれば、[お問い合わせフォーム](/contact)、もしくは [GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues) にお気軽にお書きください。
+\*This privacy policy may be changed without notice.
 
-※このプライバシーポリシーは予告なく変更される場合があります。
-
-※翻訳の差異がある場合は、日本語版のプライバシーポリシーが優先されます。
+\*This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy). If there are any differences between the two versions, the Japanese version will take precedence.
