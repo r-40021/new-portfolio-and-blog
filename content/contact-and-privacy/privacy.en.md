@@ -2,71 +2,67 @@
 slug: privacy
 title: Privacy Policy
 description: How much user information my site collects and for what purpose it is used
-date: 2021-03-27
+date: '2021-03-27T00:00:00.000Z'
 showComments: false
-url: "privacy"
+url: privacy
 type: docs
 ---
-## Change log
 
-2023/01/23 Correction of wording
+## Change Log
 
-2022/09/21 Change from GoatCounter, the access analysis tool used, to Cloudflare Web Analytics and improved readability
+**2023/12/11:** We previously indicated that Google Search Console collects data from search engines using Google's system (such as Yahoo! Japan), but we have corrected this as it was found to be inaccurate. We deeply apologize for the misinformation that was published over an extended period.
 
-## About This Privacy Policy
+**2023/01/23:** Notation correction.
 
-This privacy policy explains what information my site collects from users and how it is used.
+**2022/09/21:** Switched from using the access analysis tool GoatCounter to Cloudflare Web Analytics, and improved readability and user experience.
 
-This privacy policy applies to all services provided by the frogapp.net domain (including subdomains).
+## Privacy Policy
 
-## Collected Information
+This privacy policy outlines what information our site collects from users and how it is utilized. The policy applies to all services provided under the frogapp.net domain, including subdomains.
 
-my site uses two services, "[Google Search Console](https://search.google.com/search-console/)" and "[Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)" to collect information about user access.
+## Information Collected
 
-The main data collected is as follows:
+Our site uses two services, [Google Search Console](https://search.google.com/search-console/) and [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/), to collect user access data. The main data collected includes:
 
 ### Google Search Console
 
-- Number of views of my site on search engines using Google and its systems (hereinafter referred to as "search engines")
-- Number of visitors from search engines
-- Average ranking on search engines
-- Browser/OS used when searching for my site on search engines
-- Country of origin when searching for my site on search engines
-- Search terms used to find my site
+* Display count of our site in Google searches
+* Number of visitors from Google searches to our site
+* Average ranking of our site in Google searches
+* Browser and OS used when our site is searched on Google
+* Country of origin of access when our site is searched on Google
+* Search queries used on Google to reach our site
 
 ### Cloudflare Web Analytics
 
-- Access date and time
-- Country of origin of access
-- Browser/OS used for access
-- Source of access
-(e.g., from Google search or Twitter)
-- Time taken to load the page
+* Access date and time
+* Country of access
+* Browser and OS used for access
+* Referring site (e.g., Google search, Twitter, etc.)
+* Time taken to load pages
 
-Access analysis services do not collect information that can identify individuals. In addition, operators can only view information that has been statistically processed by access analysis services.
+The access analysis services do not collect information that can personally identify individuals. Additionally, operators can only view information processed through statistical analysis by the access analysis service.
 
-The collected information is used to analyze the trends of visitors' interests and provide better content or to quickly discover and correct problems with web pages.
+The collected information is used to analyze trends in visitor interests, provide better content, and promptly identify and rectify issues with web pages.
 
-## Uncollected Information
+## Information Not Collected
 
-my site does not collect or have any intention of collecting users' personal information (information that can identify individuals).
+Our site does not collect and has no intention of collecting users' personal information (information that can identify individuals). The operator cannot access information such as timer settings, alarm sounds, or numbers generated in Yamada BINGO.
 
-The operator cannot know the set time or alarm sound in Yamada's Timer, or the numbers that appear in Yamada Bingo.
+App save data is stored on users' devices, not on servers.
 
-The save data for the apps is stored on the user's device, not on the server. Specifically, I use local storage.
+(Specifically, it uses the "Local Storage" mechanism.)
 
-These data can be deleted from the browser settings. Also, in so-called secret mode, these data are automatically deleted when the browser is closed.
+Users can delete this data from their browser settings, and in incognito mode, the data is automatically deleted when the browser is closed.
 
 ## About Cookies
 
-Most of the programs on my site contain services or programs created by third parties.
+Our site's programs often include services and programs created by third parties. While these programs may use cookies, it is for the purpose of providing users with a comfortable experience and not for tracking users.
 
-If these programs use cookies, it is for users' comfortable experience, not for tracking users.
+## Other
 
-## Others
+If there are any unclear or confusing points or if you have any requests, please feel free to write to us via the [contact form](/contact) or [GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues).
 
-If you have any questions, unclear points, or requests, please feel free to [contact](/en/contact) us through the contact form or [the GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues).
+\*This privacy policy may be changed without notice.
 
-** This privacy policy may be subject to change without notice.
-
-** This privacy policy is a translation of [the original in Japanese](/privacy). If there are any differences between the two versions, the Japanese version will take precedence.
+\*This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy). If there are any differences between the two versions, the Japanese version will take precedence.
