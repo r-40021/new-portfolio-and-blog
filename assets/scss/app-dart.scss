@@ -3,6 +3,8 @@
 // Define template variables
 @use "hugo:vars" as h; // note: modified for dart-sass
 
+$line-height-base: 1.8;
+
 // Include default variable overrides
 @import "common/variables-dart.scss"; // note: modified for dart-sass
 @import "theme/variables.scss";
