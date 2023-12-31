@@ -72,7 +72,7 @@ description: サイトの概要と管理人の自己紹介
 * Java
 * Ruby
 * Go
-* \~~AWS~~
+* ~~AWS~~
 
 [ポートフォリオサイト](/)
 
