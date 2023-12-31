@@ -70,7 +70,7 @@ Mainly focused on front-end development, but has recently started working on bac
 * Java
 * Ruby
 * Go
-* \~~AWS~~
+* ~~AWS~~
 
 [Portfolio Site](/en)
 
