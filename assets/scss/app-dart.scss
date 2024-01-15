@@ -68,17 +68,23 @@ img {
   max-width: 100%;
 }
 
-p > a[target="_blank"]:after, .alert a[target="_blank"]:after {
-  display: inline-block;
-  width: .8rem;
-  height: .8rem;
-  content: "";
-  margin: 0 .2em;
-  background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-  mask: url("/icons/open-in-new.svg");
-  -webkit-mask: url("/icons/open-in-new.svg");
-  mask-size: cover;
-  -webkit-mask-size: cover;
+p, li,.alert {
+  > a[target="_blank"]:after {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    content: "";
+    margin: 0 .2em;
+    background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    mask: url("/icons/open-in-new.svg");
+    -webkit-mask: url("/icons/open-in-new.svg");
+    mask-size: cover;
+    -webkit-mask-size: cover;
+  }
+}
+
+.main-content .container-xxl {
+  min-height: 400px;
 }
 
 .toast-header {

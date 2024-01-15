@@ -1,5 +1,4 @@
 # toml-docs-start main
-copyright = "Copyright © 2023 FrogApp."
 paginate = 30
 enableGitInfo = true
 disableHugoGeneratorInject = true
