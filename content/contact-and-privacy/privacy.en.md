@@ -8,6 +8,10 @@ url: privacy
 type: docs
 ---
 
+{{\< alert color="warn" >}}
+This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy/). If there are any differences between the two versions, the Japanese version will take precedence.
+{{\< /alert >}}
+
 ## Change Log
 
 **2023/12/11:** We previously indicated that Google Search Console collects data from search engines using Google's system (such as Yahoo! Japan), but we have corrected this as it was found to be inaccurate. We deeply apologize for the misinformation that was published over an extended period.
@@ -61,8 +65,6 @@ Our site's programs often include services and programs created by third parties
 
 ## Other
 
-If there are any unclear or confusing points or if you have any requests, please feel free to write to us via the [contact form](/contact) or [GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues).
+If there are any unclear or confusing points or if you have any requests, please feel free to write to us via the [contact form](/en/contact) or [GitHub Issue](https://github.com/r-40021/new-portfolio-and-blog/issues).
 
 \*This privacy policy may be changed without notice.
-
-\*This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy). If there are any differences between the two versions, the Japanese version will take precedence.
