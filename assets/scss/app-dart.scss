@@ -90,3 +90,13 @@ p, li,.alert {
 .toast-header {
   display: none;
 }
+
+// YouTube iframe
+.youtube {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
