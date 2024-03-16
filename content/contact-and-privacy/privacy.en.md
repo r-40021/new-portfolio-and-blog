@@ -8,9 +8,9 @@ url: privacy
 type: docs
 ---
 
-{{\< alert color="info" >}}
-This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy/). If there are any differences between the two versions, the Japanese version will take precedence.
-{{\< /alert >}}
+**\<ATTENTION>**
+
+**This privacy policy is a translation of [the original in Japanese](https://frogapp.net/privacy/). If there are any differences between the two versions, the Japanese version will take precedence.**
 
 ## Change Log
 
