@@ -6,10 +6,10 @@
   "dependencies": {
     "postcss": "^8.4.32",
     "postcss-cli": "^11.0.0",
-    "tinacms": "^1.5.27"
+    "tinacms": "^3.1.1"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.6.2",
+    "@tinacms/cli": "^2.0.5",
     "@types/node": "^20.10.4"
   }
 }
